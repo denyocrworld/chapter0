@@ -44,7 +44,7 @@ Isi di bin/magicbook_basic.dart
       classMirror.declarations.values.whereType<MethodMirror>().toList();
   int methodCount = methods.length;
 
-  String content = File("./bin/chapter2.dart").readAsStringSync();
+  String content = File("./bin/chapter0.dart").readAsStringSync();
   var lines = content.split("exercise");
 
   int enumber = 0;
@@ -94,7 +94,7 @@ Isi di bin/magicbook_basic.dart
   printGreen("~~~");
   printGreen("Point: $point");
   try {
-    var codes = File("./bin/chapter2.dart").readAsStringSync();
+    var codes = File("./bin/chapter0.dart").readAsStringSync();
     Dio().post(
       "https://capekngoding.com/magicbook/api/scores",
       options: Options(
