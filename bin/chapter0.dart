@@ -3,9 +3,8 @@ class Chapter0 {
 
   // Exercise 1
   bool? exercise1() {
-    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data int dan beri nilai 10
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data int dan beri nilai 10
     // TODO: Tulis jawabanmu di bawah ini
-
     // --- End of Answer ---
 
     return output is int && output == 10;
@@ -13,7 +12,7 @@ class Chapter0 {
 
   // Exercise 2
   bool? exercise2() {
-    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data int dan beri nilai 42
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data int dan beri nilai 42
     // TODO: Tulis jawabanmu di bawah ini
 
     // --- End of Answer ---
@@ -23,7 +22,7 @@ class Chapter0 {
 
   // Exercise 3
   bool? exercise3() {
-    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data int dan beri nilai -7
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data int dan beri nilai -7
     // TODO: Tulis jawabanmu di bawah ini
 
     // --- End of Answer ---
@@ -33,7 +32,7 @@ class Chapter0 {
 
   // Exercise 4
   bool? exercise4() {
-    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data int dan beri nilai 0
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data int dan beri nilai 0
     // TODO: Tulis jawabanmu di bawah ini
 
     // --- End of Answer ---
@@ -43,7 +42,7 @@ class Chapter0 {
 
   // Exercise 5
   bool? exercise5() {
-    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data int dan beri nilai 99999
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data int dan beri nilai 99999
     // TODO: Tulis jawabanmu di bawah ini
 
     // --- End of Answer ---
@@ -53,7 +52,7 @@ class Chapter0 {
 
   // Exercise 6
   bool? exercise6() {
-    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data int dan beri nilai -12345
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data int dan beri nilai -12345
     // TODO: Tulis jawabanmu di bawah ini
 
     // --- End of Answer ---
@@ -63,7 +62,7 @@ class Chapter0 {
 
   // Exercise 7
   bool? exercise7() {
-    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data int dan beri nilai 1000000
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data int dan beri nilai 1000000
     // TODO: Tulis jawabanmu di bawah ini
 
     // --- End of Answer ---
@@ -73,7 +72,7 @@ class Chapter0 {
 
   // Exercise 8
   bool? exercise8() {
-    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data int dan beri nilai -987654
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data int dan beri nilai -987654
     // TODO: Tulis jawabanmu di bawah ini
 
     // --- End of Answer ---
@@ -83,7 +82,7 @@ class Chapter0 {
 
   // Exercise 9
   bool? exercise9() {
-    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data int dan beri nilai 888
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data int dan beri nilai 888
     // TODO: Tulis jawabanmu di bawah ini
 
     // --- End of Answer ---
@@ -93,7 +92,7 @@ class Chapter0 {
 
   // Exercise 10
   bool? exercise10() {
-    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data int dan beri nilai -555
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data int dan beri nilai -555
     // TODO: Tulis jawabanmu di bawah ini
 
     // --- End of Answer ---
@@ -103,7 +102,7 @@ class Chapter0 {
 
   // Exercise 11
   bool? exercise11() {
-    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data double dan beri nilai 3.14
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data double dan beri nilai 3.14
     // TODO: Tulis jawabanmu di bawah ini
 
     // --- End of Answer ---
@@ -113,7 +112,7 @@ class Chapter0 {
 
   // Exercise 12
   bool? exercise12() {
-    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data double dan beri nilai 2.71828
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data double dan beri nilai 2.71828
     // TODO: Tulis jawabanmu di bawah ini
 
     // --- End of Answer ---
@@ -123,7 +122,7 @@ class Chapter0 {
 
   // Exercise 13
   bool? exercise13() {
-    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data double dan beri nilai -5.67
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data double dan beri nilai -5.67
     // TODO: Tulis jawabanmu di bawah ini
 
     // --- End of Answer ---
@@ -133,7 +132,7 @@ class Chapter0 {
 
   // Exercise 14
   bool? exercise14() {
-    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data double dan beri nilai 0.0
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data double dan beri nilai 0.0
     // TODO: Tulis jawabanmu di bawah ini
 
     // --- End of Answer ---
@@ -143,7 +142,7 @@ class Chapter0 {
 
   // Exercise 15
   bool? exercise15() {
-    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data double dan beri nilai 12345.6789
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data double dan beri nilai 12345.6789
     // TODO: Tulis jawabanmu di bawah ini
 
     // --- End of Answer ---
@@ -153,7 +152,7 @@ class Chapter0 {
 
   // Exercise 16
   bool? exercise16() {
-    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data double dan beri nilai 7.5
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data double dan beri nilai 7.5
     // TODO: Tulis jawabanmu di bawah ini
 
     // --- End of Answer ---
@@ -163,7 +162,7 @@ class Chapter0 {
 
   // Exercise 17
   bool? exercise17() {
-    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data double dan beri nilai -2.25
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data double dan beri nilai -2.25
     // TODO: Tulis jawabanmu di bawah ini
 
     // --- End of Answer ---
@@ -173,7 +172,7 @@ class Chapter0 {
 
   // Exercise 18
   bool? exercise18() {
-    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data double dan beri nilai 0.01
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data double dan beri nilai 0.01
     // TODO: Tulis jawabanmu di bawah ini
 
     // --- End of Answer ---
@@ -183,7 +182,7 @@ class Chapter0 {
 
   // Exercise 19
   bool? exercise19() {
-    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data double dan beri nilai 123.456
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data double dan beri nilai 123.456
     // TODO: Tulis jawabanmu di bawah ini
 
     // --- End of Answer ---
@@ -193,7 +192,7 @@ class Chapter0 {
 
   // Exercise 20
   bool? exercise20() {
-    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data double dan beri nilai -9876.54321
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data double dan beri nilai -9876.54321
     // TODO: Tulis jawabanmu di bawah ini
 
     // --- End of Answer ---
@@ -203,7 +202,7 @@ class Chapter0 {
 
   // Exercise 21
   bool? exercise21() {
-    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data boolean dan beri nilai true
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data boolean dan beri nilai true
     // TODO: Tulis jawabanmu di bawah ini
 
     // --- End of Answer ---
@@ -213,7 +212,7 @@ class Chapter0 {
 
   // Exercise 22
   bool? exercise22() {
-    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data boolean dan beri nilai false
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data boolean dan beri nilai false
     // TODO: Tulis jawabanmu di bawah ini
 
     // --- End of Answer ---
@@ -223,7 +222,7 @@ class Chapter0 {
 
   // Exercise 23
   bool? exercise23() {
-    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data boolean dan beri nilai true
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data boolean dan beri nilai true
     // TODO: Tulis jawabanmu di bawah ini
 
     // --- End of Answer ---
@@ -233,7 +232,7 @@ class Chapter0 {
 
   // Exercise 24
   bool? exercise24() {
-    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data boolean dan beri nilai false
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data boolean dan beri nilai false
     // TODO: Tulis jawabanmu di bawah ini
 
     // --- End of Answer ---
@@ -243,7 +242,7 @@ class Chapter0 {
 
   // Exercise 25
   bool? exercise25() {
-    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data boolean dan beri nilai true
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data boolean dan beri nilai true
     // TODO: Tulis jawabanmu di bawah ini
 
     // --- End of Answer ---
@@ -253,7 +252,7 @@ class Chapter0 {
 
   // Exercise 26
   bool? exercise26() {
-    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data boolean dan beri nilai false
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data boolean dan beri nilai false
     // TODO: Tulis jawabanmu di bawah ini
 
     // --- End of Answer ---
@@ -263,7 +262,7 @@ class Chapter0 {
 
   // Exercise 27
   bool? exercise27() {
-    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data boolean dan beri nilai true
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data boolean dan beri nilai true
     // TODO: Tulis jawabanmu di bawah ini
 
     // --- End of Answer ---
@@ -273,7 +272,7 @@ class Chapter0 {
 
   // Exercise 28
   bool? exercise28() {
-    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data boolean dan beri nilai false
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data boolean dan beri nilai false
     // TODO: Tulis jawabanmu di bawah ini
 
     // --- End of Answer ---
@@ -283,7 +282,7 @@ class Chapter0 {
 
   // Exercise 29
   bool? exercise29() {
-    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data boolean dan beri nilai true
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data boolean dan beri nilai true
     // TODO: Tulis jawabanmu di bawah ini
 
     // --- End of Answer ---
@@ -293,7 +292,7 @@ class Chapter0 {
 
   // Exercise 30
   bool? exercise30() {
-    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data boolean dan beri nilai false
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data boolean dan beri nilai false
     // TODO: Tulis jawabanmu di bawah ini
 
     // --- End of Answer ---
@@ -303,7 +302,7 @@ class Chapter0 {
 
   // Exercise 31
   bool? exercise31() {
-    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data String dan beri nilai "Hello, World!"
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data String dan beri nilai "Hello, World!"
     // TODO: Tulis jawabanmu di bawah ini
 
     // --- End of Answer ---
@@ -313,7 +312,7 @@ class Chapter0 {
 
   // Exercise 32
   bool? exercise32() {
-    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data String dan beri nilai "Dart is fun!"
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data String dan beri nilai "Dart is fun!"
     // TODO: Tulis jawabanmu di bawah ini
 
     // --- End of Answer ---
@@ -323,7 +322,7 @@ class Chapter0 {
 
   // Exercise 33
   bool? exercise33() {
-    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data String dan beri nilai "12345"
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data String dan beri nilai "12345"
     // TODO: Tulis jawabanmu di bawah ini
 
     // --- End of Answer ---
@@ -333,7 +332,7 @@ class Chapter0 {
 
   // Exercise 34
   bool? exercise34() {
-    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data String dan beri nilai "3.14159"
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data String dan beri nilai "3.14159"
     // TODO: Tulis jawabanmu di bawah ini
 
     // --- End of Answer ---
@@ -343,7 +342,7 @@ class Chapter0 {
 
   // Exercise 35
   bool? exercise35() {
-    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data String dan beri nilai "true"
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data String dan beri nilai "true"
     // TODO: Tulis jawabanmu di bawah ini
 
     // --- End of Answer ---
@@ -353,7 +352,7 @@ class Chapter0 {
 
   // Exercise 36
   bool? exercise36() {
-    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data String dan beri nilai "false"
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data String dan beri nilai "false"
     // TODO: Tulis jawabanmu di bawah ini
 
     // --- End of Answer ---
@@ -363,7 +362,7 @@ class Chapter0 {
 
   // Exercise 37
   bool? exercise37() {
-    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data String dan beri nilai "Hello, Dart!"
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data String dan beri nilai "Hello, Dart!"
     // TODO: Tulis jawabanmu di bawah ini
 
     // --- End of Answer ---
@@ -373,7 +372,7 @@ class Chapter0 {
 
   // Exercise 38
   bool? exercise38() {
-    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data String dan beri nilai "42"
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data String dan beri nilai "42"
     // TODO: Tulis jawabanmu di bawah ini
 
     // --- End of Answer ---
@@ -383,7 +382,7 @@ class Chapter0 {
 
   // Exercise 39
   bool? exercise39() {
-    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data String dan beri nilai "3.14"
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data String dan beri nilai "3.14"
     // TODO: Tulis jawabanmu di bawah ini
 
     // --- End of Answer ---
@@ -393,7 +392,7 @@ class Chapter0 {
 
   // Exercise 40
   bool? exercise40() {
-    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data String dan beri nilai "Hello, World!"
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data String dan beri nilai "Hello, World!"
     // TODO: Tulis jawabanmu di bawah ini
 
     // --- End of Answer ---
@@ -403,7 +402,7 @@ class Chapter0 {
 
   // Exercise 41
   bool? exercise41() {
-    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data DateTime dan beri nilai tanggal 1 Januari 2022
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data DateTime dan beri nilai tanggal 1 Januari 2022
     // TODO: Tulis jawabanmu di bawah ini
 
     // --- End of Answer ---
@@ -416,7 +415,7 @@ class Chapter0 {
 
   // Exercise 42
   bool? exercise42() {
-    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data DateTime dan beri nilai tanggal 31 Desember 2000
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data DateTime dan beri nilai tanggal 31 Desember 2000
     // TODO: Tulis jawabanmu di bawah ini
 
     // --- End of Answer ---
@@ -429,7 +428,7 @@ class Chapter0 {
 
   // Exercise 43
   bool? exercise43() {
-    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data DateTime dan beri nilai tanggal 15 September 1995
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data DateTime dan beri nilai tanggal 15 September 1995
     // TODO: Tulis jawabanmu di bawah ini
 
     // --- End of Answer ---
@@ -442,7 +441,7 @@ class Chapter0 {
 
   // Exercise 44
   bool? exercise44() {
-    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data DateTime dan beri nilai tanggal 10 Mei 2023
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data DateTime dan beri nilai tanggal 10 Mei 2023
     // TODO: Tulis jawabanmu di bawah ini
 
     // --- End of Answer ---
@@ -455,7 +454,7 @@ class Chapter0 {
 
   // Exercise 45
   bool? exercise45() {
-    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data DateTime dan beri nilai tanggal 24 November 2010
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data DateTime dan beri nilai tanggal 24 November 2010
     // TODO: Tulis jawabanmu di bawah ini
 
     // --- End of Answer ---
@@ -468,7 +467,7 @@ class Chapter0 {
 
   // Exercise 46
   bool? exercise46() {
-    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data List<int> dan beri nilai [1, 2, 3, 4, 5]
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data List<int> dan beri nilai [1, 2, 3, 4, 5]
     // TODO: Tulis jawabanmu di bawah ini
 
     // --- End of Answer ---
@@ -481,7 +480,7 @@ class Chapter0 {
 
   // Exercise 47
   bool? exercise47() {
-    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data List<int> dan beri nilai [10, 20, 30, 40, 50]
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data List<int> dan beri nilai [10, 20, 30, 40, 50]
     // TODO: Tulis jawabanmu di bawah ini
 
     // --- End of Answer ---
@@ -494,7 +493,7 @@ class Chapter0 {
 
   // Exercise 48
   bool? exercise48() {
-    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data List<int> dan beri nilai [5, 4, 3, 2, 1]
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data List<int> dan beri nilai [5, 4, 3, 2, 1]
     // TODO: Tulis jawabanmu di bawah ini
 
     // --- End of Answer ---
@@ -507,7 +506,7 @@ class Chapter0 {
 
   // Exercise 49
   bool? exercise49() {
-    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data List<int> dan beri nilai [0, 2, 4, 6, 8]
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data List<int> dan beri nilai [0, 2, 4, 6, 8]
     // TODO: Tulis jawabanmu di bawah ini
 
     // --- End of Answer ---
@@ -520,7 +519,7 @@ class Chapter0 {
 
   // Exercise 50
   bool? exercise50() {
-    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data List<int> dan beri nilai [9, 7, 5, 3, 1]
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data List<int> dan beri nilai [9, 7, 5, 3, 1]
     // TODO: Tulis jawabanmu di bawah ini
 
     // --- End of Answer ---
