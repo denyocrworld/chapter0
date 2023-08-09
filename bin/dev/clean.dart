@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main() {
-  String fileName = './bin/chapter2.source.dart';
+  String fileName = './bin/chapter0.source.dart';
 
   File file = File(fileName);
   List<String> lines = file.readAsLinesSync();
@@ -26,7 +26,7 @@ void main() {
   }
 
   String newContent = newLines.join('\n');
-  File("./bin/chapter2.dart").writeAsStringSync(newContent);
+  File("./bin/chapter0.dart").writeAsStringSync(newContent);
 
   print(
       'Content between // TODO and // --- End of Answer --- has been removed.');

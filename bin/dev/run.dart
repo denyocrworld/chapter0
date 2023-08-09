@@ -1,7 +1,7 @@
 import 'dart:io';
 import 'dart:mirrors';
 import 'package:dio/dio.dart';
-import '../chapter2.dart';
+import '../chapter0.dart';
 import 'util.dart';
 
 void runChapters({
@@ -36,8 +36,8 @@ Isi di bin/magicbook_basic.dart
 
   int point = 0;
 
-  Chapter2 chapter1 = Chapter2();
-  ClassMirror classMirror = reflectClass(Chapter2);
+  Chapter0 chapter1 = Chapter0();
+  ClassMirror classMirror = reflectClass(Chapter0);
   InstanceMirror instanceMirror = reflect(chapter1);
 
   List<MethodMirror> methods =
