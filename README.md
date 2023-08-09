@@ -7,6 +7,7 @@ Wajib mengisi fullname, email, dan whatsappnumber di <b>bin/magicbook_basic.dart
 ```
 git clone https://github.com/denyocrworld/chapter0
 cd chapter0
+dart pub get --verbose
 code .
 ```
 
