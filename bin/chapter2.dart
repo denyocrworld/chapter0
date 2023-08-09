@@ -1,2614 +1,3544 @@
 class Chapter2 {
+  dynamic output;
+
+  // Exercise 1
   bool? exercise1() {
-    List numbers = [10, 20, 30, 40];
-    List output = [];
-    // ? Instruksi:Gunakan looping for untuk menambahkan semua item dari numbers ke output
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data int dan beri nilai 10
+    // TODO: Tulis jawabanmu di bawah ini
+    output = 10;
     // --- End of Answer ---
-    return output.toString() == "[10, 20, 30, 40]";
+
+    return output is int && output == 10;
   }
 
+  // Exercise 2
   bool? exercise2() {
-    List<String> fruits = ["apple", "banana", "orange"];
-    List<String> output = [];
-
-    // ? Instruksi: Gunakan looping for untuk menambahkan semua item dari fruits ke output
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data int dan beri nilai 42
+    // TODO: Tulis jawabanmu di bawah ini
+    output = 42;
     // --- End of Answer ---
 
-    return output.toString() == "[apple, banana, orange]";
+    return output is int && output == 42;
   }
 
+  // Exercise 3
   bool? exercise3() {
-    List<int> numbers = [5, 10, 15, 20];
-    List<int> output = [];
-
-    // ? Instruksi: Gunakan looping for untuk menambahkan semua item dari numbers ke output
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data int dan beri nilai -7
+    // TODO: Tulis jawabanmu di bawah ini
+    output = -7;
     // --- End of Answer ---
 
-    return output.toString() == "[5, 10, 15, 20]";
+    return output is int && output == -7;
   }
 
   // Exercise 4
   bool? exercise4() {
-    List<String> fruits = ['apple', 'banana', 'orange', 'grape', 'kiwi'];
-    bool output = false;
-
-    // ? Instruksi: Gunakan looping for untuk mencari apakah terdapat 'kiwi' dalam list fruits
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data int dan beri nilai 0
+    // TODO: Tulis jawabanmu di bawah ini
+    output = 0;
     // --- End of Answer ---
 
-    return output == true;
+    return output is int && output == 0;
   }
 
   // Exercise 5
   bool? exercise5() {
-    int n = 5;
-    List<int> multiplesOfN = [];
-
-    // ? Instruksi: Gunakan looping for untuk mengisi list multiplesOfN dengan kelipatan n dari 1 hingga 5
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data int dan beri nilai 99999
+    // TODO: Tulis jawabanmu di bawah ini
+    output = 99999;
     // --- End of Answer ---
 
-    return multiplesOfN.toString() == "[5, 10, 15, 20, 25]";
+    return output is int && output == 99999;
   }
 
   // Exercise 6
   bool? exercise6() {
-    List<String> colors = ["red", "green", "blue"];
-    String result = "";
-
-    // ? Instruksi: Gunakan looping for untuk menggabungkan semua item dari colors menjadi satu string result
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data int dan beri nilai -12345
+    // TODO: Tulis jawabanmu di bawah ini
+    output = -12345;
     // --- End of Answer ---
 
-    return result == "redgreenblue";
+    return output is int && output == -12345;
   }
 
   // Exercise 7
   bool? exercise7() {
-    List<int> numbers = [1, 2, 3, 4, 5];
-    int sum = 0;
-
-    // ? Instruksi: Gunakan looping for untuk menjumlahkan semua item dari numbers ke dalam variabel sum
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data int dan beri nilai 1000000
+    // TODO: Tulis jawabanmu di bawah ini
+    output = 1000000;
     // --- End of Answer ---
 
-    return sum == 15;
+    return output is int && output == 1000000;
   }
 
   // Exercise 8
   bool? exercise8() {
-    List<int> numbers = [1, 2, 3, 4, 5];
-    int product = 1;
-
-    // ? Instruksi: Gunakan looping for untuk mengalikan semua item dari numbers ke dalam variabel product
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data int dan beri nilai -987654
+    // TODO: Tulis jawabanmu di bawah ini
+    output = -987654;
     // --- End of Answer ---
 
-    return product == 120;
+    return output is int && output == -987654;
   }
 
   // Exercise 9
   bool? exercise9() {
-    List<int> numbers = [1, 2, 3, 4, 5];
-    List<int> reversedNumbers = [];
-
-    // ? Instruksi: Gunakan looping for untuk mengisi list reversedNumbers dengan item dari numbers secara terbalik
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data int dan beri nilai 888
+    // TODO: Tulis jawabanmu di bawah ini
+    output = 888;
     // --- End of Answer ---
 
-    return reversedNumbers.toString() == "[5, 4, 3, 2, 1]";
+    return output is int && output == 888;
   }
 
   // Exercise 10
   bool? exercise10() {
-    List<int> numbers = [1, 2, 3, 4, 5];
-    List<int> oddNumbers = [];
-
-    // ? Instruksi: Gunakan looping for untuk mengisi list oddNumbers dengan item dari numbers yang merupakan bilangan ganjil
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data int dan beri nilai -555
+    // TODO: Tulis jawabanmu di bawah ini
+    output = -555;
     // --- End of Answer ---
 
-    return oddNumbers.toString() == "[1, 3, 5]";
+    return output is int && output == -555;
   }
 
   // Exercise 11
   bool? exercise11() {
-    List<int> numbers = [1, 2, 3, 4, 5];
-    int target = 3;
-    bool exists = false;
-
-    // ? Instruksi: Gunakan looping for untuk mencari apakah target ada di dalam list numbers
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data double dan beri nilai 3.14
+    // TODO: Tulis jawabanmu di bawah ini
+    output = 3.14;
     // --- End of Answer ---
 
-    return exists;
+    return output is double && output == 3.14;
   }
 
   // Exercise 12
   bool? exercise12() {
-    List<String> fruits = ["apple", "banana", "orange"];
-    String target = "pear";
-    bool exists = false;
-
-    // ? Instruksi: Gunakan looping for untuk mencari apakah target ada di dalam list fruits
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data double dan beri nilai 2.71828
+    // TODO: Tulis jawabanmu di bawah ini
+    output = 2.71828;
     // --- End of Answer ---
 
-    return !exists;
+    return output is double && output == 2.71828;
   }
 
   // Exercise 13
   bool? exercise13() {
-    List<int> numbers = [2, 4, 6, 8, 10];
-    bool allEven = true;
-
-    // ? Instruksi: Gunakan looping for untuk mengecek apakah semua angka dalam list numbers adalah bilangan genap
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data double dan beri nilai -5.67
+    // TODO: Tulis jawabanmu di bawah ini
+    output = -5.67;
     // --- End of Answer ---
 
-    return allEven;
+    return output is double && output == -5.67;
   }
 
   // Exercise 14
   bool? exercise14() {
-    List<int> numbers = [3, 6, 9, 12, 15];
-    bool allDivisibleBy3 = true;
-
-    // ? Instruksi: Gunakan looping for untuk mengecek apakah semua angka dalam list numbers dapat dibagi dengan 3 (hasil bagi = 0)
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data double dan beri nilai 0.0
+    // TODO: Tulis jawabanmu di bawah ini
+    output = 0.0;
     // --- End of Answer ---
-    return allDivisibleBy3;
+
+    return output is double && output == 0.0;
   }
 
   // Exercise 15
   bool? exercise15() {
-    List<String> fruits = ["apple", "banana", "kiwi", "orange"];
-    String target = "kiwi";
-    bool found = false;
-
-    // ? Instruksi: Gunakan looping for untuk mencari apakah target ada di dalam list fruits
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data double dan beri nilai 12345.6789
+    // TODO: Tulis jawabanmu di bawah ini
+    output = 12345.6789;
     // --- End of Answer ---
 
-    return found;
+    return output is double && output == 12345.6789;
   }
 
   // Exercise 16
   bool? exercise16() {
-    List<int> numbers = [1, 2, 3, 4, 5];
-    int sum = 0;
-
-    // ? Instruksi: Gunakan looping for untuk menjumlahkan semua angka dalam list numbers
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data double dan beri nilai 7.5
+    // TODO: Tulis jawabanmu di bawah ini
+    output = 7.5;
     // --- End of Answer ---
 
-    return sum == 15;
+    return output is double && output == 7.5;
   }
 
   // Exercise 17
   bool? exercise17() {
-    List<String> fruits = ["apple", "banana", "orange"];
-    String joinedFruits = "";
-
-    // ? Instruksi: Gunakan looping for untuk menggabungkan semua item dari list fruits menjadi satu string joinedFruits
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data double dan beri nilai -2.25
+    // TODO: Tulis jawabanmu di bawah ini
+    output = -2.25;
     // --- End of Answer ---
 
-    return joinedFruits == "applebananaorange";
+    return output is double && output == -2.25;
   }
 
   // Exercise 18
   bool? exercise18() {
-    List<int> numbers = [2, 4, 6, 8, 10];
-    int product = 1;
-
-    // ? Instruksi: Gunakan looping for untuk mengalikan semua angka dalam list numbers
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data double dan beri nilai 0.01
+    // TODO: Tulis jawabanmu di bawah ini
+    output = 0.01;
     // --- End of Answer ---
 
-    return product == 3840;
+    return output is double && output == 0.01;
   }
 
   // Exercise 19
   bool? exercise19() {
-    List<int> numbers = [1, 3, 5, 7, 9];
-    List<int> reversedNumbers = [];
-
-    // ? Instruksi: Gunakan looping for untuk mengisi list reversedNumbers dengan item dari list numbers secara terbalik
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data double dan beri nilai 123.456
+    // TODO: Tulis jawabanmu di bawah ini
+    output = 123.456;
     // --- End of Answer ---
 
-    return reversedNumbers.toString() == "[9, 7, 5, 3, 1]";
+    return output is double && output == 123.456;
   }
 
   // Exercise 20
   bool? exercise20() {
-    List<int> numbers = [1, 2, 3, 4, 5];
-    List<int> oddNumbers = [];
-
-    // ? Instruksi: Gunakan looping for untuk mengisi list oddNumbers dengan item dari list numbers yang merupakan bilangan ganjil
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data double dan beri nilai -9876.54321
+    // TODO: Tulis jawabanmu di bawah ini
+    output = -9876.54321;
     // --- End of Answer ---
 
-    return oddNumbers.toString() == "[1, 3, 5]";
+    return output is double && output == -9876.54321;
   }
 
   // Exercise 21
   bool? exercise21() {
-    List<int> sales = [100, 200, 300, 400, 500];
-    int salesTotal = 0;
-
-    // ? Instruksi: Gunakan looping for untuk menghitung total penjualan (salesTotal) dari list sales
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data boolean dan beri nilai true
+    // TODO: Tulis jawabanmu di bawah ini
+    output = true;
     // --- End of Answer ---
 
-    return salesTotal == 1500;
+    return output is bool && output == true;
   }
 
   // Exercise 22
   bool? exercise22() {
-    List<int> sales = [100, 200, 300, 400, 500];
-    double salesAverage = 0;
-
-    // ? Instruksi: Gunakan looping for untuk menghitung rata-rata penjualan (salesAverage) dari list sales
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data boolean dan beri nilai false
+    // TODO: Tulis jawabanmu di bawah ini
+    output = false;
     // --- End of Answer ---
 
-    return salesAverage == 300;
+    return output is bool && output == false;
   }
 
   // Exercise 23
   bool? exercise23() {
-    List<int> productPrices = [1000, 2000, 1500, 3000, 500];
-    int cheapestProduct = 0;
-
-    // ? Instruksi: Gunakan looping for untuk mencari harga produk termurah (cheapestProduct) dari list productPrices
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data boolean dan beri nilai true
+    // TODO: Tulis jawabanmu di bawah ini
+    output = true;
     // --- End of Answer ---
 
-    return cheapestProduct == 500;
+    return output is bool && output == true;
   }
 
   // Exercise 24
   bool? exercise24() {
-    List<int> productPrices = [1000, 2000, 1500, 3000, 500];
-    int expensiveProduct = 0;
-
-    // ? Instruksi: Gunakan looping for untuk mencari harga produk termahal (expensiveProduct) dari list productPrices
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data boolean dan beri nilai false
+    // TODO: Tulis jawabanmu di bawah ini
+    output = false;
     // --- End of Answer ---
 
-    return expensiveProduct == 3000;
+    return output is bool && output == false;
   }
 
   // Exercise 25
   bool? exercise25() {
-    List<String> products = [
-      "apple",
-      "banana",
-      "orange",
-      "banana",
-      "apple",
-      "banana"
-    ];
-    String favoriteProduct = "";
-
-    // ? Instruksi: Gunakan looping for untuk mencari produk favorit (favoriteProduct) yang paling sering muncul dalam list products
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data boolean dan beri nilai true
+    // TODO: Tulis jawabanmu di bawah ini
+    output = true;
     // --- End of Answer ---
 
-    return favoriteProduct == "banana";
+    return output is bool && output == true;
   }
 
   // Exercise 26
   bool? exercise26() {
-    List<int> numbers = [1, 2, 3, 4, 5];
-    List<int> squaredNumbers = [];
-
-    // ? Instruksi: Gunakan looping for untuk mengisi list squaredNumbers dengan nilai kuadrat dari setiap angka dalam list numbers
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data boolean dan beri nilai false
+    // TODO: Tulis jawabanmu di bawah ini
+    output = false;
     // --- End of Answer ---
 
-    return squaredNumbers.toString() == "[1, 4, 9, 16, 25]";
+    return output is bool && output == false;
   }
 
   // Exercise 27
   bool? exercise27() {
-    List<int> numbers = [1, 2, 3, 4, 5];
-    List<int> evenNumbers = [];
-
-    // ? Instruksi: Gunakan looping for untuk mengisi list evenNumbers dengan angka genap dari list numbers
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data boolean dan beri nilai true
+    // TODO: Tulis jawabanmu di bawah ini
+    output = true;
     // --- End of Answer ---
 
-    return evenNumbers.toString() == "[2, 4]";
+    return output is bool && output == true;
   }
 
   // Exercise 28
   bool? exercise28() {
-    List<int> numbers = [1, 2, 3, 4, 5];
-    List<int> oddNumbers = [];
-
-    // ? Instruksi: Gunakan looping for untuk mengisi list oddNumbers dengan angka ganjil dari list numbers
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data boolean dan beri nilai false
+    // TODO: Tulis jawabanmu di bawah ini
+    output = false;
     // --- End of Answer ---
 
-    return oddNumbers.toString() == "[1, 3, 5]";
+    return output is bool && output == false;
   }
 
   // Exercise 29
   bool? exercise29() {
-    List<String> fruits = ["apple", "banana", "orange"];
-    List<String> capitalizedFruits = [];
-
-    // ? Instruksi: Gunakan looping for untuk mengisi list capitalizedFruits dengan semua item dari list fruits yang telah dijadikan huruf kapital
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data boolean dan beri nilai true
+    // TODO: Tulis jawabanmu di bawah ini
+    output = true;
     // --- End of Answer ---
 
-    return capitalizedFruits.toString() == "[APPLE, BANANA, ORANGE]";
+    return output is bool && output == true;
   }
 
   // Exercise 30
   bool? exercise30() {
-    List<String> names = ["Alice", "Bob", "Charlie", "David"];
-    String concatenatedNames = "";
-
-    // ? Instruksi: Gunakan looping for untuk menggabungkan semua item dari list names menjadi satu string concatenatedNames, dipisahkan oleh koma
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data boolean dan beri nilai false
+    // TODO: Tulis jawabanmu di bawah ini
+    output = false;
     // --- End of Answer ---
-    return concatenatedNames == "Alice,Bob,Charlie,David";
+
+    return output is bool && output == false;
   }
 
   // Exercise 31
   bool? exercise31() {
-    List<int> numbers = [5, 2, 7, 3, 1];
-    List<int> sortedNumbers = [];
-
-    // ? Isi list 'sortedNumbers' dengan angka-angka yang telah diurutkan secara descending.
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data String dan beri nilai "Hello, World!"
+    // TODO: Tulis jawabanmu di bawah ini
+    output = "Hello, World!";
     // --- End of Answer ---
 
-    return sortedNumbers.toString() == "[7, 5, 3, 2, 1]";
+    return output is String && output == "Hello, World!";
   }
 
   // Exercise 32
   bool? exercise32() {
-    List<String> fruits = ["apple", "orange", "banana", "kiwi", "mango"];
-    List<String> filteredFruits = [];
-
-    // ? Instruksi: Gunakan looping for untuk mengisi list filteredFruits dengan nama-nama buah yang memiliki huruf 'a' di dalamnya.
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data String dan beri nilai "Dart is fun!"
+    // TODO: Tulis jawabanmu di bawah ini
+    output = "Dart is fun!";
     // --- End of Answer ---
 
-    return filteredFruits.toString() == "[apple, orange, banana, mango]";
+    return output is String && output == "Dart is fun!";
   }
 
   // Exercise 33
   bool? exercise33() {
-    List<int> numbers = [7, 2, 5, 3, 1];
-    int sum = 0;
-
-    // ? Instruksi: Gunakan looping for untuk menjumlahkan semua item dari numbers ke dalam variabel sum, tetapi berhenti jika jumlahnya mencapai 10.
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data String dan beri nilai "12345"
+    // TODO: Tulis jawabanmu di bawah ini
+    output = "12345";
     // --- End of Answer ---
 
-    return sum == 9;
+    return output is String && output == "12345";
   }
 
   // Exercise 34
   bool? exercise34() {
-    List<int> numbers = [5, 2, 7, 3, 1];
-    List<int> reversedNumbers = [];
-
-    // ? Instruksi: Gunakan looping for untuk mengisi list reversedNumbers dengan item dari numbers secara terbalik
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data String dan beri nilai "3.14159"
+    // TODO: Tulis jawabanmu di bawah ini
+    output = "3.14159";
     // --- End of Answer ---
 
-    return reversedNumbers.toString() == "[1, 3, 7, 2, 5]";
+    return output is String && output == "3.14159";
   }
 
   // Exercise 35
   bool? exercise35() {
-    List<String> words = ["apple", "orange", "banana", "kiwi", "mango"];
-    String concatenatedWords = "";
-
-    // ? Instruksi: Gunakan looping for untuk menggabungkan semua item dari list words menjadi satu string concatenatedWords, dipisahkan oleh spasi.
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data String dan beri nilai "true"
+    // TODO: Tulis jawabanmu di bawah ini
+    output = "true";
     // --- End of Answer ---
 
-    return concatenatedWords == "apple orange banana kiwi mango ";
+    return output is String && output == "true";
   }
 
   // Exercise 36
   bool? exercise36() {
-    List<int> numbers = [5, 2, 7, 3, 1];
-    List<int> squaredNumbers = [];
-
-    // ? Instruksi: Gunakan looping for untuk mengisi list squaredNumbers dengan hasil kuadrat dari setiap angka dalam list numbers.
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data String dan beri nilai "false"
+    // TODO: Tulis jawabanmu di bawah ini
+    output = "false";
     // --- End of Answer ---
 
-    return squaredNumbers.toString() == "[25, 4, 49, 9, 1]";
+    return output is String && output == "false";
   }
 
   // Exercise 37
   bool? exercise37() {
-    List<int> numbers = [5, 2, 7, 3, 1];
-    int minValue = numbers[0];
-
-    // ? Instruksi: Gunakan looping for untuk mencari nilai terkecil (minimum) dalam list numbers dan simpan dalam variabel minValue.
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data String dan beri nilai "Hello, Dart!"
+    // TODO: Tulis jawabanmu di bawah ini
+    output = "Hello, Dart!";
     // --- End of Answer ---
 
-    return minValue == 1;
+    return output is String && output == "Hello, Dart!";
   }
 
   // Exercise 38
   bool? exercise38() {
-    List<int> numbers = [5, 2, 7, 3, 1];
-    int maxValue = numbers[0];
-
-    // ? Instruksi: Gunakan looping for untuk mencari nilai terbesar (maximum) dalam list numbers dan simpan dalam variabel maxValue.
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data String dan beri nilai "42"
+    // TODO: Tulis jawabanmu di bawah ini
+    output = "42";
     // --- End of Answer ---
 
-    return maxValue == 7;
+    return output is String && output == "42";
   }
 
   // Exercise 39
   bool? exercise39() {
-    List<int> numbers = [5, 2, 7, 3, 1];
-    List<int> evenNumbers = [];
-
-    // ? Instruksi: Gunakan looping for untuk mengisi list evenNumbers dengan angka-angka genap dari list numbers.
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data String dan beri nilai "3.14"
+    // TODO: Tulis jawabanmu di bawah ini
+    output = "3.14";
     // --- End of Answer ---
 
-    return evenNumbers.toString() == "[2]";
+    return output is String && output == "3.14";
   }
 
   // Exercise 40
   bool? exercise40() {
-    List<int> numbers = [5, 2, 7, 3, 1];
-    List<int> evenNumbers = [];
-
-    // ? Instruksi: Gunakan looping for untuk mengisi list evenNumbers
-    // dengan angka-angka genap dari list numbers.
-    // Kalikan angka genap itu dengan 9
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data String dan beri nilai "Hello, World!"
+    // TODO: Tulis jawabanmu di bawah ini
+    output = "Hello, World!";
     // --- End of Answer ---
 
-    return evenNumbers.toString() == "[18]";
+    return output is String && output == "Hello, World!";
   }
 
   // Exercise 41
   bool? exercise41() {
-    List<Map> users = [
-      {
-        "id": 1,
-        "name": "Alex",
-        "age": 29,
-      },
-      {
-        "id": 2,
-        "name": "David",
-        "age": 31,
-      },
-      {
-        "id": 3,
-        "name": "Siren",
-        "age": 28,
-      }
-    ];
-    List<Map> filteredUsers = [];
-
-    // ? Instruksi: Gunakan looping for untuk mengisi list filteredUsers dengan ketentuan User yang huruf depannya adalah A
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data DateTime dan beri nilai tanggal 1 Januari 2022
+    // TODO: Tulis jawabanmu di bawah ini
+    output = DateTime(2022, 1, 1);
     // --- End of Answer ---
 
-    return filteredUsers.isNotEmpty && filteredUsers[0]["id"] == 1;
+    return output is DateTime &&
+        output.year == 2022 &&
+        output.month == 1 &&
+        output.day == 1;
   }
 
   // Exercise 42
   bool? exercise42() {
-    List<Map<String, dynamic>> users = [
-      {
-        "id": 1,
-        "name": "Alex",
-        "age": 29,
-      },
-      {
-        "id": 2,
-        "name": "David",
-        "age": 31,
-      },
-      {
-        "id": 3,
-        "name": "Siren",
-        "age": 28,
-      }
-    ];
-
-    List<Map<String, dynamic>> filteredUsers = [];
-    // Instruksi: Gunakan looping for untuk mengisi list filteredUsers dengan ketentuan User yang huruf depannya adalah "D"
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data DateTime dan beri nilai tanggal 31 Desember 2000
+    // TODO: Tulis jawabanmu di bawah ini
+    output = DateTime(2000, 12, 31);
     // --- End of Answer ---
 
-    return filteredUsers.isNotEmpty && filteredUsers[0]["id"] == 2;
+    return output is DateTime &&
+        output.year == 2000 &&
+        output.month == 12 &&
+        output.day == 31;
   }
 
   // Exercise 43
   bool? exercise43() {
-    List<Map<String, dynamic>> users = [
-      {
-        "id": 1,
-        "name": "Alex",
-        "age": 29,
-      },
-      {
-        "id": 2,
-        "name": "David",
-        "age": 31,
-      },
-      {
-        "id": 3,
-        "name": "Siren",
-        "age": 28,
-      }
-    ];
-    List<Map<String, dynamic>> filteredUsers = [];
-
-    // Instruksi: Gunakan looping for untuk mengisi list filteredUsers dengan ketentuan User yang usianya di atas 30 tahun
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data DateTime dan beri nilai tanggal 15 September 1995
+    // TODO: Tulis jawabanmu di bawah ini
+    output = DateTime(1995, 9, 15);
     // --- End of Answer ---
 
-    return filteredUsers.isNotEmpty && filteredUsers[0]["id"] == 2;
+    return output is DateTime &&
+        output.year == 1995 &&
+        output.month == 9 &&
+        output.day == 15;
   }
 
   // Exercise 44
   bool? exercise44() {
-    List<Map<String, dynamic>> users = [
-      {
-        "id": 1,
-        "name": "Alex",
-        "age": 29,
-      },
-      {
-        "id": 2,
-        "name": "David",
-        "age": 31,
-      },
-      {
-        "id": 3,
-        "name": "Siren",
-        "age": 28,
-      }
-    ];
-    List<String> names = [];
-
-    // Instruksi: Gunakan looping for untuk mengisi list names dengan semua nama dari users
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data DateTime dan beri nilai tanggal 10 Mei 2023
+    // TODO: Tulis jawabanmu di bawah ini
+    output = DateTime(2023, 5, 10);
     // --- End of Answer ---
 
-    return names.isNotEmpty && names.length == 3;
+    return output is DateTime &&
+        output.year == 2023 &&
+        output.month == 5 &&
+        output.day == 10;
   }
 
   // Exercise 45
   bool? exercise45() {
-    List<Map<String, dynamic>> users = [
-      {
-        "id": 1,
-        "name": "Alex",
-        "age": 29,
-      },
-      {
-        "id": 2,
-        "name": "David",
-        "age": 31,
-      },
-      {
-        "id": 3,
-        "name": "Siren",
-        "age": 28,
-      }
-    ];
-    int age = -1;
-
-    // Instruksi: Gunakan looping for untuk mencari user dengan id = 2 dan kembalikan nilai usianya
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data DateTime dan beri nilai tanggal 24 November 2010
+    // TODO: Tulis jawabanmu di bawah ini
+    output = DateTime(2010, 11, 24);
     // --- End of Answer ---
 
-    return age == 31;
+    return output is DateTime &&
+        output.year == 2010 &&
+        output.month == 11 &&
+        output.day == 24;
   }
 
   // Exercise 46
   bool? exercise46() {
-    List<Map<String, dynamic>> users = [
-      {
-        "id": 1,
-        "name": "Alex",
-        "age": 29,
-      },
-      {
-        "id": 2,
-        "name": "David",
-        "age": 31,
-      },
-      {
-        "id": 3,
-        "name": "Siren",
-        "age": 28,
-      }
-    ];
-    bool containsId3 = false;
-
-    // Instruksi: Gunakan looping for untuk mengecek apakah users mengandung user dengan id = 3
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data List<int> dan beri nilai [1, 2, 3, 4, 5]
+    // TODO: Tulis jawabanmu di bawah ini
+    output = [1, 2, 3, 4, 5];
     // --- End of Answer ---
 
-    return containsId3;
+    return output is List<int> &&
+        output.length == 5 &&
+        output[0] == 1 &&
+        output[4] == 5;
   }
 
   // Exercise 47
   bool? exercise47() {
-    List<Map<String, dynamic>> users = [
-      {
-        "id": 1,
-        "name": "Alex",
-        "age": 29,
-      },
-      {
-        "id": 2,
-        "name": "David",
-        "age": 31,
-      },
-      {
-        "id": 3,
-        "name": "Siren",
-        "age": 28,
-      }
-    ];
-    List<Map<String, dynamic>> updatedUsers = [];
-
-    // Instruksi: Gunakan looping for untuk mengupdate usia setiap user menjadi usia + 1 dan masukkan ke dalam list updatedUsers
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data List<int> dan beri nilai [10, 20, 30, 40, 50]
+    // TODO: Tulis jawabanmu di bawah ini
+    output = [10, 20, 30, 40, 50];
     // --- End of Answer ---
 
-    return updatedUsers.isNotEmpty && updatedUsers[0]["age"] == 30;
+    return output is List<int> &&
+        output.length == 5 &&
+        output[0] == 10 &&
+        output[4] == 50;
   }
 
   // Exercise 48
   bool? exercise48() {
-    List<Map<String, dynamic>> users = [
-      {
-        "id": 1,
-        "name": "Alex",
-        "age": 29,
-      },
-      {
-        "id": 2,
-        "name": "David",
-        "age": 31,
-      },
-      {
-        "id": 3,
-        "name": "Siren",
-        "age": 28,
-        "address": "Ciawi street",
-      }
-    ];
-    List<Map<String, dynamic>> filteredUsers = [];
-
-    // Instruksi: Gunakan looping for untuk mengisi list filteredUsers dengan user yang memiliki properti "address"
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data List<int> dan beri nilai [5, 4, 3, 2, 1]
+    // TODO: Tulis jawabanmu di bawah ini
+    output = [5, 4, 3, 2, 1];
     // --- End of Answer ---
 
-    return filteredUsers.isNotEmpty && filteredUsers[0]["id"] == 3;
+    return output is List<int> &&
+        output.length == 5 &&
+        output[0] == 5 &&
+        output[4] == 1;
   }
 
   // Exercise 49
   bool? exercise49() {
-    List<Map<String, dynamic>> users = [
-      {
-        "id": 1,
-        "name": "Alex",
-        "age": 29,
-      },
-      {
-        "id": 2,
-        "name": "David",
-        "age": 31,
-      },
-      {
-        "id": 3,
-        "name": "Siren",
-        "age": 28,
-      }
-    ];
-    List<String> names = [];
-
-    // Instruksi: Gunakan looping for untuk mengisi list names dengan nama-nama user yang usianya kurang dari 30 tahun
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data List<int> dan beri nilai [0, 2, 4, 6, 8]
+    // TODO: Tulis jawabanmu di bawah ini
+    output = [0, 2, 4, 6, 8];
     // --- End of Answer ---
 
-    return names.isNotEmpty && names.length == 2;
+    return output is List<int> &&
+        output.length == 5 &&
+        output[0] == 0 &&
+        output[4] == 8;
   }
 
   // Exercise 50
   bool? exercise50() {
-    List<Map<String, dynamic>> users = [
-      {
-        "id": 1,
-        "name": "Alex",
-        "age": 29,
-      },
-      {
-        "id": 2,
-        "name": "David",
-        "age": 31,
-      },
-      {
-        "id": 3,
-        "name": "Siren",
-        "age": 28,
-      }
-    ];
-
-    // Instruksi: Gunakan looping for untuk mencari user dengan id = 3 dan hapus user tersebut dari list users
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "input" dengan tipe data List<int> dan beri nilai [9, 7, 5, 3, 1]
+    // TODO: Tulis jawabanmu di bawah ini
+    output = [9, 7, 5, 3, 1];
     // --- End of Answer ---
 
-    return users.length == 2 && users[1]["name"] == "David";
-  }
+    return output is List<int> &&
+        output.length == 5 &&
+        output[0] == 9 &&
+        output[4] == 1;
+  } // Exercise 51
 
-  // Exercise 51
   bool? exercise51() {
-    List<Map<String, dynamic>> data = [
-      {"transaction": "Sale", "amount": 1000},
-      {"transaction": "Refund", "amount": -200},
-      {"transaction": "Sale", "amount": 500},
-      {"transaction": "Sale", "amount": 800},
-    ];
-    int totalSales = 0;
-
-    // Instruksi: Gunakan looping for untuk menghitung total penjualan (amount positif) dari data transaksi
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data List<double> dan beri nilai [1.1, 2.2, 3.3, 4.4, 5.5]
+    // TODO: Tulis jawabanmu di bawah ini
+    output = [1.1, 2.2, 3.3, 4.4, 5.5];
     // --- End of Answer ---
 
-    return totalSales == 2300;
+    return output is List<double> &&
+        output.length == 5 &&
+        output[0] == 1.1 &&
+        output[4] == 5.5;
   }
 
   // Exercise 52
   bool? exercise52() {
-    List<Map<String, dynamic>> data = [
-      {"transaction": "Sale", "amount": 1000},
-      {"transaction": "Refund", "amount": -200},
-      {"transaction": "Sale", "amount": 500},
-      {"transaction": "Sale", "amount": 800},
-    ];
-    int totalRefunds = 0;
-
-    // Instruksi: Gunakan looping for untuk menghitung total refund (amount negatif) dari data transaksi
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data List<double> dan beri nilai [0.5, 1.5, 2.5, 3.5, 4.5]
+    // TODO: Tulis jawabanmu di bawah ini
+    output = [0.5, 1.5, 2.5, 3.5, 4.5];
     // --- End of Answer ---
 
-    return totalRefunds == 200;
+    return output is List<double> &&
+        output.length == 5 &&
+        output[0] == 0.5 &&
+        output[4] == 4.5;
   }
 
   // Exercise 53
   bool? exercise53() {
-    List<Map<String, dynamic>> data = [
-      {"transaction": "Sale", "amount": 1000, "isPromo": false},
-      {"transaction": "Refund", "amount": -200, "isPromo": false},
-      {"transaction": "Sale", "amount": 500, "isPromo": true},
-      {"transaction": "Sale", "amount": 800, "isPromo": false},
-    ];
-    int totalPromoSales = 0;
-
-    // Instruksi: Gunakan looping for untuk menghitung total penjualan dengan isPromo true dari data transaksi
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data List<double> dan beri nilai [10.0, 20.0, 30.0, 40.0, 50.0]
+    // TODO: Tulis jawabanmu di bawah ini
+    output = [10.0, 20.0, 30.0, 40.0, 50.0];
     // --- End of Answer ---
 
-    return totalPromoSales == 500;
+    return output is List<double> &&
+        output.length == 5 &&
+        output[0] == 10.0 &&
+        output[4] == 50.0;
   }
 
   // Exercise 54
   bool? exercise54() {
-    List<Map<String, dynamic>> data = [
-      {"transaction": "Sale", "amount": 1000, "category": "Electronics"},
-      {"transaction": "Refund", "amount": -200, "category": "Fashion"},
-      {"transaction": "Sale", "amount": 500, "category": "Electronics"},
-      {"transaction": "Sale", "amount": 800, "category": "Fashion"},
-    ];
-    int totalElectronicsSales = 0;
-
-    // Instruksi: Gunakan looping for untuk menghitung total penjualan kategori "Electronics" dari data transaksi
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data List<String> dan beri nilai ["apple", "banana", "cherry", "date", "fig"]
+    // TODO: Tulis jawabanmu di bawah ini
+    output = ["apple", "banana", "cherry", "date", "fig"];
     // --- End of Answer ---
 
-    return totalElectronicsSales == 1500;
+    return output is List<String> &&
+        output.length == 5 &&
+        output[0] == "apple" &&
+        output[4] == "fig";
   }
 
   // Exercise 55
   bool? exercise55() {
-    List<Map<String, dynamic>> data = [
-      {"transaction": "Sale", "amount": 1000, "category": "Electronics"},
-      {"transaction": "Refund", "amount": -200, "category": "Fashion"},
-      {"transaction": "Sale", "amount": 500, "category": "Electronics"},
-      {"transaction": "Sale", "amount": 800, "category": "Fashion"},
-    ];
-    int totalFashionRefunds = 0;
-
-    // Instruksi: Gunakan looping for untuk menghitung total refund kategori "Fashion" dari data transaksi
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data List<String> dan beri nilai ["grape", "kiwi", "lemon", "mango", "orange"]
+    // TODO: Tulis jawabanmu di bawah ini
+    output = ["grape", "kiwi", "lemon", "mango", "orange"];
     // --- End of Answer ---
 
-    return totalFashionRefunds == 200;
+    return output is List<String> &&
+        output.length == 5 &&
+        output[0] == "grape" &&
+        output[4] == "orange";
   }
 
   // Exercise 56
   bool? exercise56() {
-    List<Map<String, dynamic>> data = [
-      {"transaction": "Sale", "amount": 1000, "category": "Electronics"},
-      {"transaction": "Refund", "amount": -200, "category": "Fashion"},
-      {"transaction": "Sale", "amount": 500, "category": "Electronics"},
-      {"transaction": "Sale", "amount": 800, "category": "Fashion"},
-    ];
-    int totalSalesInElectronics = 0;
-
-    // Instruksi: Gunakan looping for untuk menghitung total penjualan kategori "Electronics" dari data transaksi
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data List<String> dan beri nilai ["pear", "quince", "raspberry", "strawberry", "tangerine"]
+    // TODO: Tulis jawabanmu di bawah ini
+    output = ["pear", "quince", "raspberry", "strawberry", "tangerine"];
     // --- End of Answer ---
 
-    return totalSalesInElectronics == 1500;
+    return output is List<String> &&
+        output.length == 5 &&
+        output[0] == "pear" &&
+        output[4] == "tangerine";
   }
 
   // Exercise 57
   bool? exercise57() {
-    List<Map<String, dynamic>> data = [
-      {"transaction": "Sale", "amount": 1000, "category": "Electronics"},
-      {"transaction": "Refund", "amount": -200, "category": "Fashion"},
-      {"transaction": "Sale", "amount": 500, "category": "Electronics"},
-      {"transaction": "Sale", "amount": 800, "category": "Fashion"},
-    ];
-    int totalRefundsInElectronics = 0;
-
-    // Instruksi: Gunakan looping for untuk menghitung total refund kategori "Electronics" dari data transaksi
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data List<bool> dan beri nilai [true, false, true, false, true]
+    // TODO: Tulis jawabanmu di bawah ini
+    output = [true, false, true, false, true];
     // --- End of Answer ---
 
-    return totalRefundsInElectronics == 0;
+    return output is List<bool> &&
+        output.length == 5 &&
+        output[0] == true &&
+        output[4] == true;
   }
 
   // Exercise 58
   bool? exercise58() {
-    List<Map<String, dynamic>> data = [
-      {"transaction": "Sale", "amount": 1000, "category": "Electronics"},
-      {"transaction": "Refund", "amount": -200, "category": "Fashion"},
-      {"transaction": "Sale", "amount": 500, "category": "Electronics"},
-      {"transaction": "Sale", "amount": 800, "category": "Fashion"},
-    ];
-    int totalSales = 0;
-    int totalRefunds = 0;
-
-    // Instruksi: Gunakan looping for untuk menghitung total penjualan dan refund dari data transaksi
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data List<bool> dan beri nilai [false, true, false, true, false]
+    // TODO: Tulis jawabanmu di bawah ini
+    output = [false, true, false, true, false];
     // --- End of Answer ---
 
-    return totalSales == 2300 && totalRefunds == 200;
+    return output is List<bool> &&
+        output.length == 5 &&
+        output[0] == false &&
+        output[4] == false;
   }
 
   // Exercise 59
   bool? exercise59() {
-    List<Map<String, dynamic>> data = [
-      {"name": "John", "hoursWorked": 40, "hourlyRate": 20},
-      {"name": "Alice", "hoursWorked": 30, "hourlyRate": 25},
-      {"name": "Bob", "hoursWorked": 20, "hourlyRate": 30},
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data List<Map<String, dynamic>> dan beri nilai sesuai contoh berikut:
+    // [
+    //   {"name": "Alice", "age": 30},
+    //   {"name": "Bob", "age": 25},
+    //   {"name": "Carol", "age": 35},
+    //   {"name": "David", "age": 28},
+    //   {"name": "Eve", "age": 22}
+    // ]
+    // TODO: Tulis jawabanmu di bawah ini
+    output = [
+      {"name": "Alice", "age": 30},
+      {"name": "Bob", "age": 25},
+      {"name": "Carol", "age": 35},
+      {"name": "David", "age": 28},
+      {"name": "Eve", "age": 22}
     ];
-    int totalSalary = 0;
-
-    // Instruksi: Gunakan looping for untuk menghitung total gaji (hoursWorked * hourlyRate) dari data karyawan
-    // TODO: Tulis kode for loop di sini
-
     // --- End of Answer ---
-    return totalSalary == 2150;
+
+    return output is List<Map<String, dynamic>> &&
+        output.length == 5 &&
+        output[0]["name"] == "Alice" &&
+        output[0]["age"] == 30 &&
+        output[4]["name"] == "Eve" &&
+        output[4]["age"] == 22;
   }
 
   // Exercise 60
   bool? exercise60() {
-    List<Map<String, dynamic>> data = [
-      {"name": "John", "hoursWorked": 40, "hourlyRate": 20},
-      {"name": "Alice", "hoursWorked": 30, "hourlyRate": 25},
-      {"name": "Bob", "hoursWorked": 20, "hourlyRate": 30},
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data List<Map<String, dynamic>> dan beri nilai sesuai contoh berikut:
+    // [
+    //   {"fruit": "apple", "color": "red"},
+    //   {"fruit": "banana", "color": "yellow"},
+    //   {"fruit": "cherry", "color": "red"},
+    //   {"fruit": "date", "color": "brown"},
+    //   {"fruit": "fig", "color": "purple"}
+    // ]
+    // TODO: Tulis jawabanmu di bawah ini
+    output = [
+      {"fruit": "apple", "color": "red"},
+      {"fruit": "banana", "color": "yellow"},
+      {"fruit": "cherry", "color": "red"},
+      {"fruit": "date", "color": "brown"},
+      {"fruit": "fig", "color": "purple"}
     ];
-    int maxHourlyRate = 0;
-
-    // Instruksi: Gunakan looping for untuk mencari nilai maksimum dari "hourlyRate" pada data karyawan
-    // TODO: Tulis kode for loop di sini
-
     // --- End of Answer ---
 
-    return maxHourlyRate == 30;
+    return output is List<Map<String, dynamic>> &&
+        output.length == 5 &&
+        output[0]["fruit"] == "apple" &&
+        output[0]["color"] == "red" &&
+        output[4]["fruit"] == "fig" &&
+        output[4]["color"] == "purple";
   }
 
   // Exercise 61
   bool? exercise61() {
-    List<Map<String, dynamic>> products = [
-      {"id": 1, "name": "Keyboard", "price": 250000},
-      {"id": 2, "name": "Mouse", "price": 150000},
-      {"id": 3, "name": "Headphones", "price": 350000},
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data List<Map<String, dynamic>> dan beri nilai sesuai contoh berikut:
+    // [
+    //   {"name": "Alice", "scores": [85, 90, 78]},
+    //   {"name": "Bob", "scores": [92, 88, 95]},
+    //   {"name": "Carol", "scores": [78, 85, 80]},
+    //   {"name": "David", "scores": [90, 87, 92]},
+    //   {"name": "Eve", "scores": [75, 82, 80]}
+    // ]
+    // TODO: Tulis jawabanmu di bawah ini
+    output = [
+      {
+        "name": "Alice",
+        "scores": [85, 90, 78]
+      },
+      {
+        "name": "Bob",
+        "scores": [92, 88, 95]
+      },
+      {
+        "name": "Carol",
+        "scores": [78, 85, 80]
+      },
+      {
+        "name": "David",
+        "scores": [90, 87, 92]
+      },
+      {
+        "name": "Eve",
+        "scores": [75, 82, 80]
+      }
     ];
-    double totalHarga = 0;
-
-    // ? Instruksi: Gunakan looping for untuk menghitung total harga dari semua produk di dalam list products
-    // TODO: Tulis kode for loop di sini
-
     // --- End of Answer ---
 
-    return totalHarga == 750000;
+    return output is List<Map<String, dynamic>> &&
+        output.length == 5 &&
+        output[0]["name"] == "Alice" &&
+        output[0]["scores"].length == 3 &&
+        output[4]["name"] == "Eve" &&
+        output[4]["scores"].length == 3;
   }
 
   // Exercise 62
   bool? exercise62() {
-    List<Map<String, dynamic>> transactions = [
-      {"id": 1, "amount": 3, "price": 50000},
-      {"id": 2, "amount": 1, "price": 75000},
-      {"id": 3, "amount": 5, "price": 30000},
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data List<Map<String, dynamic>> dan beri nilai sesuai contoh berikut:
+    // [
+    //   {"name": "Alice", "skills": ["Java", "Python", "C++"]},
+    //   {"name": "Bob", "skills": ["Python", "JavaScript", "Ruby"]},
+    //   {"name": "Carol", "skills": ["JavaScript", "HTML", "CSS"]},
+    //   {"name": "David", "skills": ["Java", "C#", "PHP"]},
+    //   {"name": "Eve", "skills": ["Ruby", "Python", "Java"]}
+    // ]
+    // TODO: Tulis jawabanmu di bawah ini
+    output = [
+      {
+        "name": "Alice",
+        "skills": ["Java", "Python", "C++"]
+      },
+      {
+        "name": "Bob",
+        "skills": ["Python", "JavaScript", "Ruby"]
+      },
+      {
+        "name": "Carol",
+        "skills": ["JavaScript", "HTML", "CSS"]
+      },
+      {
+        "name": "David",
+        "skills": ["Java", "C#", "PHP"]
+      },
+      {
+        "name": "Eve",
+        "skills": ["Ruby", "Python", "Java"]
+      }
     ];
-    double totalPendapatan = 0;
-
-    // ? Instruksi: Gunakan looping for untuk menghitung total pendapatan dari semua transaksi di dalam list transactions
-    // TODO: Tulis kode for loop di sini
-
     // --- End of Answer ---
 
-    return totalPendapatan == 375000;
+    return output is List<Map<String, dynamic>> &&
+        output.length == 5 &&
+        output[0]["name"] == "Alice" &&
+        output[0]["skills"].length == 3 &&
+        output[4]["name"] == "Eve" &&
+        output[4]["skills"].length == 3;
   }
 
   // Exercise 63
   bool? exercise63() {
-    List<Map<String, dynamic>> employees = [
-      {"id": 1, "name": "John", "salary": 5000000},
-      {"id": 2, "name": "Alice", "salary": 6000000},
-      {"id": 3, "name": "Bob", "salary": 4500000},
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data List<Map<String, dynamic>> dan beri nilai sesuai contoh berikut:
+    // [
+    //   {"name": "Alice", "courses": ["Math", "Physics"]},
+    //   {"name": "Bob", "courses": ["Biology", "Chemistry"]},
+    //   {"name": "Carol", "courses": ["English", "History"]},
+    //   {"name": "David", "courses": ["Computer Science", "Programming"]},
+    //   {"name": "Eve", "courses": ["Geography", "Economics"]}
+    // ]
+    // TODO: Tulis jawabanmu di bawah ini
+    output = [
+      {
+        "name": "Alice",
+        "courses": ["Math", "Physics"]
+      },
+      {
+        "name": "Bob",
+        "courses": ["Biology", "Chemistry"]
+      },
+      {
+        "name": "Carol",
+        "courses": ["English", "History"]
+      },
+      {
+        "name": "David",
+        "courses": ["Computer Science", "Programming"]
+      },
+      {
+        "name": "Eve",
+        "courses": ["Geography", "Economics"]
+      }
     ];
-    double totalGaji = 0;
-
-    // ? Instruksi: Gunakan looping for untuk menghitung total gaji dari semua karyawan di dalam list employees
-    // TODO: Tulis kode for loop di sini
-
     // --- End of Answer ---
 
-    double rataRataGaji = totalGaji / employees.length;
-
-    return rataRataGaji == 5166666.666666667;
+    return output is List<Map<String, dynamic>> &&
+        output.length == 5 &&
+        output[0]["name"] == "Alice" &&
+        output[0]["courses"].length == 2 &&
+        output[4]["name"] == "Eve" &&
+        output[4]["courses"].length == 2;
   }
 
   // Exercise 64
   bool? exercise64() {
-    List<Map<String, dynamic>> orders = [
-      {"id": 1, "product": "Keyboard", "quantity": 2, "price": 250000},
-      {"id": 2, "product": "Mouse", "quantity": 3, "price": 150000},
-      {"id": 3, "product": "Headphones", "quantity": 1, "price": 350000},
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data List<Map<String, dynamic>> dan beri nilai sesuai contoh berikut:
+    // [
+    //   {"name": "Alice", "data": {"age": 30, "city": "New York"}},
+    //   {"name": "Bob", "data": {"age": 25, "city": "Los Angeles"}},
+    //   {"name": "Carol", "data": {"age": 35, "city": "Chicago"}},
+    //   {"name": "David", "data": {"age": 28, "city": "Houston"}},
+    //   {"name": "Eve", "data": {"age": 22, "city": "Miami"}}
+    // ]
+    // TODO: Tulis jawabanmu di bawah ini
+    output = [
+      {
+        "name": "Alice",
+        "data": {"age": 30, "city": "New York"}
+      },
+      {
+        "name": "Bob",
+        "data": {"age": 25, "city": "Los Angeles"}
+      },
+      {
+        "name": "Carol",
+        "data": {"age": 35, "city": "Chicago"}
+      },
+      {
+        "name": "David",
+        "data": {"age": 28, "city": "Houston"}
+      },
+      {
+        "name": "Eve",
+        "data": {"age": 22, "city": "Miami"}
+      }
     ];
-    double totalNilaiPemesanan = 0;
-
-    // ? Instruksi: Gunakan looping for untuk menghitung total nilai pemesanan dari semua orders di dalam list orders
-    // TODO: Tulis kode for loop di sini
-
     // --- End of Answer ---
 
-    return totalNilaiPemesanan == 1300000.0;
+    return output is List<Map<String, dynamic>> &&
+        output.length == 5 &&
+        output[0]["name"] == "Alice" &&
+        output[0]["data"]["age"] == 30 &&
+        output[0]["data"]["city"] == "New York" &&
+        output[4]["name"] == "Eve" &&
+        output[4]["data"]["age"] == 22 &&
+        output[4]["data"]["city"] == "Miami";
   }
 
   // Exercise 65
   bool? exercise65() {
-    List<Map<String, dynamic>> shipments = [
-      {"id": 1, "product": "Keyboard", "quantity": 2, "shippingCost": 20000},
-      {"id": 2, "product": "Mouse", "quantity": 3, "shippingCost": 18000},
-      {"id": 3, "product": "Headphones", "quantity": 1, "shippingCost": 25000},
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data List<Map<String, dynamic>> dan beri nilai sesuai contoh berikut:
+    // [
+    //   {"name": "Alice", "details": {"age": 30, "city": "New York", "occupation": "Engineer"}},
+    //   {"name": "Bob", "details": {"age": 25, "city": "Los Angeles", "occupation": "Designer"}},
+    //   {"name": "Carol", "details": {"age": 35, "city": "Chicago", "occupation": "Teacher"}},
+    //   {"name": "David", "details": {"age": 28, "city": "Houston", "occupation": "Developer"}},
+    //   {"name": "Eve", "details": {"age": 22, "city": "Miami", "occupation": "Student"}}
+    // ]
+    // TODO: Tulis jawabanmu di bawah ini
+    output = [
+      {
+        "name": "Alice",
+        "details": {"age": 30, "city": "New York", "occupation": "Engineer"}
+      },
+      {
+        "name": "Bob",
+        "details": {"age": 25, "city": "Los Angeles", "occupation": "Designer"}
+      },
+      {
+        "name": "Carol",
+        "details": {"age": 35, "city": "Chicago", "occupation": "Teacher"}
+      },
+      {
+        "name": "David",
+        "details": {"age": 28, "city": "Houston", "occupation": "Developer"}
+      },
+      {
+        "name": "Eve",
+        "details": {"age": 22, "city": "Miami", "occupation": "Student"}
+      }
     ];
-    int maxBiayaPengiriman = 0;
-
-    // ? Instruksi: Gunakan looping for untuk mencari nilai tertinggi dari shippingCost di dalam list shipments
-    // TODO: Tulis kode for loop di sini
-
     // --- End of Answer ---
 
-    return maxBiayaPengiriman == 25000;
+    return output is List<Map<String, dynamic>> &&
+        output.length == 5 &&
+        output[0]["name"] == "Alice" &&
+        output[0]["details"]["age"] == 30 &&
+        output[0]["details"]["city"] == "New York" &&
+        output[4]["name"] == "Eve" &&
+        output[4]["details"]["age"] == 22 &&
+        output[4]["details"]["city"] == "Miami";
   }
 
-  // Exercise 66
   bool? exercise66() {
-    List<Map<String, dynamic>> attendance = [
-      {"id": 1, "name": "John", "isPresent": true},
-      {"id": 2, "name": "Alice", "isPresent": false},
-      {"id": 3, "name": "Bob", "isPresent": true},
-      {"id": 4, "name": "Eve", "isPresent": false},
-    ];
-    int jumlahHadir = 0;
-
-    // ? Instruksi: Gunakan looping for untuk menghitung jumlah kehadiran (isPresent = true) di dalam list attendance
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data Map<String, dynamic> dan beri nilai sesuai contoh berikut:
+    // {
+    //   "name": "Alice",
+    //   "details": {
+    //     "age": 30,
+    //     "city": "New York"
+    //   }
+    // }
+    // TODO: Tulis jawabanmu di bawah ini
+    Map<String, dynamic> output = {
+      "name": "Alice",
+      "details": {"age": 30, "city": "New York"}
+    };
     // --- End of Answer ---
-
-    return jumlahHadir == 2;
+    return output is Map<String, dynamic> &&
+        output["name"] == "Alice" &&
+        output["details"]["age"] == 30 &&
+        output["details"]["city"] == "New York";
   }
 
-  // Exercise 67
   bool? exercise67() {
-    List<Map<String, dynamic>> warehouse = [
-      {"id": 1, "product": "Keyboard", "stock": 50},
-      {"id": 2, "product": "Mouse", "stock": 30},
-      {"id": 3, "product": "Headphones", "stock": 20},
-    ];
-    int maxStok = 0;
-
-    // ? Instruksi: Gunakan looping for untuk mencari nilai tertinggi dari stock di dalam list warehouse
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data Map<String, dynamic> dan beri nilai sesuai contoh berikut:
+    // {
+    //   "name": "Bob",
+    //   "details": {
+    //     "age": 25,
+    //     "city": "Los Angeles"
+    //   }
+    // }
+    // TODO: Tulis jawabanmu di bawah ini
+    Map<String, dynamic> output = {
+      "name": "Bob",
+      "details": {"age": 25, "city": "Los Angeles"}
+    };
     // --- End of Answer ---
-
-    return maxStok == 50;
+    return output is Map<String, dynamic> &&
+        output["name"] == "Bob" &&
+        output["details"]["age"] == 25 &&
+        output["details"]["city"] == "Los Angeles";
   }
 
-  // Exercise 68
   bool? exercise68() {
-    List<Map<String, dynamic>> projectTasks = [
-      {"id": 1, "task": "Design", "progress": 100},
-      {"id": 2, "task": "Development", "progress": 75},
-      {"id": 3, "task": "Testing", "progress": 50},
-    ];
-    int jumlahSelesai = 0;
-
-    // ? Instruksi: Gunakan looping for untuk menghitung jumlah tugas yang telah selesai (progress = 100) di dalam list projectTasks
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data Map<String, dynamic> dan beri nilai sesuai contoh berikut:
+    // {
+    //   "name": "Carol",
+    //   "details": {
+    //     "age": 35,
+    //     "city": "Chicago"
+    //   }
+    // }
+    // TODO: Tulis jawabanmu di bawah ini
+    Map<String, dynamic> output = {
+      "name": "Carol",
+      "details": {"age": 35, "city": "Chicago"}
+    };
     // --- End of Answer ---
-
-    return jumlahSelesai == 1;
+    return output is Map<String, dynamic> &&
+        output["name"] == "Carol" &&
+        output["details"]["age"] == 35 &&
+        output["details"]["city"] == "Chicago";
   }
 
-  // Exercise 69
   bool? exercise69() {
-    List<Map<String, dynamic>> employeeAttendance = [
-      {"id": 1, "name": "John", "isPresent": true},
-      {"id": 2, "name": "Alice", "isPresent": false},
-      {"id": 3, "name": "Bob", "isPresent": true},
-      {"id": 4, "name": "Eve", "isPresent": false},
-    ];
-    List<Map<String, dynamic>> hadirOnly = [];
-
-    // ? Instruksi: Gunakan looping for untuk mengisi list hadirOnly dengan data karyawan yang hadir (isPresent = true)
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data Map<String, dynamic> dan beri nilai sesuai contoh berikut:
+    // {
+    //   "name": "David",
+    //   "details": {
+    //     "age": 28,
+    //     "city": "Houston"
+    //   }
+    // }
+    // TODO: Tulis jawabanmu di bawah ini
+    Map<String, dynamic> output = {
+      "name": "David",
+      "details": {"age": 28, "city": "Houston"}
+    };
     // --- End of Answer ---
-
-    return hadirOnly.length == 2;
+    return output is Map<String, dynamic> &&
+        output["name"] == "David" &&
+        output["details"]["age"] == 28 &&
+        output["details"]["city"] == "Houston";
   }
 
-  // Exercise 70
   bool? exercise70() {
-    List<Map<String, dynamic>> studentScores = [
-      {"id": 1, "name": "John", "score": 85},
-      {"id": 2, "name": "Alice", "score": 92},
-      {"id": 3, "name": "Bob", "score": 78},
-      {"id": 4, "name": "Eve", "score": 88},
-    ];
-    double totalScore = 0;
-
-    // ? Instruksi: Gunakan looping for untuk menghitung total nilai dari semua siswa di dalam list studentScores
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data Map<String, dynamic> dan beri nilai sesuai contoh berikut:
+    // {
+    //   "name": "Eve",
+    //   "details": {
+    //     "age": 22,
+    //     "city": "Miami"
+    //   }
+    // }
+    // TODO: Tulis jawabanmu di bawah ini
+    Map<String, dynamic> output = {
+      "name": "Eve",
+      "details": {"age": 22, "city": "Miami"}
+    };
     // --- End of Answer ---
-
-    double averageScore = totalScore / studentScores.length;
-
-    return averageScore == 85.75;
+    return output is Map<String, dynamic> &&
+        output["name"] == "Eve" &&
+        output["details"]["age"] == 22 &&
+        output["details"]["city"] == "Miami";
   }
 
-// Exercise 71
   bool? exercise71() {
-    List<Map<String, dynamic>> sales = [
-      {"id": 1, "product": "Keyboard", "quantitySold": 100, "price": 250000},
-      {"id": 2, "product": "Mouse", "quantitySold": 50, "price": 150000},
-      {"id": 3, "product": "Monitor", "quantitySold": 30, "price": 1000000},
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data List<Map<String, dynamic>> dan beri nilai sesuai contoh berikut:
+    // [
+    //   {"name": "Alice", "age": 30},
+    //   {"name": "Bob", "age": 25},
+    //   {"name": "Carol", "age": 35}
+    // ]
+    // TODO: Tulis jawabanmu di bawah ini
+    List<Map<String, dynamic>> output = [
+      {"name": "Alice", "age": 30},
+      {"name": "Bob", "age": 25},
+      {"name": "Carol", "age": 35}
     ];
-    double totalSales = 0;
-
-    // ? Instruksi: Gunakan looping for untuk menghitung total penjualan (quantitySold) dari semua produk di dalam list sales
-    // TODO: Tulis kode for loop di sini
-
     // --- End of Answer ---
-
-    return totalSales == 180;
+    return output is List<Map<String, dynamic>> &&
+        output[0]["name"] == "Alice" &&
+        output[0]["age"] == 30 &&
+        output[1]["name"] == "Bob" &&
+        output[1]["age"] == 25 &&
+        output[2]["name"] == "Carol" &&
+        output[2]["age"] == 35;
   }
 
-// Exercise 72
   bool? exercise72() {
-    List<Map<String, dynamic>> employees = [
-      {"id": 1, "name": "John", "age": 30, "salary": 5000000},
-      {"id": 2, "name": "Alice", "age": 25, "salary": 6000000},
-      {"id": 3, "name": "Bob", "age": 35, "salary": 4500000},
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data List<Map<String, dynamic>> dan beri nilai sesuai contoh berikut:
+    // [
+    //   {"name": "David", "age": 28},
+    //   {"name": "Eve", "age": 22},
+    //   {"name": "Frank", "age": 40}
+    // ]
+    // TODO: Tulis jawabanmu di bawah ini
+    List<Map<String, dynamic>> output = [
+      {"name": "David", "age": 28},
+      {"name": "Eve", "age": 22},
+      {"name": "Frank", "age": 40}
     ];
-    double totalSalary = 0;
-
-    // ? Instruksi: Gunakan looping for untuk menghitung total gaji (salary) dari semua karyawan di dalam list employees
-    // TODO: Tulis kode for loop di sini
-
     // --- End of Answer ---
-
-    return totalSalary == 15500000;
+    return output is List<Map<String, dynamic>> &&
+        output[0]["name"] == "David" &&
+        output[0]["age"] == 28 &&
+        output[1]["name"] == "Eve" &&
+        output[1]["age"] == 22 &&
+        output[2]["name"] == "Frank" &&
+        output[2]["age"] == 40;
   }
 
-// Exercise 73
   bool? exercise73() {
-    List<Map<String, dynamic>> employees = [
-      {"id": 1, "name": "John", "age": 30, "salary": 5000000},
-      {"id": 2, "name": "Alice", "age": 25, "salary": 6000000},
-      {"id": 3, "name": "Bob", "age": 35, "salary": 4500000},
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data List<Map<String, dynamic>> dan beri nilai sesuai contoh berikut:
+    // [
+    //   {"name": "Grace", "age": 50},
+    //   {"name": "Hank", "age": 45},
+    //   {"name": "Ivy", "age": 29}
+    // ]
+    // TODO: Tulis jawabanmu di bawah ini
+    List<Map<String, dynamic>> output = [
+      {"name": "Grace", "age": 50},
+      {"name": "Hank", "age": 45},
+      {"name": "Ivy", "age": 29}
     ];
-    double averageAge = 0;
-
-    // ? Instruksi: Gunakan looping for untuk menghitung rata-rata usia (age) dari semua karyawan di dalam list employees
-    // TODO: Tulis kode for loop di sini
-
     // --- End of Answer ---
-
-    return averageAge == 30.0;
+    return output is List<Map<String, dynamic>> &&
+        output[0]["name"] == "Grace" &&
+        output[0]["age"] == 50 &&
+        output[1]["name"] == "Hank" &&
+        output[1]["age"] == 45 &&
+        output[2]["name"] == "Ivy" &&
+        output[2]["age"] == 29;
   }
 
-// Exercise 74
   bool? exercise74() {
-    List<Map<String, dynamic>> products = [
-      {"id": 1, "name": "Keyboard", "price": 250000, "quantitySold": 100},
-      {"id": 2, "name": "Mouse", "price": 150000, "quantitySold": 50},
-      {"id": 3, "name": "Headphones", "price": 350000, "quantitySold": 75},
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data List<Map<String, dynamic>> dan beri nilai sesuai contoh berikut:
+    // [
+    //   {"name": "Jack", "age": 33},
+    //   {"name": "Kate", "age": 27},
+    //   {"name": "Leo", "age": 38}
+    // ]
+    // TODO: Tulis jawabanmu di bawah ini
+    List<Map<String, dynamic>> output = [
+      {"name": "Jack", "age": 33},
+      {"name": "Kate", "age": 27},
+      {"name": "Leo", "age": 38}
     ];
-    int maxPrice = 0;
-    int minPrice = products[0]["price"];
-
-    // ? Instruksi: Gunakan looping for untuk mencari harga termahal dan harga termurah dari semua produk di dalam list products
-    // TODO: Tulis kode for loop di sini
-
     // --- End of Answer ---
-
-    return maxPrice == 350000 && minPrice == 150000;
+    return output is List<Map<String, dynamic>> &&
+        output[0]["name"] == "Jack" &&
+        output[0]["age"] == 33 &&
+        output[1]["name"] == "Kate" &&
+        output[1]["age"] == 27 &&
+        output[2]["name"] == "Leo" &&
+        output[2]["age"] == 38;
   }
 
-// Exercise 75
   bool? exercise75() {
-    List<Map<String, dynamic>> products = [
-      {"id": 1, "name": "Keyboard", "quantitySold": 100},
-      {"id": 2, "name": "Mouse", "quantitySold": 50},
-      {"id": 3, "name": "Headphones", "quantitySold": 75},
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data List<Map<String, dynamic>> dan beri nilai sesuai contoh berikut:
+    // [
+    //   {"name": "Mia", "age": 24},
+    //   {"name": "Noah", "age": 29},
+    //   {"name": "Olivia", "age": 26}
+    // ]
+    // TODO: Tulis jawabanmu di bawah ini
+    List<Map<String, dynamic>> output = [
+      {"name": "Mia", "age": 24},
+      {"name": "Noah", "age": 29},
+      {"name": "Olivia", "age": 26}
     ];
-    String bestProduct = "";
-    int maxQuantitySold = 0;
-
-    // ? Instruksi: Gunakan looping for untuk mencari produk terlaris (dengan quantitySold terbanyak) di dalam list products
-    // TODO: Tulis kode for loop di sini
-
     // --- End of Answer ---
-
-    return bestProduct == "Keyboard";
+    return output is List<Map<String, dynamic>> &&
+        output[0]["name"] == "Mia" &&
+        output[0]["age"] == 24 &&
+        output[1]["name"] == "Noah" &&
+        output[1]["age"] == 29 &&
+        output[2]["name"] == "Olivia" &&
+        output[2]["age"] == 26;
   }
 
-// Exercise 76
   bool? exercise76() {
-    List<Map<String, dynamic>> employees = [
-      {"id": 1, "name": "John", "kpi": 90},
-      {"id": 2, "name": "Alice", "kpi": 80},
-      {"id": 3, "name": "Bob", "kpi": 70},
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data List<Map<String, dynamic>> dan beri nilai sesuai contoh berikut:
+    // [
+    //   {"name": "Peter", "age": 31},
+    //   {"name": "Queen", "age": 23},
+    //   {"name": "Robert", "age": 36}
+    // ]
+    // TODO: Tulis jawabanmu di bawah ini
+    List<Map<String, dynamic>> output = [
+      {"name": "Peter", "age": 31},
+      {"name": "Queen", "age": 23},
+      {"name": "Robert", "age": 36}
     ];
-    String bestEmployee = "";
-    int maxKpi = 0;
-
-    // ? Instruksi: Gunakan looping for untuk mencari karyawan terbaik (dengan KPI tertinggi) di dalam list employees
-    // TODO: Tulis kode for loop di sini
-
     // --- End of Answer ---
-
-    return bestEmployee == "John";
+    return output is List<Map<String, dynamic>> &&
+        output[0]["name"] == "Peter" &&
+        output[0]["age"] == 31 &&
+        output[1]["name"] == "Queen" &&
+        output[1]["age"] == 23 &&
+        output[2]["name"] == "Robert" &&
+        output[2]["age"] == 36;
   }
 
-// Exercise 77
   bool? exercise77() {
-    List<Map<String, dynamic>> employees = [
-      {"id": 1, "name": "John", "kpi": 90},
-      {"id": 2, "name": "Alice", "kpi": 80},
-      {"id": 3, "name": "Bob", "kpi": 70},
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data List<Map<String, dynamic>> dan beri nilai sesuai contoh berikut:
+    // [
+    //   {"name": "Sam", "age": 27},
+    //   {"name": "Tom", "age": 32},
+    //   {"name": "Uma", "age": 30}
+    // ]
+    // TODO: Tulis jawabanmu di bawah ini
+    List<Map<String, dynamic>> output = [
+      {"name": "Sam", "age": 27},
+      {"name": "Tom", "age": 32},
+      {"name": "Uma", "age": 30}
     ];
-    List<String> lowPerformers = [];
-
-    // ? Instruksi: Gunakan looping for untuk mencari karyawan dengan KPI rendah (kurang dari 80) di dalam list employees
-    // TODO: Tulis kode for loop di sini
-
     // --- End of Answer ---
-
-    return lowPerformers.contains("Bob");
+    return output is List<Map<String, dynamic>> &&
+        output[0]["name"] == "Sam" &&
+        output[0]["age"] == 27 &&
+        output[1]["name"] == "Tom" &&
+        output[1]["age"] == 32 &&
+        output[2]["name"] == "Uma" &&
+        output[2]["age"] == 30;
   }
 
-// Exercise 78
   bool? exercise78() {
-    List<Map<String, dynamic>> employees = [
-      {"id": 1, "name": "John", "kpi": 90},
-      {"id": 2, "name": "Alice", "kpi": 80},
-      {"id": 3, "name": "Bob", "kpi": 70},
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data List<Map<String, dynamic>> dan beri nilai sesuai contoh berikut:
+    // [
+    //   {"name": "Victoria", "age": 29},
+    //   {"name": "William", "age": 24},
+    //   {"name": "Xander", "age": 35}
+    // ]
+    // TODO: Tulis jawabanmu di bawah ini
+    List<Map<String, dynamic>> output = [
+      {"name": "Victoria", "age": 29},
+      {"name": "William", "age": 24},
+      {"name": "Xander", "age": 35}
     ];
-    double totalKpi = 0;
-
-    // ? Instruksi: Gunakan looping for untuk menghitung total KPI dari semua karyawan di dalam list employees
-    // TODO: Tulis kode for loop di sini
-
     // --- End of Answer ---
-
-    double averageKpi = totalKpi / employees.length;
-    return averageKpi == 80.0;
+    return output is List<Map<String, dynamic>> &&
+        output[0]["name"] == "Victoria" &&
+        output[0]["age"] == 29 &&
+        output[1]["name"] == "William" &&
+        output[1]["age"] == 24 &&
+        output[2]["name"] == "Xander" &&
+        output[2]["age"] == 35;
   }
 
-  /// Exercise 79
   bool? exercise79() {
-    List<Map<String, dynamic>> products = [
-      {"id": 1, "name": "Keyboard", "price": 250000, "quantitySold": 100},
-      {"id": 2, "name": "Mouse", "price": 150000, "quantitySold": 50},
-      {"id": 3, "name": "Headphones", "price": 350000, "quantitySold": 75},
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data List<Map<String, dynamic>> dan beri nilai sesuai contoh berikut:
+    // [
+    //   {"name": "Yara", "age": 28},
+    //   {"name": "Zane", "age": 31}
+    // ]
+    // TODO: Tulis jawabanmu di bawah ini
+    List<Map<String, dynamic>> output = [
+      {"name": "Yara", "age": 28},
+      {"name": "Zane", "age": 31}
     ];
-
-    int maxPrice = 0;
-    int minPrice = 0;
-
-    // ? Instruksi: Gunakan looping for untuk mencari harga termahal dan harga termurah dari semua produk di dalam list products
-    // TODO: Tulis kode for loop di sini
-
     // --- End of Answer ---
-
-    return maxPrice == 350000 && minPrice == 150000;
+    return output is List<Map<String, dynamic>> &&
+        output[0]["name"] == "Yara" &&
+        output[0]["age"] == 28 &&
+        output[1]["name"] == "Zane" &&
+        output[1]["age"] == 31;
   }
 
-// Exercise 80
   bool? exercise80() {
-    List<Map<String, dynamic>> products = [
-      {"id": 1, "name": "Keyboard", "quantitySold": 100},
-      {"id": 2, "name": "Mouse", "quantitySold": 50},
-      {"id": 3, "name": "Headphones", "quantitySold": 75},
+    // ? Instruksi: Deklarasikan sebuah variabel "output" dengan tipe data List<Map<String, dynamic>> dan beri nilai sesuai contoh berikut:
+    // [
+    //   {"name": "Alice", "age": 30},
+    //   {"name": "Bob", "age": 25},
+    //   {"name": "Carol", "age": 35},
+    //   {"name": "David", "age": 28},
+    //   {"name": "Eve", "age": 22},
+    //   {"name": "Frank", "age": 40},
+    //   {"name": "Grace", "age": 50},
+    //   {"name": "Hank", "age": 45},
+    //   {"name": "Ivy", "age": 29},
+    //   {"name": "Jack", "age": 33},
+    //   {"name": "Kate", "age": 27},
+    //   {"name": "Leo", "age": 38},
+    //   {"name": "Mia", "age": 24},
+    //   {"name": "Noah", "age": 29},
+    //   {"name": "Olivia", "age": 26},
+    //   {"name": "Peter", "age": 31},
+    //   {"name": "Queen", "age": 23},
+    //   {"name": "Robert", "age": 36},
+    //   {"name": "Sam", "age": 27},
+    //   {"name": "Tom", "age": 32},
+    //   {"name": "Uma", "age": 30},
+    //   {"name": "Victoria", "age": 29},
+    //   {"name": "William", "age": 24},
+    //   {"name": "Xander", "age": 35},
+    //   {"name": "Yara", "age": 28},
+    //   {"name": "Zane", "age": 31}
+    // ]
+    // TODO: Tulis jawabanmu di bawah ini
+    List<Map<String, dynamic>> output = [
+      {"name": "Alice", "age": 30},
+      {"name": "Bob", "age": 25},
+      {"name": "Carol", "age": 35},
+      {"name": "David", "age": 28},
+      {"name": "Eve", "age": 22},
+      {"name": "Frank", "age": 40},
+      {"name": "Grace", "age": 50},
+      {"name": "Hank", "age": 45},
+      {"name": "Ivy", "age": 29},
+      {"name": "Jack", "age": 33},
+      {"name": "Kate", "age": 27},
+      {"name": "Leo", "age": 38},
+      {"name": "Mia", "age": 24},
+      {"name": "Noah", "age": 29},
+      {"name": "Olivia", "age": 26},
+      {"name": "Peter", "age": 31},
+      {"name": "Queen", "age": 23},
+      {"name": "Robert", "age": 36},
+      {"name": "Sam", "age": 27},
+      {"name": "Tom", "age": 32},
+      {"name": "Uma", "age": 30},
+      {"name": "Victoria", "age": 29},
+      {"name": "William", "age": 24},
+      {"name": "Xander", "age": 35},
+      {"name": "Yara", "age": 28},
+      {"name": "Zane", "age": 31}
     ];
-    String bestProduct = "";
-    int maxQuantitySold = 0;
-
-    // ? Instruksi: Gunakan looping for untuk mencari produk terlaris (dengan quantitySold terbanyak) di dalam list products
-    // TODO: Tulis kode for loop di sini
-
     // --- End of Answer ---
-
-    return bestProduct == "Keyboard";
+    return output is List<Map<String, dynamic>> &&
+        output.length == 26 &&
+        output[2]["name"] == "Carol" &&
+        output.last["age"] == 31;
   }
 
-// Exercise 81
   bool? exercise81() {
-    List<Map<String, dynamic>> employees = [
-      {"id": 1, "name": "John", "kpi": 90, "absentDays": 3},
-      {"id": 2, "name": "Alice", "kpi": 80, "absentDays": 5},
-      {"id": 3, "name": "Bob", "kpi": 70, "absentDays": 1},
-    ];
-    String bestEmployee = "";
-    int minAbsentDays = employees[0]["absentDays"];
-
-    // ? Instruksi: Gunakan looping for untuk mencari karyawan dengan absensi bagus (sedikit absentDays) di dalam list employees
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi 1: Buatlah variabel String input dengan nilai "42"
+    // ? Instruksi 2: Buatlah variabel int? output;
+    // ? Instruksi 3: Konversi input menjadi integer dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "42";
+    int? output = int.tryParse(input);
     // --- End of Answer ---
-
-    return bestEmployee == "Bob";
+    return output is int && output == 42;
   }
 
-// Exercise 82
   bool? exercise82() {
-    List<Map<String, dynamic>> products = [
-      {"id": 1, "name": "Keyboard", "quantitySold": 100, "soldInDays": 10},
-      {"id": 2, "name": "Mouse", "quantitySold": 50, "soldInDays": 5},
-      {"id": 3, "name": "Headphones", "quantitySold": 75, "soldInDays": 15},
-    ];
-    String bestProduct = "";
-    int maxSoldInDays = 0;
-
-    // ? Instruksi: Gunakan looping for untuk mencari produk dengan penjualan tercepat (dengan soldInDays terbanyak) di dalam list products
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi 1: Buatlah variabel String input dengan nilai "0"
+    // ? Instruksi 2: Buatlah variabel int? output;
+    // ? Instruksi 3: Konversi input menjadi integer dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "0";
+    int? output = int.tryParse(input);
     // --- End of Answer ---
-
-    return bestProduct == "Headphones";
+    return output is int && output == 0;
   }
 
-// Exercise 83
   bool? exercise83() {
-    List<Map<String, dynamic>> employees = [
-      {"id": 1, "name": "John", "kpi": 90, "absentDays": 3},
-      {"id": 2, "name": "Alice", "kpi": 80, "absentDays": 5},
-      {"id": 3, "name": "Bob", "kpi": 70, "absentDays": 1},
-    ];
-    List<String> highPerformers = [];
-
-    // ? Instruksi: Gunakan looping for untuk mencari karyawan dengan KPI tinggi (lebih dari 80) di dalam list employees
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi 1: Buatlah variabel String input dengan nilai "-99"
+    // ? Instruksi 2: Buatlah variabel int? output;
+    // ? Instruksi 3: Konversi input menjadi integer dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "-99";
+    int? output = int.tryParse(input);
     // --- End of Answer ---
-
-    return highPerformers.contains("John");
+    return output is int && output == -99;
   }
 
-// Exercise 84
   bool? exercise84() {
-    List<Map<String, dynamic>> products = [
-      {"id": 1, "name": "Keyboard", "quantitySold": 100, "soldInDays": 10},
-      {"id": 2, "name": "Mouse", "quantitySold": 50, "soldInDays": 5},
-      {"id": 3, "name": "Headphones", "quantitySold": 75, "soldInDays": 15},
-    ];
-    List<String> bestProducts = [];
-    int maxSoldInDays = 0;
-
-    // ? Instruksi: Gunakan looping for untuk mencari produk dengan penjualan tercepat (dengan soldInDays terbanyak) di dalam list products
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi 1: Buatlah variabel double input dengan nilai "3.14"
+    // ? Instruksi 2: Buatlah variabel int? output;
+    // ? Instruksi 3: Konversi input menjadi integer dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    double input = 3.14;
+    int? output = input.toInt();
     // --- End of Answer ---
-
-    return bestProducts.length == 1 && bestProducts.contains("Headphones");
+    return output is int && output == 3;
   }
 
-// Exercise 85
   bool? exercise85() {
-    List<Map<String, dynamic>> employees = [
-      {"id": 1, "name": "John", "kpi": 90, "absentDays": 3},
-      {"id": 2, "name": "Alice", "kpi": 80, "absentDays": 5},
-      {"id": 3, "name": "Bob", "kpi": 120, "absentDays": 1},
-    ];
-    List<Map<String, dynamic>> highPerformers = [];
-
-    // ? Instruksi: Gunakan looping for untuk mencari karyawan dengan KPI tinggi (lebih dari 80) di dalam list employees
-    // Kemudian masukkan data karyawan tersebut ke dalam list highPerformers
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi 1: Buatlah variabel double input dengan nilai "9.99"
+    // ? Instruksi 2: Buatlah variabel int? output;
+    // ? Instruksi 3: Konversi input menjadi integer dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    double input = 9.99;
+    int? output = input.toInt();
     // --- End of Answer ---
-
-    return highPerformers.length == 2 &&
-        highPerformers[0]["name"] == "John" &&
-        highPerformers[1]["name"] == "Bob";
+    return output is int && output == 9;
   }
 
-// Exercise 86
   bool? exercise86() {
-    List<Map<String, dynamic>> employees = [
-      {"id": 1, "name": "John", "kpi": 90, "absentDays": 3},
-      {"id": 2, "name": "Alice", "kpi": 80, "absentDays": 5},
-      {"id": 3, "name": "Bob", "kpi": 70, "absentDays": 1},
-    ];
-    List<Map<String, dynamic>> lowPerformers = [];
-
-    // ? Instruksi: Gunakan looping for untuk mencari karyawan dengan KPI rendah (kurang dari 80) di dalam list employees
-    // Kemudian masukkan data karyawan tersebut ke dalam list lowPerformers
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi 1: Buatlah variabel double input dengan nilai "5.5"
+    // ? Instruksi 2: Buatlah variabel int? output;
+    // ? Instruksi 3: Konversi input menjadi integer dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    double input = 5.5;
+    int? output = input.toInt();
     // --- End of Answer ---
-
-    return lowPerformers.length == 1 && lowPerformers[0]["name"] == "Bob";
+    return output is int && output == 5;
   }
 
-// Exercise 87
   bool? exercise87() {
-    List<Map<String, dynamic>> products = [
-      {"id": 1, "name": "Keyboard", "quantitySold": 100, "soldInDays": 10},
-      {"id": 2, "name": "Mouse", "quantitySold": 50, "soldInDays": 5},
-      {"id": 3, "name": "Headphones", "quantitySold": 75, "soldInDays": 15},
-    ];
-    List<Map<String, dynamic>> bestProducts = [];
-    int maxSoldInDays = 0;
-
-    // ? Instruksi: Gunakan looping for untuk mencari produk dengan penjualan tercepat (dengan soldInDays terbanyak) di dalam list products
-    // Kemudian masukkan data produk tersebut ke dalam list bestProducts
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi 1: Buatlah variabel bool input dengan nilai true
+    // ? Instruksi 2: Buatlah variabel int? output;
+    // ? Instruksi 3: Konversi input menjadi integer dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    bool input = true;
+    int? output = input ? 1 : 0;
     // --- End of Answer ---
-
-    return bestProducts.length == 1 && bestProducts[0]["name"] == "Headphones";
+    return output is int && output == 1;
   }
 
-// Exercise 88
   bool? exercise88() {
-    List<Map<String, dynamic>> employees = [
-      {"id": 1, "name": "John", "kpi": 90, "absentDays": 3},
-      {"id": 2, "name": "Alice", "kpi": 80, "absentDays": 5},
-      {"id": 3, "name": "Bob", "kpi": 70, "absentDays": 1},
-    ];
-    List<Map<String, dynamic>> goodPerformers = [];
-
-    // ? Instruksi: Gunakan looping for untuk mencari karyawan dengan absensi bagus (sedikit absentDays) di dalam list employees
-    // Kemudian masukkan data karyawan tersebut ke dalam list goodPerformers
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi 1: Buatlah variabel bool input dengan nilai false
+    // ? Instruksi 2: Buatlah variabel int? output;
+    // ? Instruksi 3: Konversi input menjadi integer dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    bool input = false;
+    int? output = input ? 1 : 0;
     // --- End of Answer ---
-
-    return goodPerformers.length == 1 && goodPerformers[0]["name"] == "Bob";
+    return output is int && output == 0;
   }
 
-// Exercise 89
   bool? exercise89() {
-    List<Map<String, dynamic>> products = [
-      {"id": 1, "name": "Keyboard", "quantitySold": 100, "soldInDays": 10},
-      {"id": 2, "name": "Mouse", "quantitySold": 50, "soldInDays": 5},
-      {"id": 3, "name": "Headphones", "quantitySold": 75, "soldInDays": 15},
-    ];
-    List<Map<String, dynamic>> bestProducts = [];
-    int maxSoldInDays = 0;
-
-    // ? Instruksi: Gunakan looping for untuk mencari produk dengan penjualan tercepat (dengan soldInDays terbanyak) di dalam list products
-    // Kemudian masukkan data produk tersebut ke dalam list bestProducts
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi 1: Buatlah variabel bool input dengan nilai true
+    // ? Instruksi 2: Buatlah variabel int? output;
+    // ? Instruksi 3: Konversi input menjadi integer dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    bool input = true;
+    int? output = input ? 1 : 0;
     // --- End of Answer ---
-
-    return bestProducts.length == 1 && bestProducts[0]["name"] == "Headphones";
+    return output is int && output == 1;
   }
 
-// Exercise 90
   bool? exercise90() {
-    List<Map<String, dynamic>> employees = [
-      {"id": 1, "name": "John", "kpi": 90, "absentDays": 3},
-      {"id": 2, "name": "Alice", "kpi": 80, "absentDays": 5},
-      {"id": 3, "name": "Bob", "kpi": 70, "absentDays": 1},
-    ];
-    List<Map<String, dynamic>> badPerformers = [];
-
-    // ? Instruksi: Gunakan looping for untuk mencari karyawan dengan absensi buruk (lebih dari 3 hari absentDays) di dalam list employees
-    // Kemudian masukkan data karyawan tersebut ke dalam list badPerformers
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi 1: Buatlah variabel String input dengan nilai "123"
+    // ? Instruksi 2: Buatlah variabel int? output;
+    // ? Instruksi 3: Konversi input menjadi integer dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "123";
+    int? output = int.tryParse(input);
     // --- End of Answer ---
-
-    return badPerformers.length == 1 && badPerformers[0]["name"] == "Alice";
+    return output is int && output == 123;
   }
 
-  // Exercise 91
   bool? exercise91() {
-    List<Map<String, dynamic>> employees = [
-      {"id": 1, "name": "John", "age": 28, "department": "HR"},
-      {"id": 2, "name": "Alice", "age": 32, "department": "Finance"},
-      {"id": 3, "name": "Bob", "age": 25, "department": "IT"},
-    ];
-    List<String> hrEmployees = [];
-
-    // ? Instruksi: Gunakan looping for untuk mencari karyawan yang bekerja di departemen "HR"
-    // Kemudian masukkan nama karyawan tersebut ke dalam list hrEmployees
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi 1: Buatlah variabel String input dengan nilai "3.14"
+    // ? Instruksi 2: Buatlah variabel double? output;
+    // ? Instruksi 3: Konversi input menjadi double dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "3.14";
+    double? output = double.tryParse(input);
     // --- End of Answer ---
-
-    return hrEmployees.length == 1 && hrEmployees.contains("John");
+    return output is double && output == 3.14;
   }
 
-// Exercise 92
   bool? exercise92() {
-    List<Map<String, dynamic>> products = [
-      {"id": 1, "name": "Keyboard", "price": 250000, "quantity": 50},
-      {"id": 2, "name": "Mouse", "price": 150000, "quantity": 100},
-      {"id": 3, "name": "Headphones", "price": 350000, "quantity": 75},
-    ];
-    List<String> expensiveProducts = [];
-
-    // ? Instruksi: Gunakan looping for untuk mencari produk dengan harga lebih dari 200000
-    // Kemudian masukkan nama produk tersebut ke dalam list expensiveProducts
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi 1: Buatlah variabel String input dengan nilai "9.99"
+    // ? Instruksi 2: Buatlah variabel double? output;
+    // ? Instruksi 3: Konversi input menjadi double dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "9.99";
+    double? output = double.tryParse(input);
     // --- End of Answer ---
-
-    return expensiveProducts.length == 2 &&
-        expensiveProducts.contains("Keyboard") &&
-        expensiveProducts.contains("Headphones");
+    return output is double && output == 9.99;
   }
 
-// Exercise 93
   bool? exercise93() {
-    List<Map<String, dynamic>> employees = [
-      {"id": 1, "name": "John", "age": 28, "department": "HR"},
-      {"id": 2, "name": "Alice", "age": 32, "department": "Finance"},
-      {"id": 3, "name": "Bob", "age": 25, "department": "IT"},
-    ];
-    List<String> financeEmployees = [];
-
-    // ? Instruksi: Gunakan looping for untuk mencari karyawan yang bekerja di departemen "Finance"
-    // Kemudian masukkan nama karyawan tersebut ke dalam list financeEmployees
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi 1: Buatlah variabel String input dengan nilai "5.5"
+    // ? Instruksi 2: Buatlah variabel double? output;
+    // ? Instruksi 3: Konversi input menjadi double dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "5.5";
+    double? output = double.tryParse(input);
     // --- End of Answer ---
-
-    return financeEmployees.length == 1 && financeEmployees.contains("Alice");
+    return output is double && output == 5.5;
   }
 
-// Exercise 94
   bool? exercise94() {
-    List<Map<String, dynamic>> products = [
-      {"id": 1, "name": "Keyboard", "price": 250000, "quantity": 50},
-      {"id": 2, "name": "Mouse", "price": 150000, "quantity": 100},
-      {"id": 3, "name": "Headphones", "price": 350000, "quantity": 75},
-    ];
-    List<String> affordableProducts = [];
-
-    // ? Instruksi: Gunakan looping for untuk mencari produk dengan harga kurang dari 300000
-    // Kemudian masukkan nama produk tersebut ke dalam list affordableProducts
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi 1: Buatlah variabel String input dengan nilai "true"
+    // ? Instruksi 2: Buatlah variabel bool? output;
+    // ? Instruksi 3: Konversi input menjadi boolean dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "true";
+    bool? output = input.toLowerCase() == "true";
     // --- End of Answer ---
-
-    return affordableProducts.length == 2 &&
-        affordableProducts.contains("Keyboard") &&
-        affordableProducts.contains("Mouse");
+    return output is bool && output == true;
   }
 
-// Exercise 95
   bool? exercise95() {
-    List<Map<String, dynamic>> employees = [
-      {"id": 1, "name": "John", "age": 28, "department": "HR"},
-      {"id": 2, "name": "Alice", "age": 32, "department": "Finance"},
-      {"id": 3, "name": "Bob", "age": 25, "department": "IT"},
-    ];
-    String hrEmployee = "";
-
-    // ? Instruksi: Gunakan looping for untuk mencari karyawan yang bekerja di departemen "HR"
-    // Jika ditemukan, simpan nama karyawan tersebut pada variabel hrEmployee
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi 1: Buatlah variabel String input dengan nilai "false"
+    // ? Instruksi 2: Buatlah variabel bool? output;
+    // ? Instruksi 3: Konversi input menjadi boolean dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "false";
+    bool? output = input.toLowerCase() == "true";
     // --- End of Answer ---
-
-    return hrEmployee == "John";
+    return output is bool && output == false;
   }
 
-// Exercise 96
   bool? exercise96() {
-    List<Map<String, dynamic>> products = [
-      {"id": 1, "name": "Keyboard", "price": 250000, "quantity": 50},
-      {"id": 2, "name": "Mouse", "price": 150000, "quantity": 100},
-      {"id": 3, "name": "Headphones", "price": 350000, "quantity": 75},
-    ];
-    String expensiveProduct = "";
-
-    // ? Instruksi: Gunakan looping for untuk mencari produk dengan harga lebih dari 300000
-    // Jika ditemukan, simpan nama produk tersebut pada variabel expensiveProduct
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi 1: Buatlah variabel String input dengan nilai "0"
+    // ? Instruksi 2: Buatlah variabel bool? output;
+    // ? Instruksi 3: Konversi input menjadi boolean dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "0";
+    bool? output = input.toLowerCase() == "true";
     // --- End of Answer ---
-
-    return expensiveProduct == "Headphones";
+    return output is bool && output == false;
   }
 
-// Exercise 97
   bool? exercise97() {
-    List<Map<String, dynamic>> employees = [
-      {"id": 1, "name": "John", "age": 28, "department": "HR"},
-      {"id": 2, "name": "Alice", "age": 32, "department": "Finance"},
-      {"id": 3, "name": "Bob", "age": 25, "department": "IT"},
-    ];
-    List<String> itEmployees = [];
-
-    // ? Instruksi: Gunakan looping for untuk mencari karyawan yang bekerja di departemen "IT"
-    // Kemudian masukkan nama karyawan tersebut ke dalam list itEmployees
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi 1: Buatlah variabel String input dengan nilai "Hello, World!"
+    // ? Instruksi 2: Buatlah variabel String? output;
+    // ? Instruksi 3: Konversi input menjadi String dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "Hello, World!";
+    String? output = input;
     // --- End of Answer ---
-
-    return itEmployees.length == 1 && itEmployees.contains("Bob");
+    return output is String && output == "Hello, World!";
   }
 
-// Exercise 98
   bool? exercise98() {
-    List<Map<String, dynamic>> products = [
-      {"id": 1, "name": "Keyboard", "price": 250000, "quantity": 50},
-      {"id": 2, "name": "Mouse", "price": 150000, "quantity": 100},
-      {"id": 3, "name": "Headphones", "price": 350000, "quantity": 75},
-    ];
-    List<String> affordableProducts = [];
-
-    // ? Instruksi: Gunakan looping for untuk mencari produk dengan harga kurang dari 200000
-    // Kemudian masukkan nama produk tersebut ke dalam list affordableProducts
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi 1: Buatlah variabel int input dengan nilai 2022
+    // ? Instruksi 2: Buatlah variabel String? output;
+    // ? Instruksi 3: Konversi input menjadi String dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    int input = 2022;
+    String? output = input.toString();
     // --- End of Answer ---
-
-    return affordableProducts.length == 1 &&
-        affordableProducts.contains("Mouse");
+    return output is String && output == "2022";
   }
 
-// Exercise 99
   bool? exercise99() {
-    List<Map<String, dynamic>> employees = [
-      {"id": 1, "name": "John", "age": 28, "gender": "Male"},
-      {"id": 2, "name": "Alice", "age": 32, "gender": "Female"},
-      {"id": 3, "name": "Bob", "age": 25, "gender": "Male"},
-    ];
-    String name = "";
-    int age = 0;
-    String gender = "";
-
-    // ? Instruksi: Gunakan looping for untuk mencari karyawan dengan usia lebih dari 30 tahun atau berjenis kelamin "Female"
-    // Jika ditemukan, simpan nama, usia, dan jenis kelaminnya pada variabel yang telah disediakan
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi 1: Buatlah variabel double input dengan nilai 3.14159
+    // ? Instruksi 2: Buatlah variabel String? output;
+    // ? Instruksi 3: Konversi input menjadi String dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    double input = 3.14159;
+    String? output = input.toString();
     // --- End of Answer ---
-
-    return name == "Alice" && age == 32 && gender == "Female";
+    return output is String && output == "3.14159";
   }
 
-// Exercise 100
   bool? exercise100() {
-    List<Map<String, dynamic>> products = [
-      {"id": 1, "name": "Keyboard", "price": 250000, "quantitySold": 40},
-      {"id": 2, "name": "Mouse", "price": 150000, "quantitySold": 50},
-      {"id": 3, "name": "Headphones", "price": 350000, "quantitySold": 30},
-    ];
-    List<Map<String, dynamic>> matchedProducts = [];
-
-    // ? Instruksi: Gunakan looping for untuk mencari produk dengan harga lebih dari 200000 dan terjual kurang dari 60
-    // Kemudian masukkan data produk tersebut ke dalam list matchedProducts
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi 1: Buatlah variabel DateTime input dengan tanggal 2023-08-09
+    // ? Instruksi 2: Buatlah variabel String? output;
+    // ? Instruksi 3: Konversi input menjadi String dengan format "yyyy-MM-dd" dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    DateTime input = DateTime(2023, 8, 9);
+    String? output = input.toLocal().toString().split(' ')[0];
     // --- End of Answer ---
-
-    return matchedProducts.isNotEmpty && matchedProducts.first["id"] == 1;
+    return output is String && output == "2023-08-09";
   }
 
-  // Exercise 101
   bool? exercise101() {
-    List<Map<String, dynamic>> employees = [
-      {"id": 1, "name": "John Doe", "age": 28},
-      {"id": 2, "name": "Alice Smith", "age": 32},
-      {"id": 3, "name": "Bob Johnson", "age": 25},
-    ];
-    List<Map<String, dynamic>> matchedEmployees = [];
-
-    // ? Instruksi: Gunakan looping for untuk mencari karyawan dengan nama mengandung huruf "Do"
-    // Kemudian masukkan data karyawan tersebut ke dalam list matchedEmployees
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi 1: Buatlah variabel String input dengan nilai "true"
+    // ? Instruksi 2: Buatlah variabel bool? output;
+    // ? Instruksi 3: Konversi input menjadi boolean dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "true";
+    bool? output = input.toLowerCase() == "true";
     // --- End of Answer ---
-
-    return matchedEmployees.length == 1 &&
-        matchedEmployees[0]["name"] == "John Doe";
+    return output is bool && output == true;
   }
 
-// Exercise 102
   bool? exercise102() {
-    List<Map<String, dynamic>> products = [
-      {"id": 1, "name": "Keyboard Logitech", "price": 250000},
-      {"id": 2, "name": "Mouse Logitech", "price": 150000},
-      {"id": 3, "name": "Headphones Sony", "price": 350000},
-    ];
-    List<Map<String, dynamic>> matchedProducts = [];
-
-    // ? Instruksi: Gunakan looping for untuk mencari produk dengan nama mengandung huruf "Sony"
-    // Kemudian masukkan data produk tersebut ke dalam list matchedProducts
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi 1: Buatlah variabel String input dengan nilai "false"
+    // ? Instruksi 2: Buatlah variabel bool? output;
+    // ? Instruksi 3: Konversi input menjadi boolean dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "false";
+    bool? output = input.toLowerCase() == "true";
     // --- End of Answer ---
-
-    return matchedProducts.length == 1 &&
-        matchedProducts[0]["name"] == "Headphones Sony";
+    return output is bool && output == false;
   }
 
-// Exercise 103
   bool? exercise103() {
-    List<Map<String, dynamic>> employees = [
-      {"id": 1, "name": "John Doe", "age": 28},
-      {"id": 2, "name": "Alice Smith", "age": 32},
-      {"id": 3, "name": "Bob Johnson", "age": 25},
-    ];
-    List<Map<String, dynamic>> matchedEmployees = [];
-
-    // ? Instruksi: Gunakan looping for untuk mencari karyawan dengan nama depan mengandung huruf "Jo"
-    // Kemudian masukkan data karyawan tersebut ke dalam list matchedEmployees
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi 1: Buatlah variabel String input dengan nilai "0"
+    // ? Instruksi 2: Buatlah variabel bool? output;
+    // ? Instruksi 3: Konversi input menjadi boolean dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "0";
+    bool? output = input.toLowerCase() == "true";
     // --- End of Answer ---
-
-    return matchedEmployees.length == 1 &&
-        matchedEmployees[0]["name"] == "John Doe";
+    return output is bool && output == false;
   }
 
-// Exercise 104
   bool? exercise104() {
-    List<Map<String, dynamic>> products = [
-      {"id": 1, "name": "Keyboard Logitech", "price": 250000},
-      {"id": 2, "name": "Mouse Logitech", "price": 150000},
-      {"id": 3, "name": "Headphones Sony", "price": 350000},
-    ];
-    List<Map<String, dynamic>> matchedProducts = [];
-
-    // ? Instruksi: Gunakan looping for untuk mencari produk dengan nama mengandung huruf "Logi"
-    // Kemudian masukkan data produk tersebut ke dalam list matchedProducts
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi 1: Buatlah variabel bool input dengan nilai true
+    // ? Instruksi 2: Buatlah variabel String? output;
+    // ? Instruksi 3: Konversi input menjadi String dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    bool input = true;
+    String? output = input.toString();
     // --- End of Answer ---
-
-    return matchedProducts.length == 2 &&
-        matchedProducts[0]["name"] == "Keyboard Logitech" &&
-        matchedProducts[1]["name"] == "Mouse Logitech";
+    return output is String && output == "true";
   }
 
-// Exercise 105
   bool? exercise105() {
-    List<Map<String, dynamic>> employees = [
-      {"id": 1, "name": "John Doe", "age": 28},
-      {"id": 2, "name": "Alice Smith", "age": 32},
-      {"id": 3, "name": "Bob Johnson", "age": 25},
-    ];
-    List<Map<String, dynamic>> matchedEmployees = [];
-
-    // ? Instruksi: Gunakan looping for untuk mencari karyawan dengan nama belakang mengandung huruf "son"
-    // Kemudian masukkan data karyawan tersebut ke dalam list matchedEmployees
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi 1: Buatlah variabel bool input dengan nilai false
+    // ? Instruksi 2: Buatlah variabel String? output;
+    // ? Instruksi 3: Konversi input menjadi String dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    bool input = false;
+    String? output = input.toString();
     // --- End of Answer ---
-
-    return matchedEmployees.length == 1 &&
-        matchedEmployees[0]["name"] == "Bob Johnson";
+    return output is String && output == "false";
   }
 
-// Exercise 106
   bool? exercise106() {
-    List<Map<String, dynamic>> products = [
-      {"id": 1, "name": "Keyboard Logitech", "price": 250000},
-      {"id": 2, "name": "Mouse Logitech", "price": 150000},
-      {"id": 3, "name": "Headphones Sony", "price": 350000},
-    ];
-    List<Map<String, dynamic>> matchedProducts = [];
-
-    // ? Instruksi: Gunakan looping for untuk mencari produk dengan nama mengandung huruf "Sony"
-    // atau mengandung huruf "Logi"
-    // Kemudian masukkan data produk tersebut ke dalam list matchedProducts
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi 1: Buatlah variabel int input dengan nilai 42
+    // ? Instruksi 2: Buatlah variabel String? output;
+    // ? Instruksi 3: Konversi input menjadi String dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    int input = 42;
+    String? output = input.toString();
     // --- End of Answer ---
-
-    return matchedProducts.length == 3;
+    return output is String && output == "42";
   }
 
-// Exercise 107
   bool? exercise107() {
-    List<Map<String, dynamic>> employees = [
-      {"id": 1, "name": "John Doe", "age": 28},
-      {"id": 2, "name": "Alice Smith", "age": 32},
-      {"id": 3, "name": "Bob Johnson", "age": 25},
-    ];
-    List<Map<String, dynamic>> matchedEmployees = [];
-
-    // ? Instruksi: Gunakan looping for untuk mencari karyawan dengan nama depan mengandung huruf "Jo"
-    // dan usia kurang dari 30 tahun
-    // Kemudian masukkan data karyawan tersebut ke dalam list matchedEmployees
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi 1: Buatlah variabel double input dengan nilai 3.14
+    // ? Instruksi 2: Buatlah variabel String? output;
+    // ? Instruksi 3: Konversi input menjadi String dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    double input = 3.14;
+    String? output = input.toString();
     // --- End of Answer ---
-
-    return matchedEmployees.length == 1 &&
-        matchedEmployees[0]["name"] == "John Doe";
+    return output is String && output == "3.14";
   }
 
-// Exercise 108
   bool? exercise108() {
-    List<Map<String, dynamic>> products = [
-      {"id": 1, "name": "Keyboard Logitech", "price": 250000},
-      {"id": 2, "name": "Mouse Logitech", "price": 150000},
-      {"id": 3, "name": "Headphones Sony", "price": 350000},
-    ];
-    List<Map<String, dynamic>> matchedProducts = [];
-
-    // ? Instruksi: Gunakan looping for untuk mencari produk dengan harga kurang dari 200000
-    // atau mengandung huruf "Sony" dalam nama produk
-    // Kemudian masukkan data produk tersebut ke dalam list matchedProducts
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi 1: Buatlah variabel String input dengan nilai "9.99"
+    // ? Instruksi 2: Buatlah variabel double? output;
+    // ? Instruksi 3: Konversi input menjadi double dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "9.99";
+    double? output = double.tryParse(input);
     // --- End of Answer ---
-
-    return matchedProducts.length == 2;
+    return output is double && output == 9.99;
   }
 
-// Exercise 109
   bool? exercise109() {
-    List<Map<String, dynamic>> employees = [
-      {"id": 1, "name": "John Doe", "age": 28},
-      {"id": 2, "name": "Alice Smith", "age": 32},
-      {"id": 3, "name": "Bob Johnson", "age": 25},
-    ];
-    List<Map<String, dynamic>> matchedEmployees = [];
-
-    // ? Instruksi: Gunakan looping for untuk mencari karyawan dengan nama depan mengandung huruf "Jo"
-    // dan usia lebih dari 30 tahun
-    // Kemudian masukkan data karyawan tersebut ke dalam list matchedEmployees
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi 1: Buatlah variabel String input dengan nilai "3.14"
+    // ? Instruksi 2: Buatlah variabel double? output;
+    // ? Instruksi 3: Konversi input menjadi double dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "3.14";
+    double? output = double.tryParse(input);
     // --- End of Answer ---
-
-    return matchedEmployees.length == 0;
+    return output is double && output == 3.14;
   }
 
-// Exercise 110
   bool? exercise110() {
-    List<Map<String, dynamic>> products = [
-      {"id": 1, "name": "Keyboard Logitech", "price": 250000},
-      {"id": 2, "name": "Mouse Logitech", "price": 150000},
-      {"id": 3, "name": "Headphones Sony", "price": 350000},
-    ];
-    List<Map<String, dynamic>> matchedProducts = [];
-
-    // ? Instruksi: Gunakan looping for untuk mencari produk dengan harga kurang dari 100000
-    // atau mengandung huruf "Samsung" dalam nama produk
-    // Kemudian masukkan data produk tersebut ke dalam list matchedProducts
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi 1: Buatlah variabel String input dengan nilai "5.5"
+    // ? Instruksi 2: Buatlah variabel double? output;
+    // ? Instruksi 3: Konversi input menjadi double dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "5.5";
+    double? output = double.tryParse(input);
     // --- End of Answer ---
-
-    return matchedProducts.length == 0;
+    return output is double && output == 5.5;
   }
 
-// Exercise 111
   bool? exercise111() {
-    List<Map<String, dynamic>> employees = [
-      {"id": 1, "name": "John Doe", "age": 28},
-      {"id": 2, "name": "Alice Smith", "age": 32},
-      {"id": 3, "name": "Bob Johnson", "age": 25},
-    ];
-    List<Map<String, dynamic>> matchedEmployees = [];
-
-    // ? Instruksi: Gunakan looping for untuk mencari karyawan dengan usia lebih dari 35 tahun
-    // atau nama mengandung huruf "Smith"
-    // Kemudian masukkan data karyawan tersebut ke dalam list matchedEmployees
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi 1: Buatlah variabel String input dengan nilai "true"
+    // ? Instruksi 2: Buatlah variabel bool? output;
+    // ? Instruksi 3: Konversi input menjadi boolean dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "true";
+    bool? output = input.toLowerCase() == "true";
     // --- End of Answer ---
-
-    return matchedEmployees.length == 1 &&
-        matchedEmployees[0]["name"] == "Alice Smith";
+    return output is bool && output == true;
   }
 
-// Exercise 112
   bool? exercise112() {
-    List<Map<String, dynamic>> products = [
-      {"id": 1, "name": "Keyboard Logitech", "price": 250000},
-      {"id": 2, "name": "Mouse Logitech", "price": 150000},
-      {"id": 3, "name": "Headphones Sony", "price": 350000},
-    ];
-    List<Map<String, dynamic>> matchedProducts = [];
-
-    // ? Instruksi: Gunakan looping for untuk mencari produk dengan harga lebih dari 300000
-    // atau nama mengandung huruf "Sony" dalam produk
-    // Kemudian masukkan data produk tersebut ke dalam list matchedProducts
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi 1: Buatlah variabel String input dengan nilai "false"
+    // ? Instruksi 2: Buatlah variabel bool? output;
+    // ? Instruksi 3: Konversi input menjadi boolean dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "false";
+    bool? output = input.toLowerCase() == "true";
     // --- End of Answer ---
-
-    return matchedProducts.length == 1 &&
-        matchedProducts[0]["name"] == "Headphones Sony";
+    return output is bool && output == false;
   }
 
-// Exercise 113
   bool? exercise113() {
-    List<Map<String, dynamic>> employees = [
-      {"id": 1, "name": "John Doe", "age": 28},
-      {"id": 2, "name": "Alice Smith", "age": 32},
-      {"id": 3, "name": "Bob Johnson", "age": 25},
-    ];
-    List<Map<String, dynamic>> matchedEmployees = [];
-
-    // ? Instruksi: Gunakan looping for untuk mencari karyawan dengan usia di antara 25 dan 30 tahun (inklusif)
-    // atau nama depan mengandung huruf "Bob"
-    // Kemudian masukkan data karyawan tersebut ke dalam list matchedEmployees
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi 1: Buatlah variabel String input dengan nilai "0"
+    // ? Instruksi 2: Buatlah variabel bool? output;
+    // ? Instruksi 3: Konversi input menjadi boolean dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "0";
+    bool? output = input.toLowerCase() == "true";
     // --- End of Answer ---
-
-    return matchedEmployees.length == 2 &&
-        matchedEmployees[0]["name"] == "John Doe" &&
-        matchedEmployees[1]["name"] == "Bob Johnson";
+    return output is bool && output == false;
   }
 
-// Exercise 114
   bool? exercise114() {
-    List<Map<String, dynamic>> products = [
-      {"id": 1, "name": "Keyboard Logitech", "price": 250000},
-      {"id": 2, "name": "Mouse Logitech", "price": 150000},
-      {"id": 3, "name": "Headphones Sony", "price": 350000},
-    ];
-    List<Map<String, dynamic>> matchedProducts = [];
-
-    // ? Instruksi: Gunakan looping for untuk mencari produk dengan harga kurang dari 200000
-    // dan nama produk mengandung huruf "og"
-    // Kemudian masukkan data produk tersebut ke dalam list matchedProducts
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi 1: Buatlah variabel bool input dengan nilai true
+    // ? Instruksi 2: Buatlah variabel String? output;
+    // ? Instruksi 3: Konversi input menjadi String dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    bool input = true;
+    String? output = input.toString();
     // --- End of Answer ---
-
-    return matchedProducts.length == 1 &&
-        matchedProducts[0]["name"] == "Mouse Logitech";
+    return output is String && output == "true";
   }
 
-// Exercise 115
   bool? exercise115() {
-    List<Map<String, dynamic>> employees = [
-      {"id": 1, "name": "John Doe", "age": 28},
-      {"id": 2, "name": "Alice Smith", "age": 32},
-      {"id": 3, "name": "Bob Johnson", "age": 25},
-    ];
-    List<Map<String, dynamic>> matchedEmployees = [];
-
-    // ? Instruksi: Gunakan looping for untuk mencari karyawan dengan usia kurang dari 30 tahun
-    // dan nama belakang mengandung huruf "son"
-    // Kemudian masukkan data karyawan tersebut ke dalam list matchedEmployees
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi 1: Buatlah variabel bool input dengan nilai false
+    // ? Instruksi 2: Buatlah variabel String? output;
+    // ? Instruksi 3: Konversi input menjadi String dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    bool input = false;
+    String? output = input.toString();
     // --- End of Answer ---
-
-    return matchedEmployees.length == 1 &&
-        matchedEmployees[0]["name"] == "Bob Johnson";
+    return output is String && output == "false";
   }
 
-// Exercise 116
   bool? exercise116() {
-    List<Map<String, dynamic>> products = [
-      {"id": 1, "name": "Keyboard Logitech", "price": 250000},
-      {"id": 2, "name": "Mouse Logitech", "price": 150000},
-      {"id": 3, "name": "Headphones Sony", "price": 350000},
-    ];
-    List<Map<String, dynamic>> matchedProducts = [];
-
-    // ? Instruksi: Gunakan looping for untuk mencari produk dengan harga kurang dari 100000
-    // dan nama mengandung huruf "Samsung" dalam produk
-    // Kemudian masukkan data produk tersebut ke dalam list matchedProducts
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi 1: Buatlah variabel int input dengan nilai 42
+    // ? Instruksi 2: Buatlah variabel String? output;
+    // ? Instruksi 3: Konversi input menjadi String dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    int input = 42;
+    String? output = input.toString();
     // --- End of Answer ---
-
-    return matchedProducts.length == 0;
+    return output is String && output == "42";
   }
 
-// Exercise 117
   bool? exercise117() {
-    List<Map<String, dynamic>> employees = [
-      {"id": 1, "name": "John Doe", "age": 36},
-      {"id": 2, "name": "Alice Smith", "age": 44},
-      {"id": 3, "name": "Bob Johnson", "age": 25},
-    ];
-    List<Map<String, dynamic>> matchedEmployees = [];
-
-    // ? Instruksi: Gunakan looping for untuk mencari karyawan dengan usia lebih dari 35 tahun
-    // dan nama mengandung huruf "Smith"
-    // Kemudian masukkan data karyawan tersebut ke dalam list matchedEmployees
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi 1: Buatlah variabel double input dengan nilai 3.14
+    // ? Instruksi 2: Buatlah variabel String? output;
+    // ? Instruksi 3: Konversi input menjadi String dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    double input = 3.14;
+    String? output = input.toString();
     // --- End of Answer ---
-
-    return matchedEmployees.isNotEmpty && matchedEmployees.first["id"] == 2;
+    return output is String && output == "3.14";
   }
 
-// Exercise 118
   bool? exercise118() {
-    List<Map<String, dynamic>> products = [
-      {"id": 1, "name": "Keyboard Logitech", "price": 250000},
-      {"id": 2, "name": "Mouse Logitech", "price": 150000},
-      {"id": 3, "name": "Headphones Sony", "price": 350000},
-    ];
-    List<Map<String, dynamic>> matchedProducts = [];
-
-    // ? Instruksi: Gunakan looping for untuk mencari produk dengan harga lebih dari 300000
-    // dan nama mengandung huruf "Sony" dalam produk
-    // Kemudian masukkan data produk tersebut ke dalam list matchedProducts
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi 1: Buatlah variabel String input dengan nilai "9.99"
+    // ? Instruksi 2: Buatlah variabel double? output;
+    // ? Instruksi 3: Konversi input menjadi double dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "9.99";
+    double? output = double.tryParse(input);
     // --- End of Answer ---
-
-    return matchedProducts.length == 1 &&
-        matchedProducts[0]["name"] == "Headphones Sony";
+    return output is double && output == 9.99;
   }
 
-// Exercise 119
   bool? exercise119() {
-    List<Map<String, dynamic>> employees = [
-      {"id": 1, "name": "John Doe", "age": 28},
-      {"id": 2, "name": "Alice Smith", "age": 32},
-      {"id": 3, "name": "Bob Johnson", "age": 25},
-    ];
-    List<Map<String, dynamic>> matchedEmployees = [];
-
-    // ? Instruksi: Gunakan looping for untuk mencari karyawan dengan usia di antara 25 dan 30 tahun (inklusif)
-    // dan nama depan mengandung huruf "Bob"
-    // Kemudian masukkan data karyawan tersebut ke dalam list matchedEmployees
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi 1: Buatlah variabel String input dengan nilai "3.14"
+    // ? Instruksi 2: Buatlah variabel double? output;
+    // ? Instruksi 3: Konversi input menjadi double dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "3.14";
+    double? output = double.tryParse(input);
     // --- End of Answer ---
-
-    return matchedEmployees.length == 1 &&
-        matchedEmployees[0]["name"] == "Bob Johnson";
+    return output is double && output == 3.14;
   }
 
-// Exercise 120
   bool? exercise120() {
-    List<Map<String, dynamic>> products = [
-      {"id": 1, "name": "Keyboard Logitech", "price": 250000},
-      {"id": 2, "name": "Mouse Logitech", "price": 150000},
-      {"id": 3, "name": "Headphones Sony", "price": 350000},
-    ];
-    List<Map<String, dynamic>> matchedProducts = [];
-
-    // ? Instruksi: Gunakan looping for untuk mencari produk dengan harga kurang dari 200000
-    // dan nama produk mengandung huruf "og"
-    // Kemudian masukkan data produk tersebut ke dalam list matchedProducts
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi 1: Buatlah variabel String input dengan nilai "5.5"
+    // ? Instruksi 2: Buatlah variabel double? output;
+    // ? Instruksi 3: Konversi input menjadi double dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "5.5";
+    double? output = double.tryParse(input);
     // --- End of Answer ---
-
-    return matchedProducts.length == 1 &&
-        matchedProducts[0]["name"] == "Mouse Logitech";
+    return output is double && output == 5.5;
   }
 
-  // Exercise 121
   bool? exercise121() {
-    List<Map<String, dynamic>> orders = [
-      {"id": 1, "product": "Phone", "quantity": 2, "total": 1000},
-      {"id": 2, "product": "Laptop", "quantity": 1, "total": 1200},
-      {"id": 3, "product": "Headphones", "quantity": 3, "total": 150},
-      {"id": 4, "product": "TV", "quantity": 1, "total": 800},
-    ];
-    int index = -1;
-
-    // ? Instruksi: Gunakan looping for untuk mencari index dari order dengan id 3 dalam list orders
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi 1: Buatlah variabel String input dengan nilai "2023-08-09"
+    // ? Instruksi 2: Buatlah variabel DateTime? output;
+    // ? Instruksi 3: Konversi input menjadi DateTime dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "2023-08-09";
+    DateTime? output = DateTime.tryParse(input);
     // --- End of Answer ---
-
-    return index == 2;
+    return output is DateTime &&
+        output.year == 2023 &&
+        output.month == 8 &&
+        output.day == 9;
   }
 
-// Exercise 122
   bool? exercise122() {
-    List<Map<String, dynamic>> employees = [
-      {"name": "John", "age": 30, "department": "Sales", "salary": 5000},
-      {"name": "Alice", "age": 28, "department": "IT", "salary": 6000},
-      {"name": "Bob", "age": 35, "department": "HR", "salary": 4500},
-      {"name": "Eva", "age": 40, "department": "Finance", "salary": 7000},
-    ];
-    int index = -1;
-
-    // ? Instruksi: Gunakan looping for untuk mencari index dari employee dengan name "Eva" dan salary lebih dari 6000 dalam list employees
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi 1: Buatlah variabel String input dengan nilai "1999-12-31"
+    // ? Instruksi 2: Buatlah variabel DateTime? output;
+    // ? Instruksi 3: Konversi input menjadi DateTime dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "1999-12-31";
+    DateTime? output = DateTime.tryParse(input);
     // --- End of Answer ---
-    return index == 3;
+    return output is DateTime &&
+        output.year == 1999 &&
+        output.month == 12 &&
+        output.day == 31;
   }
 
-// Exercise 123
   bool? exercise123() {
-    List<Map<String, dynamic>> transactions = [
-      {"id": 1, "type": "Sale", "amount": 100, "status": "Completed"},
-      {"id": 2, "type": "Purchase", "amount": 50, "status": "Completed"},
-      {"id": 3, "type": "Refund", "amount": 25, "status": "Pending"},
-      {"id": 4, "type": "Sale", "amount": 75, "status": "Completed"},
-      {"id": 5, "type": "Purchase", "amount": 30, "status": "Pending"},
-    ];
-    int index = -1;
-
-    // ? Instruksi: Gunakan looping for untuk mencari index dari transaction dengan id 5 dan type "Purchase" dalam list transactions
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi 1: Buatlah variabel String input dengan nilai "2022-01-15"
+    // ? Instruksi 2: Buatlah variabel DateTime? output;
+    // ? Instruksi 3: Konversi input menjadi DateTime dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "2022-01-15";
+    DateTime? output = DateTime.tryParse(input);
     // --- End of Answer ---
-
-    return index == 4;
+    return output is DateTime &&
+        output.year == 2022 &&
+        output.month == 1 &&
+        output.day == 15;
   }
 
-// Exercise 124
   bool? exercise124() {
-    List<Map<String, dynamic>> products = [
-      {"id": 1, "name": "Phone", "price": 500},
-      {"id": 2, "name": "Laptop", "price": 1200},
-      {"id": 3, "name": "Headphones", "price": 50},
-      {"id": 4, "name": "TV", "price": 800},
-    ];
-    int index = -1;
-
-    // ? Instruksi: Gunakan looping for untuk mencari index dari product dengan id 2 dan price 1200 dalam list products
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi 1: Buatlah variabel String input dengan nilai "1987-05-25"
+    // ? Instruksi 2: Buatlah variabel DateTime? output;
+    // ? Instruksi 3: Konversi input menjadi DateTime dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "1987-05-25";
+    DateTime? output = DateTime.tryParse(input);
     // --- End of Answer ---
-
-    return index == 1;
+    return output is DateTime &&
+        output.year == 1987 &&
+        output.month == 5 &&
+        output.day == 25;
   }
 
-// Exercise 125
   bool? exercise125() {
-    List<Map<String, dynamic>> employees = [
-      {"name": "John", "age": 30, "department": "Sales", "salary": 5000},
-      {"name": "Alice", "age": 28, "department": "IT", "salary": 6000},
-      {"name": "Bob", "age": 35, "department": "HR", "salary": 4500},
-      {"name": "Eva", "age": 40, "department": "Finance", "salary": 7000},
-    ];
-    int index = -1;
-
-    // ? Instruksi: Gunakan looping for untuk mencari index dari employee dengan name "Bob" dan age lebih dari 30 dalam list employees
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi 1: Buatlah variabel String input dengan nilai "2025-10-01"
+    // ? Instruksi 2: Buatlah variabel DateTime? output;
+    // ? Instruksi 3: Konversi input menjadi DateTime dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "2025-10-01";
+    DateTime? output = DateTime.tryParse(input);
     // --- End of Answer ---
-
-    return index == 2;
+    return output is DateTime &&
+        output.year == 2025 &&
+        output.month == 10 &&
+        output.day == 1;
   }
 
-// Exercise 126
   bool? exercise126() {
-    List<Map<String, dynamic>> transactions = [
-      {"id": 1, "type": "Sale", "amount": 100, "status": "Completed"},
-      {"id": 2, "type": "Purchase", "amount": 50, "status": "Completed"},
-      {"id": 3, "type": "Refund", "amount": 25, "status": "Pending"},
-      {"id": 4, "type": "Sale", "amount": 75, "status": "Completed"},
-      {"id": 5, "type": "Purchase", "amount": 30, "status": "Pending"},
-    ];
-    int index = -1;
-
-    // ? Instruksi: Gunakan looping for untuk mencari index dari transaction dengan type "Refund" dan status "Pending" dalam list transactions
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi 1: Buatlah variabel List<int> input dengan nilai [1, 2, 3, 4, 5]
+    // ? Instruksi 2: Buatlah variabel List<int>? output;
+    // ? Instruksi 3: Konversi input menjadi List<int> dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    List<int> input = [1, 2, 3, 4, 5];
+    List<int>? output = List.from(input);
     // --- End of Answer ---
-
-    return index == 2;
+    return output is List<int> &&
+        output.length == 5 &&
+        output[0] == 1 &&
+        output[4] == 5;
   }
 
-  // Exercise 127
   bool? exercise127() {
-    List<Map<String, dynamic>> products = [
-      {"id": 1, "name": "Phone", "price": 500, "stock": 10},
-      {"id": 2, "name": "Laptop", "price": 1200, "stock": 5},
-      {"id": 3, "name": "Headphones", "price": 50, "stock": 20},
-      {"id": 4, "name": "TV", "price": 800, "stock": 15},
-    ];
-    int index = -1;
-
-    // ? Instruksi: Gunakan looping for untuk mencari index dari product dengan name "Headphones" dan stock lebih dari 15 dalam list products
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi 1: Buatlah variabel List<String> input dengan nilai ["apple", "banana", "cherry"]
+    // ? Instruksi 2: Buatlah variabel List<String>? output;
+    // ? Instruksi 3: Konversi input menjadi List<String> dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    List<String> input = ["apple", "banana", "cherry"];
+    List<String>? output = List.from(input);
     // --- End of Answer ---
-    return index == 2;
+    return output is List<String> &&
+        output.length == 3 &&
+        output[0] == "apple" &&
+        output[2] == "cherry";
   }
 
-// Exercise 128
   bool? exercise128() {
-    List<Map<String, dynamic>> employees = [
-      {"name": "John", "age": 30, "department": "Sales", "salary": 5000},
-      {"name": "Alice", "age": 28, "department": "IT", "salary": 6000},
-      {"name": "Bob", "age": 35, "department": "HR", "salary": 4500},
-      {"name": "Eva", "age": 40, "department": "Finance", "salary": 7000},
-    ];
-    int index = -1;
-
-    // ? Instruksi: Gunakan looping for untuk mencari index dari employee dengan name "John", age 30, dan department "Sales" dalam list employees
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi 1: Buatlah variabel List<double> input dengan nilai [3.14, 2.71, 1.618]
+    // ? Instruksi 2: Buatlah variabel List<double>? output;
+    // ? Instruksi 3: Konversi input menjadi List<double> dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    List<double> input = [3.14, 2.71, 1.618];
+    List<double>? output = List.from(input);
     // --- End of Answer ---
-
-    return index == 0;
+    return output is List<double> &&
+        output.length == 3 &&
+        output[0] == 3.14 &&
+        output[2] == 1.618;
   }
 
-// Exercise 129
   bool? exercise129() {
-    List<Map<String, dynamic>> transactions = [
-      {"id": 1, "type": "Sale", "amount": 100, "status": "Completed"},
-      {"id": 2, "type": "Purchase", "amount": 50, "status": "Completed"},
-      {"id": 3, "type": "Refund", "amount": 25, "status": "Pending"},
-      {"id": 4, "type": "Sale", "amount": 75, "status": "Completed"},
-      {"id": 5, "type": "Purchase", "amount": 30, "status": "Pending"},
-    ];
-    int index = -1;
-
-    // ? Instruksi: Gunakan looping for untuk mencari index dari transaction dengan amount 75 dan status "Completed" dalam list transactions
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi 1: Buatlah variabel Map<String, int> input dengan nilai {"apple": 2, "banana": 3, "cherry": 5}
+    // ? Instruksi 2: Buatlah variabel Map<String, int>? output;
+    // ? Instruksi 3: Konversi input menjadi Map<String, int> dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    Map<String, int> input = {"apple": 2, "banana": 3, "cherry": 5};
+    Map<String, int>? output = Map.from(input);
     // --- End of Answer ---
-
-    return index == 3;
+    return output is Map<String, int> &&
+        output.length == 3 &&
+        output["apple"] == 2 &&
+        output["cherry"] == 5;
   }
 
-// Exercise 130
   bool? exercise130() {
-    List<Map<String, dynamic>> products = [
-      {"id": 1, "name": "Phone", "price": 500, "stock": 10},
-      {"id": 2, "name": "Laptop", "price": 1200, "stock": 5},
-      {"id": 3, "name": "Headphones", "price": 50, "stock": 20},
-      {"id": 4, "name": "TV", "price": 800, "stock": 15},
-    ];
-    List<Map<String, dynamic>> filteredProducts = [];
-
-    // ? Instruksi: Gunakan looping for untuk mencari product dengan stock kurang dari 10 dan masukkan ke dalam list filteredProducts
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi 1: Buatlah variabel Map<String, double> input dengan nilai {"pi": 3.14, "e": 2.71, "phi": 1.618}
+    // ? Instruksi 2: Buatlah variabel Map<String, double>? output;
+    // ? Instruksi 3: Konversi input menjadi Map<String, double> dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    Map<String, double> input = {"pi": 3.14, "e": 2.71, "phi": 1.618};
+    Map<String, double>? output = Map.from(input);
     // --- End of Answer ---
-
-    return filteredProducts.isNotEmpty &&
-        filteredProducts[0]["name"] == "Laptop";
+    return output is Map<String, double> &&
+        output.length == 3 &&
+        output["pi"] == 3.14 &&
+        output["phi"] == 1.618;
   }
 
-  // Exercise 131
   bool? exercise131() {
-    List<Map<String, dynamic>> users = [
-      {
-        "id": 1,
-        "name": "John",
-        "age": 25,
-        "gender": "Male",
-        "email": "john@example.com",
-        "city": "New York",
-        "country": "USA",
-        "isSubscribed": true,
-        "isVerified": true,
-        "isAdmin": false
-      },
-      {
-        "id": 2,
-        "name": "Alice",
-        "age": 30,
-        "gender": "Female",
-        "email": "alice@example.com",
-        "city": "Los Angeles",
-        "country": "USA",
-        "isSubscribed": true,
-        "isVerified": false,
-        "isAdmin": false
-      },
-      {
-        "id": 3,
-        "name": "Bob",
-        "age": 22,
-        "gender": "Male",
-        "email": "bob@example.com",
-        "city": "Chicago",
-        "country": "USA",
-        "isSubscribed": true,
-        "isVerified": true,
-        "isAdmin": false
-      },
-      {
-        "id": 4,
-        "name": "Eva",
-        "age": 28,
-        "gender": "Female",
-        "email": "eva@example.com",
-        "city": "New York",
-        "country": "USA",
-        "isSubscribed": true,
-        "isVerified": true,
-        "isAdmin": true
-      },
-    ];
-    List<Map<String, dynamic>> subscribedUsers = [];
-
-    // Instruksi: Gunakan looping for untuk mencari user yang berlangganan (isSubscribed = true), telah diverifikasi (isVerified = true),
-    // memiliki gender "Female", berusia di atas 25 tahun, dan tinggal di kota "Los Angeles" atau "New York"
-    // Masukkan user yang memenuhi kriteria tersebut ke dalam list subscribedUsers
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi 1: Buatlah variabel Map<String, dynamic> input dengan nilai {"name": "John", "age": 30, "isStudent": true}
+    // ? Instruksi 2: Buatlah variabel Map<String, dynamic>? output;
+    // ? Instruksi 3: Konversi input menjadi Map<String, dynamic> dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    Map<String, dynamic> input = {"name": "John", "age": 30, "isStudent": true};
+    Map<String, dynamic>? output = Map.from(input);
     // --- End of Answer ---
-    return subscribedUsers.isNotEmpty && subscribedUsers.first["id"] == 4;
+    return output is Map<String, dynamic> &&
+        output.length == 3 &&
+        output["name"] == "John" &&
+        output["isStudent"] == true;
   }
 
-// Exercise 132
   bool? exercise132() {
-    List<Map<String, dynamic>> products = [
-      {
-        "id": 1,
-        "name": "Phone",
-        "price": 500,
-        "stock": 10,
-        "category": "Electronics",
-        "brand": "Apple",
-        "isAvailable": true,
-        "isFeatured": true,
-        "rating": 4.5,
-        "reviews": 100
-      },
-      {
-        "id": 2,
-        "name": "Laptop",
-        "price": 1200,
-        "stock": 5,
-        "category": "Electronics",
-        "brand": "Dell",
-        "isAvailable": true,
-        "isFeatured": false,
-        "rating": 4.2,
-        "reviews": 50
-      },
-      {
-        "id": 3,
-        "name": "Headphones",
-        "price": 50,
-        "stock": 20,
-        "category": "Electronics",
-        "brand": "Sony",
-        "isAvailable": true,
-        "isFeatured": true,
-        "rating": 4.7,
-        "reviews": 200
-      },
-      {
-        "id": 4,
-        "name": "TV",
-        "price": 800,
-        "stock": 15,
-        "category": "Electronics",
-        "brand": "Samsung",
-        "isAvailable": true,
-        "isFeatured": true,
-        "rating": 4.8,
-        "reviews": 300
-      },
-    ];
-    List<Map<String, dynamic>> featuredProducts = [];
-
-    // Instruksi: Gunakan looping for untuk mencari product yang merupakan produk unggulan (isFeatured = true),
-    // memiliki rating di atas 4.5, tersedia (isAvailable = true), dan memiliki lebih dari 100 ulasan (reviews > 100)
-    // Masukkan product yang memenuhi kriteria tersebut ke dalam list featuredProducts
-    // TODO: Tulis kode for loop di sini
-
+    // ? Instruksi 1: Buatlah variabel Map<String, dynamic> input dengan nilai {"title": "Book", "price": 20.99, "isAvailable": false}
+    // ? Instruksi 2: Buatlah variabel Map<String, dynamic>? output;
+    // ? Instruksi 3: Konversi input menjadi Map<String, dynamic> dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    Map<String, dynamic> input = {
+      "title": "Book",
+      "price": 20.99,
+      "isAvailable": false
+    };
+    Map<String, dynamic>? output = Map.from(input);
     // --- End of Answer ---
-
-    return featuredProducts.length == 2 &&
-        featuredProducts[0]["name"] == "Headphones" &&
-        featuredProducts[1]["name"] == "TV";
+    return output is Map<String, dynamic> &&
+        output.length == 3 &&
+        output["title"] == "Book" &&
+        output["price"] == 20.99;
   }
 
-  // Exercise 133
   bool? exercise133() {
-    List<Map<String, dynamic>> employees = [
-      {
-        "id": 1,
-        "name": "John",
-        "age": 30,
-        "department": "Sales",
-        "salary": 5000,
-        "position": "Manager",
-        "yearsOfExperience": 5,
-        "isPermanent": true,
-        "isFullTime": true,
-        "hasHealthInsurance": true
-      },
-      {
-        "id": 2,
-        "name": "Alice",
-        "age": 25,
-        "department": "IT",
-        "salary": 6000,
-        "position": "Engineer",
-        "yearsOfExperience": 3,
-        "isPermanent": true,
-        "isFullTime": true,
-        "hasHealthInsurance": true
-      },
-      {
-        "id": 3,
-        "name": "Bob",
-        "age": 28,
-        "department": "Finance",
-        "salary": 4500,
-        "position": "Analyst",
-        "yearsOfExperience": 4,
-        "isPermanent": true,
-        "isFullTime": true,
-        "hasHealthInsurance": false
-      },
-      {
-        "id": 4,
-        "name": "Eva",
-        "age": 27,
-        "department": "IT",
-        "salary": 7500,
-        "position": "Associate",
-        "yearsOfExperience": 4,
-        "isPermanent": false,
-        "isFullTime": true,
-        "hasHealthInsurance": false
-      },
+    // ? Instruksi 1: Buatlah variabel List<Map<String, int>> input dengan nilai [{"score": 90}, {"score": 85}, {"score": 95}]
+    // ? Instruksi 2: Buatlah variabel List<Map<String, int>>? output;
+    // ? Instruksi 3: Konversi input menjadi List<Map<String, int>> dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    List<Map<String, int>> input = [
+      {"score": 90},
+      {"score": 85},
+      {"score": 95}
     ];
-    List<Map<String, dynamic>> highPaidEmployees = [];
-
-    // Instruksi: Gunakan looping for untuk mencari karyawan dengan gaji tinggi (salary > 5000),
-    // berusia di atas 25 tahun, memiliki pengalaman kerja lebih dari 3 tahun (yearsOfExperience > 3),
-    // dan bekerja di departemen "IT" atau "Finance"
-    // Masukkan karyawan yang memenuhi kriteria tersebut ke dalam list highPaidEmployees
-    // TODO: Tulis kode for loop di sini
-
+    List<Map<String, int>>? output = List.from(input);
     // --- End of Answer ---
-
-    return highPaidEmployees.isNotEmpty && highPaidEmployees.first["id"] == 4;
+    return output is List<Map<String, int>> &&
+        output.length == 3 &&
+        output[0]["score"] == 90 &&
+        output[2]["score"] == 95;
   }
 
-// Exercise 134
   bool? exercise134() {
-    List<Map<String, dynamic>> products = [
-      {
-        "id": 1,
-        "name": "Phone",
-        "price": 500,
-        "stock": 10,
-        "category": "Electronics",
-        "brand": "Apple",
-        "isAvailable": true,
-        "isFeatured": true,
-        "rating": 4.5,
-        "reviews": 100
-      },
-      {
-        "id": 2,
-        "name": "Laptop",
-        "price": 1200,
-        "stock": 5,
-        "category": "Electronics",
-        "brand": "Dell",
-        "isAvailable": true,
-        "isFeatured": false,
-        "rating": 4.2,
-        "reviews": 50
-      },
-      {
-        "id": 3,
-        "name": "Headphones",
-        "price": 50,
-        "stock": 20,
-        "category": "Electronics",
-        "brand": "Sony",
-        "isAvailable": true,
-        "isFeatured": true,
-        "rating": 4.7,
-        "reviews": 200
-      },
-      {
-        "id": 4,
-        "name": "TV",
-        "price": 800,
-        "stock": 15,
-        "category": "Electronics",
-        "brand": "Samsung",
-        "isAvailable": true,
-        "isFeatured": true,
-        "rating": 4.8,
-        "reviews": 300
-      },
+    // ? Instruksi 1: Buatlah variabel List<Map<String, dynamic>> input dengan nilai [{"name": "Alice"}, {"name": "Bob"}, {"name": "Charlie"}]
+    // ? Instruksi 2: Buatlah variabel List<Map<String, dynamic>>? output;
+    // ? Instruksi 3: Konversi input menjadi List<Map<String, dynamic>> dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    List<Map<String, dynamic>> input = [
+      {"name": "Alice"},
+      {"name": "Bob"},
+      {"name": "Charlie"}
     ];
-    List<Map<String, dynamic>> lowRatedProducts = [];
-
-    // Instruksi: Gunakan looping for untuk mencari product dengan rating rendah (rating < 4.0),
-    // dan stok produk kurang dari 10 (stock < 10)
-    // Masukkan product yang memenuhi kriteria tersebut ke dalam list lowRatedProducts
-    // TODO: Tulis kode for loop di sini
-
+    List<Map<String, dynamic>>? output = List.from(input);
     // --- End of Answer ---
-
-    return lowRatedProducts.length == 0;
+    return output is List<Map<String, dynamic>> &&
+        output.length == 3 &&
+        output[0]["name"] == "Alice" &&
+        output[2]["name"] == "Charlie";
   }
 
-// Exercise 135
   bool? exercise135() {
-    List<Map<String, dynamic>> employees = [
-      {
-        "id": 1,
-        "name": "John",
-        "age": 30,
-        "department": "Sales",
-        "salary": 5000,
-        "position": "Manager",
-        "yearsOfExperience": 5,
-        "isPermanent": true,
-        "isFullTime": true,
-        "hasHealthInsurance": true
-      },
-      {
-        "id": 2,
-        "name": "Alice",
-        "age": 25,
-        "department": "IT",
-        "salary": 6000,
-        "position": "Engineer",
-        "yearsOfExperience": 3,
-        "isPermanent": true,
-        "isFullTime": true,
-        "hasHealthInsurance": true
-      },
-      {
-        "id": 3,
-        "name": "Bob",
-        "age": 28,
-        "department": "Finance",
-        "salary": 4500,
-        "position": "Analyst",
-        "yearsOfExperience": 4,
-        "isPermanent": true,
-        "isFullTime": true,
-        "hasHealthInsurance": false
-      },
-      {
-        "id": 4,
-        "name": "Eva",
-        "age": 22,
-        "department": "Sales",
-        "salary": 3500,
-        "position": "Associate",
-        "yearsOfExperience": 1,
-        "isPermanent": false,
-        "isFullTime": false,
-        "hasHealthInsurance": false
-      },
+    // ? Instruksi 1: Buatlah variabel List<Map<String, dynamic>> input dengan nilai [{"city": "New York", "population": 8378394}, {"city": "Los Angeles", "population": 3990456}]
+    // ? Instruksi 2: Buatlah variabel List<Map<String, dynamic>>? output;
+    // ? Instruksi 3: Konversi input menjadi List<Map<String, dynamic>> dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    List<Map<String, dynamic>> input = [
+      {"city": "New York", "population": 8378394},
+      {"city": "Los Angeles", "population": 3990456}
     ];
-    List<Map<String, dynamic>> partTimeEmployees = [];
+    List<Map<String, dynamic>>? output = List.from(input);
+    // --- End of Answer ---
+    return output is List<Map<String, dynamic>> &&
+        output.length == 2 &&
+        output[0]["city"] == "New York" &&
+        output[1]["population"] == 3990456;
+  }
 
-    // Instruksi: Gunakan looping for untuk mencari karyawan dengan status paruh waktu (isFullTime = false),
-    // tidak memiliki asuransi kesehatan (hasHealthInsurance = false),
-    // dan berusia di bawah 25 tahun (age < 25)
-    // Masukkan karyawan yang memenuhi kriteria tersebut ke dalam list partTimeEmployees
-    // TODO: Tulis kode for loop di sini
+  bool? exercise136() {
+    // ? Instruksi 1: Buatlah variabel List<Map<String, dynamic>> input dengan nilai [{"name": "Alice", "age": 25}, {"name": "Bob", "age": 30}]
+    // ? Instruksi 2: Buatlah variabel List<Map<String, dynamic>>? output;
+    // ? Instruksi 3: Konversi input menjadi List<Map<String, dynamic>> dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    List<Map<String, dynamic>> input = [
+      {"name": "Alice", "age": 25},
+      {"name": "Bob", "age": 30}
+    ];
+    List<Map<String, dynamic>>? output = List.from(input);
+    // --- End of Answer ---
+    return output is List<Map<String, dynamic>> &&
+        output.length == 2 &&
+        output[0]["name"] == "Alice" &&
+        output[1]["age"] == 30;
+  }
+
+  bool? exercise137() {
+    // ? Instruksi 1: Buatlah variabel List<Map<String, dynamic>> input dengan nilai [{"country": "USA", "capital": "Washington, D.C."}, {"country": "Canada", "capital": "Ottawa"}]
+    // ? Instruksi 2: Buatlah variabel List<Map<String, dynamic>>? output;
+    // ? Instruksi 3: Konversi input menjadi List<Map<String, dynamic>> dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    List<Map<String, dynamic>> input = [
+      {"country": "USA", "capital": "Washington, D.C."},
+      {"country": "Canada", "capital": "Ottawa"}
+    ];
+    List<Map<String, dynamic>>? output = List.from(input);
+    // --- End of Answer ---
+    return output is List<Map<String, dynamic>> &&
+        output.length == 2 &&
+        output[0]["country"] == "USA" &&
+        output[1]["capital"] == "Ottawa";
+  }
+
+  bool? exercise138() {
+    // ? Instruksi 1: Buatlah variabel List<Map<String, dynamic>> input dengan nilai [{"code": "A1", "value": 10}, {"code": "B2", "value": 20}]
+    // ? Instruksi 2: Buatlah variabel List<Map<String, dynamic>>? output;
+    // ? Instruksi 3: Konversi input menjadi List<Map<String, dynamic>> dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    List<Map<String, dynamic>> input = [
+      {"code": "A1", "value": 10},
+      {"code": "B2", "value": 20}
+    ];
+    List<Map<String, dynamic>>? output = List.from(input);
+    // --- End of Answer ---
+    return output is List<Map<String, dynamic>> &&
+        output.length == 2 &&
+        output[0]["code"] == "A1" &&
+        output[1]["value"] == 20;
+  }
+
+  bool? exercise139() {
+    // ? Instruksi 1: Buatlah variabel List<Map<String, dynamic>> input dengan nilai [{"item": "Apple", "price": 1.99}, {"item": "Banana", "price": 0.99}]
+    // ? Instruksi 2: Buatlah variabel List<Map<String, dynamic>>? output;
+    // ? Instruksi 3: Konversi input menjadi List<Map<String, dynamic>> dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    List<Map<String, dynamic>> input = [
+      {"item": "Apple", "price": 1.99},
+      {"item": "Banana", "price": 0.99}
+    ];
+    List<Map<String, dynamic>>? output = List.from(input);
+    // --- End of Answer ---
+    return output is List<Map<String, dynamic>> &&
+        output.length == 2 &&
+        output[0]["item"] == "Apple" &&
+        output[1]["price"] == 0.99;
+  }
+
+  bool? exercise140() {
+    // ? Instruksi 1: Buatlah variabel List<Map<String, dynamic>> input dengan nilai [{"name": "Alice", "age": 25}, {"name": "Bob", "age": 30}]
+    // ? Instruksi 2: Buatlah variabel List<Map<String, dynamic>>? output;
+    // ? Instruksi 3: Konversi input menjadi List<Map<String, dynamic>> dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    List<Map<String, dynamic>> input = [
+      {"name": "Alice", "age": 25},
+      {"name": "Bob", "age": 30}
+    ];
+    List<Map<String, dynamic>>? output = List.from(input);
+    // --- End of Answer ---
+    return output is List<Map<String, dynamic>> &&
+        output.length == 2 &&
+        output[0]["name"] == "Alice" &&
+        output[1]["age"] == 30;
+  }
+
+  bool? exercise141() {
+    // ? Instruksi 1: Buatlah variabel List<Map<String, dynamic>> input dengan nilai [{"city": "New York", "population": 8378394}, {"city": "Los Angeles", "population": 3990456}]
+    // ? Instruksi 2: Buatlah variabel List<Map<String, dynamic>>? output;
+    // ? Instruksi 3: Konversi input menjadi List<Map<String, dynamic>> dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    List<Map<String, dynamic>> input = [
+      {"city": "New York", "population": 8378394},
+      {"city": "Los Angeles", "population": 3990456}
+    ];
+    List<Map<String, dynamic>>? output = List.from(input);
+    // --- End of Answer ---
+    return output is List<Map<String, dynamic>> &&
+        output.length == 2 &&
+        output[0]["city"] == "New York" &&
+        output[1]["population"] == 3990456;
+  }
+
+  bool? exercise142() {
+    // ? Instruksi 1: Buatlah variabel List<Map<String, dynamic>> input dengan nilai [{"country": "USA", "capital": "Washington, D.C."}, {"country": "Canada", "capital": "Ottawa"}]
+    // ? Instruksi 2: Buatlah variabel List<Map<String, dynamic>>? output;
+    // ? Instruksi 3: Konversi input menjadi List<Map<String, dynamic>> dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    List<Map<String, dynamic>> input = [
+      {"country": "USA", "capital": "Washington, D.C."},
+      {"country": "Canada", "capital": "Ottawa"}
+    ];
+    List<Map<String, dynamic>>? output = List.from(input);
+    // --- End of Answer ---
+    return output is List<Map<String, dynamic>> &&
+        output.length == 2 &&
+        output[0]["country"] == "USA" &&
+        output[1]["capital"] == "Ottawa";
+  }
+
+  bool? exercise143() {
+    // ? Instruksi 1: Buatlah variabel List<Map<String, dynamic>> input dengan nilai [{"code": "A1", "value": 10}, {"code": "B2", "value": 20}]
+    // ? Instruksi 2: Buatlah variabel List<Map<String, dynamic>>? output;
+    // ? Instruksi 3: Konversi input menjadi List<Map<String, dynamic>> dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    List<Map<String, dynamic>> input = [
+      {"code": "A1", "value": 10},
+      {"code": "B2", "value": 20}
+    ];
+    List<Map<String, dynamic>>? output = List.from(input);
+    // --- End of Answer ---
+    return output is List<Map<String, dynamic>> &&
+        output.length == 2 &&
+        output[0]["code"] == "A1" &&
+        output[1]["value"] == 20;
+  }
+
+  bool? exercise144() {
+    // ? Instruksi 1: Buatlah variabel List<Map<String, dynamic>> input dengan nilai [{"item": "Apple", "price": 1.99}, {"item": "Banana", "price": 0.99}]
+    // ? Instruksi 2: Buatlah variabel List<Map<String, dynamic>>? output;
+    // ? Instruksi 3: Konversi input menjadi List<Map<String, dynamic>> dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    List<Map<String, dynamic>> input = [
+      {"item": "Apple", "price": 1.99},
+      {"item": "Banana", "price": 0.99}
+    ];
+    List<Map<String, dynamic>>? output = List.from(input);
+    // --- End of Answer ---
+    return output is List<Map<String, dynamic>> &&
+        output.length == 2 &&
+        output[0]["item"] == "Apple" &&
+        output[1]["price"] == 0.99;
+  }
+
+  bool? exercise145() {
+    // ? Instruksi 1: Buatlah variabel Map<String, dynamic> input dengan nilai {"name": "Alice", "age": 25}
+    // ? Instruksi 2: Buatlah variabel bool? output;
+    // ? Instruksi 3: Gunakan operator conditional Jika input["age"] == 25, atur nilai output menjadi true
+    // TODO: Tulis jawabanmu di bawah ini
+    Map<String, dynamic> input = {"name": "Alice", "age": 25};
+    bool? output = input["age"] == 25 ? true : false;
+    // --- End of Answer ---
+    return output == true;
+  }
+
+  bool? exercise146() {
+    // ? Instruksi 1: Buatlah variabel Map<String, dynamic> input dengan nilai {"amount": 20.5, "isDiscounted": 1}
+    // ? Instruksi 2: Buatlah variabel bool? output;
+    // ? Instruksi 3: Gunakan operator conditional Jika input["isDiscounted"] == 1, atur nilai output menjadi true
+    // TODO: Tulis jawabanmu di bawah ini
+    Map<String, dynamic> input = {"amount": 20.5, "isDiscounted": 1};
+    bool? output = input["isDiscounted"] == 1 ? true : false;
+    // --- End of Answer ---
+    return output == true;
+  }
+
+  bool? exercise147() {
+    // ? Instruksi 1: Buatlah variabel Map<String, dynamic> input dengan nilai {"isActive": "true"}
+    // ? Instruksi 2: Buatlah variabel bool? output;
+    // ? Instruksi 3: Gunakan operator conditional Jika input["isActive"] == "true", atur nilai output menjadi true
+    // TODO: Tulis jawabanmu di bawah ini
+    Map<String, dynamic> input = {"isActive": "true"};
+    bool? output = input["isActive"] == "true" ? true : false;
+    // --- End of Answer ---
+    return output == true;
+  }
+
+  bool? exercise148() {
+    // ? Instruksi 1: Buatlah variabel Map<String, dynamic> input dengan nilai {"hasPermission": "false"}
+    // ? Instruksi 2: Buatlah variabel bool? output;
+    // ? Instruksi 3: Gunakan operator conditional Jika input["hasPermission"] == "false", atur nilai output menjadi true
+    // TODO: Tulis jawabanmu di bawah ini
+    Map<String, dynamic> input = {"hasPermission": "false"};
+    bool? output = input["hasPermission"] == "false" ? true : false;
+    // --- End of Answer ---
+    return output == true;
+  }
+
+  bool? exercise149() {
+    // ? Instruksi 1: Buatlah variabel Map<String, dynamic> input dengan nilai {"isAvailable": "1"}
+    // ? Instruksi 2: Buatlah variabel bool? output;
+    // ? Instruksi 3: Gunakan operator conditional Jika input["isAvailable"] == "1", atur nilai output menjadi true
+    // TODO: Tulis jawabanmu di bawah ini
+    Map<String, dynamic> input = {"isAvailable": "1"};
+    bool? output = input["isAvailable"] == "1" ? true : false;
+    // --- End of Answer ---
+    return output == true;
+  }
+
+  bool? exercise150() {
+    // ? Instruksi 1: Buatlah variabel Map<String, dynamic> input dengan nilai {"isEnabled": "0"}
+    // ? Instruksi 2: Buatlah variabel bool? output;
+    // ? Instruksi 3: Gunakan operator conditional Jika input["isEnabled"] == "0", atur nilai output menjadi true
+    // TODO: Tulis jawabanmu di bawah ini
+    Map<String, dynamic> input = {"isEnabled": "0"};
+    bool? output = input["isEnabled"] == "0" ? true : false;
+    // --- End of Answer ---
+    return output == true;
+  }
+
+  bool? exercise151() {
+    // ? Instruksi 1: Buatlah variabel String input dengan nilai "apple,banana,orange"
+    // ? Instruksi 2: Buatlah variabel List<String>? output;
+    // ? Instruksi 3: Konversi nilai dari input menjadi List<String> dengan memisahkan string berdasarkan koma (",") dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "apple,banana,orange";
+    List<String>? output = input.split(",");
+    // --- End of Answer ---
+    return output is List<String> &&
+        output.length == 3 &&
+        output.contains("apple") &&
+        output.contains("banana") &&
+        output.contains("orange");
+  }
+
+  bool? exercise152() {
+    // ? Instruksi 1: Buatlah variabel String input dengan nilai "42,38,56,29"
+    // ? Instruksi 2: Buatlah variabel List<int>? output;
+    // ? Instruksi 3: Konversi nilai dari input menjadi List<int> dengan memisahkan string berdasarkan koma (",") dan mengkonversi setiap nilai menjadi integer, kemudian tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "42,38,56,29";
+    List<int>? output =
+        input.split(",").map((value) => int.tryParse(value) ?? 0).toList();
+    // --- End of Answer ---
+    return output is List<int> &&
+        output.length == 4 &&
+        output.contains(42) &&
+        output.contains(38) &&
+        output.contains(56) &&
+        output.contains(29);
+  }
+
+  bool? exercise153() {
+    // ? Instruksi 1: Buatlah variabel String input dengan nilai "true,false,true,false"
+    // ? Instruksi 2: Buatlah variabel List<bool>? output;
+    // ? Instruksi 3: Konversi nilai dari input menjadi List<bool> dengan memisahkan string berdasarkan koma (",") dan mengkonversi setiap nilai menjadi boolean, kemudian tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "true,false,true,false";
+    List<bool>? output =
+        input.split(",").map((value) => value == "true").toList();
+    // --- End of Answer ---
+    return output is List<bool> &&
+        output.length == 4 &&
+        output.contains(true) &&
+        output.contains(false);
+  }
+
+  bool? exercise154() {
+    // ? Instruksi 1: Buatlah variabel String input dengan nilai "3.14,2.718,1.618"
+    // ? Instruksi 2: Buatlah variabel List<double>? output;
+    // ? Instruksi 3: Konversi nilai dari input menjadi List<double> dengan memisahkan string berdasarkan koma (",") dan mengkonversi setiap nilai menjadi double, kemudian tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "3.14,2.718,1.618";
+    List<double>? output =
+        input.split(",").map((value) => double.tryParse(value) ?? 0.0).toList();
+    // --- End of Answer ---
+    return output is List<double> &&
+        output.length == 3 &&
+        output.contains(3.14) &&
+        output.contains(2.718) &&
+        output.contains(1.618);
+  }
+
+  bool? exercise155() {
+    // ? Instruksi 1: Buatlah variabel String input dengan nilai "2022-01-01,2023-05-15,2024-10-30"
+    // ? Instruksi 2: Buatlah variabel List<DateTime>? output;
+    // ? Instruksi 3: Konversi nilai dari input menjadi List<DateTime> dengan memisahkan string berdasarkan koma (",") dan mengkonversi setiap nilai menjadi DateTime, kemudian tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "2022-01-01,2023-05-15,2024-10-30";
+    List<DateTime>? output = input
+        .split(",")
+        .map((value) => DateTime.tryParse(value) ?? DateTime.now())
+        .toList();
+    // --- End of Answer ---
+    return output is List<DateTime> && output.length == 3;
+  }
+
+  bool? exercise156() {
+    // ? Instruksi: Buatlah variabel String input dengan nilai "1,2,3,4,5"
+    // ? Instruksi: Buatlah variabel List<int>? output;
+    // ? Instruksi: Konversi input menjadi List<int> dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "1,2,3,4,5";
+    List<int>? output =
+        input.split(",").map((str) => int.tryParse(str) ?? 0).toList();
+    bool isCorrect = true;
+    List<int> expectedList = [1, 2, 3, 4, 5];
+
+    if (output == null || output.length != expectedList.length) {
+      isCorrect = false;
+    } else {
+      for (int i = 0; i < output.length; i++) {
+        if (output[i] != expectedList[i]) {
+          isCorrect = false;
+          break;
+        }
+      }
+    }
+    // --- End of Answer ---
+
+    return output is List<int> && isCorrect;
+  }
+
+  bool? exercise157() {
+    // ? Instruksi: Buatlah variabel String input dengan nilai "3.14"
+    // ? Instruksi: Buatlah variabel double? output;
+    // ? Instruksi: Konversi input menjadi double dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "3.14";
+    double? output = double.tryParse(input);
 
     // --- End of Answer ---
 
-    return partTimeEmployees.isNotEmpty && partTimeEmployees.first["id"] == 4;
+    return output is double && output == 3.14;
+  }
+
+  bool? exercise158() {
+    // ? Instruksi: Buatlah variabel String input dengan nilai "true"
+    // ? Instruksi: Buatlah variabel bool? output;
+    // ? Instruksi: Konversi input menjadi bool dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "true";
+    bool? output = input.toLowerCase() == "true";
+
+    // --- End of Answer ---
+
+    return output is bool && output;
+  }
+
+  bool? exercise159() {
+    // ? Instruksi: Buatlah variabel int input dengan nilai 42
+    // ? Instruksi: Buatlah variabel bool? output;
+    // ? Instruksi: Konversi input menjadi String dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    int input = 42;
+    String? output = input.toString();
+
+    // --- End of Answer ---
+
+    return output is String && output == "42";
+  }
+
+  bool? exercise160() {
+    // ? Instruksi: Buatlah variabel double input dengan nilai 3.14
+    // ? Instruksi: Buatlah variabel String? output;
+    // ? Instruksi: Konversi input menjadi String dan tampung di dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    double input = 3.14;
+    String? output = input.toString();
+
+    // --- End of Answer ---
+
+    return output is String && output == "3.14";
+  }
+
+  bool? exercise161() {
+    // ? Instruksi: Buatlah variabel List<int> input dengan nilai [1, 2, 3, 4, 5]
+    // ? Instruksi: Buatlah variabel bool? output;
+    // ? Instruksi: Konversi input menjadi String dan cek apakah string "3" terdapat dalam output
+    // TODO: Tulis jawabanmu di bawah ini
+    List<int> input = [1, 2, 3, 4, 5];
+    bool? output = input.contains(3);
+
+    // --- End of Answer ---
+
+    return output is bool && output;
+  }
+
+  bool? exercise162() {
+    // ? Instruksi: Buatlah variabel List<String> input dengan nilai ["apple", "banana", "cherry"]
+    // ? Instruksi: Buatlah variabel bool? output;
+    // ? Instruksi: Konversi input menjadi String dan cek apakah string "grape" terdapat dalam output
+    // TODO: Tulis jawabanmu di bawah ini
+    List<String> input = ["apple", "banana", "cherry"];
+    bool? output = input.contains("grape");
+
+    // --- End of Answer ---
+
+    return output is bool && !output;
+  }
+
+  bool? exercise163() {
+    // ? Instruksi: Buatlah variabel List<int> input dengan nilai [10, 20, 30, 40, 50]
+    // ? Instruksi: Buatlah variabel bool? output;
+    // ? Instruksi: Konversi input menjadi List<String> dengan mengubah setiap elemen menjadi string
+    // TODO: Tulis jawabanmu di bawah ini
+    List<int> input = [10, 20, 30, 40, 50];
+    List<String>? output = input.map((value) => value.toString()).toList();
+
+    // --- End of Answer ---
+
+    return output is List<String> &&
+        output.length == input.length &&
+        output.every((element) => element is String);
+  }
+
+  bool? exercise164() {
+    // ? Instruksi: Buatlah variabel Map<String, int> input dengan pasangan nilai "apple" -> 3 dan "banana" -> 2
+    // ? Instruksi: Buatlah variabel bool? output;
+    // ? Instruksi: Konversi input menjadi List<String> dengan mengambil semua kunci (keys) dari map
+    // TODO: Tulis jawabanmu di bawah ini
+    Map<String, int> input = {"apple": 3, "banana": 2};
+    List<String>? output = input.keys.toList();
+
+    // --- End of Answer ---
+
+    return output is List<String> &&
+        output.length == input.length &&
+        output.every((element) => element is String);
+  }
+
+  bool? exercise165() {
+    // ? Instruksi: Buatlah variabel Map<int, String> input dengan pasangan nilai 1 -> "one" dan 2 -> "two"
+    // ? Instruksi: Buatlah variabel bool? output;
+    // ? Instruksi: Konversi input menjadi List<int> dengan mengambil semua nilai (values) dari map
+    // TODO: Tulis jawabanmu di bawah ini
+    Map<int, String> input = {1: "one", 2: "two"};
+    List<String>? output = input.values.toList();
+
+    // --- End of Answer ---
+
+    return output is List<String> &&
+        output.length == input.length &&
+        output.every((element) => element is String);
+  }
+
+  bool? exercise166() {
+    // ? Instruksi: Buatlah variabel List<Map<String, int>> input dengan nilai [{ "apple": 3 }, { "banana": 2 }]
+    // ? Instruksi: Buatlah variabel bool? output;
+    // ? Instruksi: Konversi input menjadi List<int> dengan mengambil semua nilai dari map-map di dalam list
+    // TODO: Tulis jawabanmu di bawah ini
+    List<Map<String, int>> input = [
+      {"apple": 3},
+      {"banana": 2}
+    ];
+    List<int>? output = input.map((map) => map.values.first).toList();
+
+    // --- End of Answer ---
+
+    return output is List<int> &&
+        output.length == input.length &&
+        output.every((element) => element is int);
+  }
+
+  bool? exercise167() {
+    // ? Instruksi: Buatlah variabel Map<String, dynamic> input dengan pasangan nilai "age" -> 25 dan "name" -> "John"
+    // ? Instruksi: Buatlah variabel bool? output;
+    // ? Instruksi: Konversi input menjadi List<dynamic> dengan mengambil semua nilai dari map
+    // TODO: Tulis jawabanmu di bawah ini
+    Map<String, dynamic> input = {"age": 25, "name": "John"};
+    List<dynamic>? output = input.values.toList();
+
+    // --- End of Answer ---
+
+    return output is List<dynamic> && output.length == input.length;
+  }
+
+  bool? exercise168() {
+    // ? Instruksi: Buatlah variabel List<int> input dengan nilai [1, 2, 3, 4, 5]
+    // ? Instruksi: Buatlah variabel bool? output;
+    // ? Instruksi: Konversi input menjadi Map<String, int> dengan mengubah setiap elemen menjadi pasangan kunci "number" dan nilai elemen
+    // TODO: Tulis jawabanmu di bawah ini
+    List<int> input = [1, 2, 3, 4, 5];
+    Map<String, int>? output = {};
+
+    for (int element in input) {
+      output["number"] = element;
+    }
+
+    // --- End of Answer ---
+
+    return output is Map<String, int> &&
+        output.containsKey("number") &&
+        output["number"] == input.last;
+  }
+
+  bool? exercise169() {
+    // ? Instruksi: Buatlah variabel List<String> input dengan nilai ["apple", "banana", "cherry"]
+    // ? Instruksi: Buatlah variabel bool? output;
+    // ? Instruksi: Konversi input menjadi Map<String, String> dengan mengubah setiap elemen menjadi pasangan kunci dan nilai yang sama
+    // TODO: Tulis jawabanmu di bawah ini
+    List<String> input = ["apple", "banana", "cherry"];
+    Map<String, String>? output = {};
+
+    for (String element in input) {
+      output[element] = element;
+    }
+
+    // --- End of Answer ---
+
+    return output is Map<String, String> &&
+        output.length == input.length &&
+        input.every((element) => output[element] == element);
+  }
+
+  bool? exercise170() {
+    // ? Instruksi: Buatlah variabel List<Map<String, int>> input dengan nilai [{ "apple": 3 }, { "banana": 2 }]
+    // ? Instruksi: Buatlah variabel bool? output;
+    // ? Instruksi: Konversi input menjadi Map<String, int> dengan mengambil pasangan kunci "apple" dan nilai dari map pertama dalam list
+    // TODO: Tulis jawabanmu di bawah ini
+    List<Map<String, int>> input = [
+      {"apple": 3},
+      {"banana": 2}
+    ];
+    Map<String, int>? output = {};
+
+    if (input.isNotEmpty) {
+      output = input.first;
+    }
+
+    // --- End of Answer ---
+
+    return output is Map<String, int> &&
+        output.containsKey("apple") &&
+        output["apple"] == input.first["apple"];
+  }
+
+  bool? exercise171() {
+    // ? Instruksi: Buatlah variabel String input1 dengan nilai "Hello"
+    // ? Instruksi: Buatlah variabel String input2 dengan nilai "world"
+    // ? Instruksi: Buatlah variabel String? output;
+    // ? Instruksi: Gabungkan input1 dan input2 menjadi satu string dan simpan dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input1 = "Hello";
+    String input2 = "world";
+    String? output = input1 + " " + input2;
+
+    // --- End of Answer ---
+
+    return output is String && output == "Hello world";
+  }
+
+  bool? exercise172() {
+    // ? Instruksi: Buatlah variabel String input dengan nilai "Hello, my name is John"
+    // ? Instruksi: Buatlah variabel String? output;
+    // ? Instruksi: Ganti kata "John" menjadi "Alice" dalam input dan simpan dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "Hello, my name is John";
+    String? output = input.replaceAll("John", "Alice");
+
+    // --- End of Answer ---
+
+    return output is String && output == "Hello, my name is Alice";
+  }
+
+  bool? exercise173() {
+    // ? Instruksi: Buatlah variabel String input dengan nilai "apple,banana,cherry"
+    // ? Instruksi: Buatlah variabel List<String>? output;
+    // ? Instruksi: Konversi input menjadi List<String> dengan memisahkan string berdasarkan koma (",")
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "apple,banana,cherry";
+    List<String>? output = input.split(",");
+
+    // --- End of Answer ---
+
+    return output is List<String> &&
+        output.length == 3 &&
+        output.every((element) => element is String);
+  }
+
+  bool? exercise174() {
+    // ? Instruksi: Buatlah variabel String input dengan nilai "10,20,30,40,50"
+    // ? Instruksi: Buatlah variabel List<int>? output;
+    // ? Instruksi: Konversi input menjadi List<int> dengan mengubah setiap elemen menjadi integer
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "10,20,30,40,50";
+    List<int>? output =
+        input.split(",").map((value) => int.tryParse(value) ?? 0).toList();
+
+    // --- End of Answer ---
+
+    return output is List<int> &&
+        output.length == 5 &&
+        output.every((element) => element is int);
+  }
+
+  bool? exercise175() {
+    // ? Instruksi: Buatlah variabel String input dengan nilai "1.5,2.5,3.5"
+    // ? Instruksi: Buatlah variabel List<double>? output;
+    // ? Instruksi: Konversi input menjadi List<double> dengan mengubah setiap elemen menjadi double
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "1.5,2.5,3.5";
+    List<double>? output =
+        input.split(",").map((value) => double.tryParse(value) ?? 0.0).toList();
+
+    // --- End of Answer ---
+
+    return output is List<double> &&
+        output.length == 3 &&
+        output.every((element) => element is double);
+  }
+
+  bool? exercise176() {
+    // ? Instruksi: Buatlah variabel String input dengan nilai "true,false,true"
+    // ? Instruksi: Buatlah variabel List<bool>? output;
+    // ? Instruksi: Konversi input menjadi List<bool> dengan mengubah setiap elemen menjadi boolean
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "true,false,true";
+    List<bool>? output =
+        input.split(",").map((value) => value == "true").toList();
+
+    // --- End of Answer ---
+
+    return output is List<bool> &&
+        output.length == 3 &&
+        output.every((element) => element is bool);
+  }
+
+  bool? exercise177() {
+    // ? Instruksi: Buatlah variabel String input dengan nilai "2022-08-01,2023-01-15,2021-05-10"
+    // ? Instruksi: Buatlah variabel List<DateTime>? output;
+    // ? Instruksi: Konversi input menjadi List<DateTime> dengan mengubah setiap elemen menjadi DateTime
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "2022-08-01,2023-01-15,2021-05-10";
+    List<DateTime>? output = input
+        .split(",")
+        .map((value) => DateTime.tryParse(value) ?? DateTime.now())
+        .toList();
+
+    // --- End of Answer ---
+
+    return output is List<DateTime> &&
+        output.length == 3 &&
+        output.every((element) => element is DateTime);
+  }
+
+  bool? exercise178() {
+    // ? Instruksi: Buatlah variabel String input dengan nilai "apple,banana,cherry"
+    // ? Instruksi: Buatlah variabel Map<String, int>? output;
+    // ? Instruksi: Konversi input menjadi Map<String, int> dengan mengubah setiap elemen menjadi pasangan kunci "fruit" dan nilai 1
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "apple,banana,cherry";
+    Map<String, int>? output = {};
+
+    List<String> fruits = input.split(",");
+    for (String fruit in fruits) {
+      output[fruit] = 1;
+    }
+
+    // --- End of Answer ---
+
+    return output is Map<String, int> &&
+        output.length == 3 &&
+        fruits
+            .every((fruit) => output.containsKey(fruit) && output[fruit] == 1);
+  }
+
+  bool? exercise179() {
+    // ? Instruksi: Buatlah variabel String input dengan nilai "10,20,30"
+    // ? Instruksi: Buatlah variabel Map<int, String>? output;
+    // ? Instruksi: Konversi input menjadi Map<int, String> dengan mengubah setiap elemen menjadi pasangan kunci integer dan nilai "value"
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "10,20,30";
+    Map<int, String>? output = {};
+
+    List<int> values =
+        input.split(",").map((value) => int.tryParse(value) ?? 0).toList();
+    for (int value in values) {
+      output[value] = "value";
+    }
+
+    // --- End of Answer ---
+
+    return output is Map<int, String> &&
+        output.length == 3 &&
+        values.every(
+            (value) => output.containsKey(value) && output[value] == "value");
+  }
+
+  bool? exercise180() {
+    // ? Instruksi: Buatlah variabel List<Map<String, int>> input dengan nilai [{ "apple": 3 }, { "banana": 2 }, { "cherry": 1 }]
+    // ? Instruksi: Buatlah variabel List<int>? output;
+    // ? Instruksi: Konversi input menjadi List<int> dengan mengambil nilai dari setiap map dalam list
+    // TODO: Tulis jawabanmu di bawah ini
+    List<Map<String, int>> input = [
+      {"apple": 3},
+      {"banana": 2},
+      {"cherry": 1}
+    ];
+    List<int>? output = [];
+
+    for (Map<String, int> map in input) {
+      output.add(map.values.first);
+    }
+
+    // --- End of Answer ---
+
+    return output is List<int> &&
+        output.length == 3 &&
+        output.contains(3) &&
+        output.contains(2) &&
+        output.contains(1);
+  }
+
+  bool? exercise181() {
+    // ? Instruksi: Buatlah variabel String input dengan nilai "Hello, world!"
+    // ? Instruksi: Buatlah variabel String? output;
+    // ? Instruksi: Ganti kata "world" menjadi "Dart" dalam input dan simpan dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "Hello, world!";
+    String? output = input.replaceFirst("world", "Dart");
+
+    // --- End of Answer ---
+
+    return output is String && output == "Hello, Dart!";
+  }
+
+  bool? exercise182() {
+    // ? Instruksi: Buatlah variabel String input dengan nilai "apple,banana,apple,apple,cherry"
+    // ? Instruksi: Buatlah variabel String? output;
+    // ? Instruksi: Ganti semua kata "apple" menjadi "orange" dalam input dan simpan dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "apple,banana,apple,apple,cherry";
+    String? output = input.replaceAll("apple", "orange");
+
+    // --- End of Answer ---
+
+    return output is String && output == "orange,banana,orange,orange,cherry";
+  }
+
+  bool? exercise183() {
+    // ? Instruksi: Buatlah variabel String input dengan nilai "1,2,3,4,5"
+    // ? Instruksi: Buatlah variabel List<int>? output;
+    // ? Instruksi: Konversi input menjadi List<int> dengan mengubah setiap elemen menjadi integer
+    // ? Instruksi: Ganti semua angka yang habis dibagi 2 dengan nilai 0 dalam list output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "1,2,3,4,5";
+    List<int>? output =
+        input.split(",").map((value) => int.tryParse(value) ?? 0).toList();
+
+    for (int i = 0; i < output.length; i++) {
+      if (output[i] % 2 == 0) {
+        output[i] = 0;
+      }
+    }
+
+    // --- End of Answer ---
+
+    return output is List<int> &&
+        output.length == 5 &&
+        output.contains(0) &&
+        !output.contains(2) &&
+        !output.contains(4);
+  }
+
+  bool? exercise184() {
+    // ? Instruksi: Buatlah variabel List<String> input dengan nilai ["apple", "banana", "cherry"]
+    // ? Instruksi: Buatlah variabel Map<String, int>? output;
+    // ? Instruksi: Konversi setiap elemen dalam input menjadi pasangan kunci "fruit" dan panjang string dalam map output
+    // TODO: Tulis jawabanmu di bawah ini
+    List<String> input = ["apple", "banana", "cherry"];
+    Map<String, int>? output = {};
+
+    for (String fruit in input) {
+      output[fruit] = fruit.length;
+    }
+
+    // --- End of Answer ---
+
+    return output is Map<String, int> &&
+        output.length == 3 &&
+        output["apple"] == 5 &&
+        output["banana"] == 6 &&
+        output["cherry"] == 6;
+  }
+
+  bool? exercise185() {
+    // ? Instruksi: Buatlah variabel List<int> input dengan nilai [1, 2, 3, 4, 5]
+    // ? Instruksi: Buatlah variabel Map<int, int>? output;
+    // ? Instruksi: Konversi setiap elemen dalam input menjadi pasangan kunci integer dan kuadrat dari elemen dalam map output
+    // TODO: Tulis jawabanmu di bawah ini
+    List<int> input = [1, 2, 3, 4, 5];
+    Map<int, int>? output = {};
+
+    for (int number in input) {
+      output[number] = number * number;
+    }
+
+    // --- End of Answer ---
+
+    return output is Map<int, int> &&
+        output.length == 5 &&
+        output[1] == 1 &&
+        output[2] == 4 &&
+        output[3] == 9 &&
+        output[4] == 16 &&
+        output[5] == 25;
+  }
+
+  bool? exercise186() {
+    // ? Instruksi: Buatlah variabel List<String> input dengan nilai ["apple", "banana", "cherry"]
+    // ? Instruksi: Buatlah variabel List<Map<String, int>>? output;
+    // ? Instruksi: Konversi setiap elemen dalam input menjadi map dengan pasangan kunci "length" dan panjang string sebagai nilai, lalu tambahkan dalam list output
+    // TODO: Tulis jawabanmu di bawah ini
+    List<String> input = ["apple", "banana", "cherry"];
+    List<Map<String, int>>? output = [];
+
+    for (String fruit in input) {
+      output.add({"length": fruit.length});
+    }
+
+    // --- End of Answer ---
+
+    return output is List<Map<String, int>> &&
+        output.length == 3 &&
+        output[0]["length"] == 5 &&
+        output[1]["length"] == 6 &&
+        output[2]["length"] == 6;
+  }
+
+  bool? exercise187() {
+    // ? Instruksi: Buatlah variabel List<Map<String, dynamic>> input dengan nilai [{"fruit": "apple"}, {"fruit": "banana"}, {"fruit": "cherry"}]
+    // ? Instruksi: Buatlah variabel List<String>? output;
+    // ? Instruksi: Konversi setiap elemen dalam input menjadi string "fruit" dalam list output
+    // TODO: Tulis jawabanmu di bawah ini
+    List<Map<String, dynamic>> input = [
+      {"fruit": "apple"},
+      {"fruit": "banana"},
+      {"fruit": "cherry"}
+    ];
+    List<String>? output = [];
+
+    for (Map<String, dynamic> map in input) {
+      output.add(map["fruit"]);
+    }
+
+    // --- End of Answer ---
+
+    return output is List<String> &&
+        output.length == 3 &&
+        output.contains("apple") &&
+        output.contains("banana") &&
+        output.contains("cherry");
+  }
+
+  bool? exercise188() {
+    // ? Instruksi: Buatlah variabel List<Map<String, int>> input dengan nilai [{"amount": 5}, {"amount": 10}, {"amount": 3}]
+    // ? Instruksi: Buatlah variabel List<int>? output;
+    // ? Instruksi: Konversi setiap elemen dalam input menjadi integer "amount" dalam list output
+    // TODO: Tulis jawabanmu di bawah ini
+    List<Map<String, int>> input = [
+      {"amount": 5},
+      {"amount": 10},
+      {"amount": 3}
+    ];
+    List<int>? output = [];
+
+    for (Map<String, int> map in input) {
+      output.add(map["amount"] ?? 0);
+    }
+
+    // --- End of Answer ---
+
+    return output is List<int> &&
+        output.length == 3 &&
+        output.contains(5) &&
+        output.contains(10) &&
+        output.contains(3);
+  }
+
+  bool? exercise189() {
+    // ? Instruksi: Buatlah variabel List<Map<String, dynamic>> input dengan nilai [{"value": 7}, {"value": 15}, {"value": 9}]
+    // ? Instruksi: Buatlah variabel List<int>? output;
+    // ? Instruksi: Konversi setiap elemen dalam input menjadi integer "value" dalam list output
+    // TODO: Tulis jawabanmu di bawah ini
+    List<Map<String, dynamic>> input = [
+      {"value": 7},
+      {"value": 15},
+      {"value": 9}
+    ];
+    List<int>? output = [];
+
+    for (Map<String, dynamic> map in input) {
+      output.add(map["value"]);
+    }
+
+    // --- End of Answer ---
+
+    return output is List<int> &&
+        output.length == 3 &&
+        output.contains(7) &&
+        output.contains(15) &&
+        output.contains(9);
+  }
+
+  bool? exercise190() {
+    // ? Instruksi: Buatlah variabel List<String> input dengan nilai ["5", "10", "3"]
+    // ? Instruksi: Buatlah variabel List<int>? output;
+    // ? Instruksi: Konversi setiap elemen dalam input menjadi integer dan tambahkan dalam list output
+    // TODO: Tulis jawabanmu di bawah ini
+    List<String> input = ["5", "10", "3"];
+    List<int>? output = [];
+
+    for (String value in input) {
+      output.add(int.tryParse(value) ?? 0);
+    }
+
+    // --- End of Answer ---
+
+    return output is List<int> &&
+        output.length == 3 &&
+        output.contains(5) &&
+        output.contains(10) &&
+        output.contains(3);
+  }
+
+  bool? exercise191() {
+    // ? Instruksi: Buatlah variabel String input dengan nilai "5,10,15,20,25"
+    // ? Instruksi: Buatlah variabel List<int>? output;
+    // ? Instruksi: Konversi setiap elemen dalam input menjadi integer dan tambahkan dalam list output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "5,10,15,20,25";
+    List<int>? output = [];
+
+    List<String> values = input.split(",");
+    for (String value in values) {
+      output.add(int.tryParse(value) ?? 0);
+    }
+
+    // --- End of Answer ---
+
+    return output is List<int> &&
+        output.length == 5 &&
+        output.contains(5) &&
+        output.contains(10) &&
+        output.contains(15) &&
+        output.contains(20) &&
+        output.contains(25);
+  }
+
+  bool? exercise192() {
+    // ? Instruksi: Buatlah variabel String input dengan nilai "5.5,10.5,15.5,20.5,25.5"
+    // ? Instruksi: Buatlah variabel List<double>? output;
+    // ? Instruksi: Konversi setiap elemen dalam input menjadi double dan tambahkan dalam list output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "5.5,10.5,15.5,20.5,25.5";
+    List<double>? output = [];
+
+    List<String> values = input.split(",");
+    for (String value in values) {
+      output.add(double.tryParse(value) ?? 0.0);
+    }
+
+    // --- End of Answer ---
+
+    return output is List<double> &&
+        output.length == 5 &&
+        output.contains(5.5) &&
+        output.contains(10.5) &&
+        output.contains(15.5) &&
+        output.contains(20.5) &&
+        output.contains(25.5);
+  }
+
+  bool? exercise193() {
+    // ? Instruksi: Buatlah variabel String input dengan nilai "true,false,true,false,true"
+    // ? Instruksi: Buatlah variabel List<bool>? output;
+    // ? Instruksi: Konversi setiap elemen dalam input menjadi boolean dan tambahkan dalam list output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "true,false,true,false,true";
+    List<bool>? output = [];
+
+    List<String> values = input.split(",");
+    for (String value in values) {
+      output.add(value == "true");
+    }
+
+    // --- End of Answer ---
+
+    return output is List<bool> &&
+        output.length == 5 &&
+        output.contains(true) &&
+        output.contains(false);
+  }
+
+  bool? exercise194() {
+    // ? Instruksi: Buatlah variabel String input dengan nilai "apple,banana,apple,banana,apple"
+    // ? Instruksi: Buatlah variabel List<String>? output;
+    // ? Instruksi: Konversi setiap elemen dalam input menjadi string dan tambahkan dalam list output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "apple,banana,apple,banana,apple";
+    List<String>? output = [];
+
+    List<String> values = input.split(",");
+    for (String value in values) {
+      output.add(value);
+    }
+
+    // --- End of Answer ---
+
+    return output is List<String> &&
+        output.length == 5 &&
+        output.contains("apple") &&
+        output.contains("banana");
+  }
+
+  bool? exercise195() {
+    // ? Instruksi: Buatlah variabel String input dengan nilai "2022-01-01,2023-02-02,2024-03-03"
+    // ? Instruksi: Buatlah variabel List<DateTime>? output;
+    // ? Instruksi: Konversi setiap elemen dalam input menjadi DateTime dan tambahkan dalam list output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "2022-01-01,2023-02-02,2024-03-03";
+    List<DateTime>? output = [];
+
+    List<String> values = input.split(",");
+    for (String value in values) {
+      DateTime dateTime = DateTime.tryParse(value) ?? DateTime(2000);
+      output.add(dateTime);
+    }
+
+    // --- End of Answer ---
+
+    return output is List<DateTime> &&
+        output.length == 3 &&
+        output.contains(DateTime(2022, 1, 1)) &&
+        output.contains(DateTime(2023, 2, 2)) &&
+        output.contains(DateTime(2024, 3, 3));
+  }
+
+  bool? exercise196() {
+    // ? Instruksi: Buatlah variabel String input dengan nilai "1,2,3,4,5"
+    // ? Instruksi: Buatlah variabel List<int>? output;
+    // ? Instruksi: Konversi setiap elemen dalam input menjadi integer dan tambahkan dalam list output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "1,2,3,4,5";
+    List<int>? output = [];
+
+    List<String> values = input.split(",");
+    for (String value in values) {
+      output.add(int.tryParse(value) ?? 0);
+    }
+
+    // --- End of Answer ---
+
+    return output is List<int> &&
+        output.length == 5 &&
+        output.contains(1) &&
+        output.contains(2) &&
+        output.contains(3) &&
+        output.contains(4) &&
+        output.contains(5);
+  }
+
+  bool? exercise197() {
+    // ? Instruksi: Buatlah variabel String input dengan nilai "1.1,2.2,3.3,4.4,5.5"
+    // ? Instruksi: Buatlah variabel List<double>? output;
+    // ? Instruksi: Konversi setiap elemen dalam input menjadi double dan tambahkan dalam list output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "1.1,2.2,3.3,4.4,5.5";
+    List<double>? output = [];
+
+    List<String> values = input.split(",");
+    for (String value in values) {
+      output.add(double.tryParse(value) ?? 0.0);
+    }
+
+    // --- End of Answer ---
+
+    return output is List<double> &&
+        output.length == 5 &&
+        output.contains(1.1) &&
+        output.contains(2.2) &&
+        output.contains(3.3) &&
+        output.contains(4.4) &&
+        output.contains(5.5);
+  }
+
+  bool? exercise198() {
+    // ? Instruksi: Buatlah variabel String input dengan nilai "true,false,true,false,true"
+    // ? Instruksi: Buatlah variabel List<bool>? output;
+    // ? Instruksi: Konversi setiap elemen dalam input menjadi boolean dan tambahkan dalam list output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "true,false,true,false,true";
+    List<bool>? output = [];
+
+    List<String> values = input.split(",");
+    for (String value in values) {
+      output.add(value == "true");
+    }
+
+    // --- End of Answer ---
+
+    return output is List<bool> &&
+        output.length == 5 &&
+        output.contains(true) &&
+        output.contains(false);
+  }
+
+  bool? exercise199() {
+    // ? Instruksi: Buatlah variabel String input dengan nilai "apple,banana,apple,banana,apple"
+    // ? Instruksi: Buatlah variabel List<String>? output;
+    // ? Instruksi: Konversi setiap elemen dalam input menjadi string dan tambahkan dalam list output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "apple,banana,apple,banana,apple";
+    List<String>? output = [];
+
+    List<String> values = input.split(",");
+    for (String value in values) {
+      output.add(value);
+    }
+
+    // --- End of Answer ---
+
+    return output is List<String> &&
+        output.length == 5 &&
+        output.contains("apple") &&
+        output.contains("banana");
+  }
+
+  bool? exercise200() {
+    // ? Instruksi: Buatlah variabel String input dengan nilai "2022-01-01,2023-02-02,2024-03-03"
+    // ? Instruksi: Buatlah variabel List<DateTime>? output;
+    // ? Instruksi: Konversi setiap elemen dalam input menjadi DateTime dan tambahkan dalam list output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "2022-01-01,2023-02-02,2024-03-03";
+    List<DateTime>? output = [];
+
+    List<String> values = input.split(",");
+    for (String value in values) {
+      DateTime dateTime = DateTime.tryParse(value) ?? DateTime(2000);
+      output.add(dateTime);
+    }
+
+    // --- End of Answer ---
+
+    return output is List<DateTime> &&
+        output.length == 3 &&
+        output.contains(DateTime(2022, 1, 1)) &&
+        output.contains(DateTime(2023, 2, 2)) &&
+        output.contains(DateTime(2024, 3, 3));
+  }
+
+  bool? exercise201() {
+    // ? Instruksi: Buatlah variabel String input dengan nilai "apple,banana,cherry,dates,elderberry"
+    // ? Instruksi: Buatlah variabel List<String>? output;
+    // ? Instruksi: Konversi input menjadi list string dan tampung dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "apple,banana,cherry,dates,elderberry";
+    List<String>? output = input.split(",");
+
+    // --- End of Answer ---
+
+    return output is List<String> &&
+        output.length == 5 &&
+        output.contains("apple") &&
+        output.contains("banana") &&
+        output.contains("cherry") &&
+        output.contains("dates") &&
+        output.contains("elderberry");
+  }
+
+  bool? exercise202() {
+    // ? Instruksi: Buatlah variabel String input dengan nilai "1.1,2.2,3.3,4.4,5.5"
+    // ? Instruksi: Buatlah variabel List<double>? output;
+    // ? Instruksi: Konversi input menjadi list double dan tampung dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "1.1,2.2,3.3,4.4,5.5";
+    List<double>? output = [];
+
+    List<String> values = input.split(",");
+    for (String value in values) {
+      output.add(double.tryParse(value) ?? 0.0);
+    }
+
+    // --- End of Answer ---
+
+    return output is List<double> &&
+        output.length == 5 &&
+        output.contains(1.1) &&
+        output.contains(2.2) &&
+        output.contains(3.3) &&
+        output.contains(4.4) &&
+        output.contains(5.5);
+  }
+
+  bool? exercise203() {
+    // ? Instruksi: Buatlah variabel String input dengan nilai "true,false,true,false,true"
+    // ? Instruksi: Buatlah variabel List<bool>? output;
+    // ? Instruksi: Konversi input menjadi list boolean dan tampung dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "true,false,true,false,true";
+    List<bool>? output = [];
+
+    List<String> values = input.split(",");
+    for (String value in values) {
+      output.add(value == "true");
+    }
+
+    // --- End of Answer ---
+
+    return output is List<bool> &&
+        output.length == 5 &&
+        output.contains(true) &&
+        output.contains(false);
+  }
+
+  bool? exercise204() {
+    // ? Instruksi: Buatlah variabel String input dengan nilai "2022-01-01,2023-02-02,2024-03-03"
+    // ? Instruksi: Buatlah variabel List<DateTime>? output;
+    // ? Instruksi: Konversi input menjadi list DateTime dan tampung dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "2022-01-01,2023-02-02,2024-03-03";
+    List<DateTime>? output = [];
+
+    List<String> values = input.split(",");
+    for (String value in values) {
+      DateTime dateTime = DateTime.tryParse(value) ?? DateTime(2000);
+      output.add(dateTime);
+    }
+
+    // --- End of Answer ---
+
+    return output is List<DateTime> &&
+        output.length == 3 &&
+        output.contains(DateTime(2022, 1, 1)) &&
+        output.contains(DateTime(2023, 2, 2)) &&
+        output.contains(DateTime(2024, 3, 3));
+  }
+
+  bool? exercise205() {
+    // ? Instruksi: Buatlah variabel String input dengan nilai "apple,banana,cherry,dates,elderberry"
+    // ? Instruksi: Buatlah variabel List<String>? output;
+    // ? Instruksi: Konversi input menjadi list string dan tampung dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "apple,banana,cherry,dates,elderberry";
+    List<String>? output = input.split(",");
+
+    // --- End of Answer ---
+
+    return output is List<String> &&
+        output.length == 5 &&
+        output.contains("apple") &&
+        output.contains("banana") &&
+        output.contains("cherry") &&
+        output.contains("dates") &&
+        output.contains("elderberry");
+  }
+
+  bool? exercise206() {
+    // ? Instruksi: Buatlah variabel String input dengan nilai "apple,banana,cherry,dates,elderberry"
+    // ? Instruksi: Buatlah variabel List<String>? output;
+    // ? Instruksi: Konversi input menjadi list string dan tampung dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "apple,banana,cherry,dates,elderberry";
+    List<String>? output = input.split(",");
+
+    // --- End of Answer ---
+
+    return output is List<String> &&
+        output.length == 5 &&
+        output.contains("apple") &&
+        output.contains("banana") &&
+        output.contains("cherry") &&
+        output.contains("dates") &&
+        output.contains("elderberry");
+  }
+
+  bool? exercise207() {
+    // ? Instruksi: Buatlah variabel String input dengan nilai "1.1,2.2,3.3,4.4,5.5"
+    // ? Instruksi: Buatlah variabel List<double>? output;
+    // ? Instruksi: Konversi input menjadi list double dan tampung dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "1.1,2.2,3.3,4.4,5.5";
+    List<double>? output = [];
+
+    List<String> values = input.split(",");
+    for (String value in values) {
+      output.add(double.tryParse(value) ?? 0.0);
+    }
+
+    // --- End of Answer ---
+
+    return output is List<double> &&
+        output.length == 5 &&
+        output.contains(1.1) &&
+        output.contains(2.2) &&
+        output.contains(3.3) &&
+        output.contains(4.4) &&
+        output.contains(5.5);
+  }
+
+  bool? exercise208() {
+    // ? Instruksi: Buatlah variabel String input dengan nilai "true,false,true,false,true"
+    // ? Instruksi: Buatlah variabel List<bool>? output;
+    // ? Instruksi: Konversi input menjadi list boolean dan tampung dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "true,false,true,false,true";
+    List<bool>? output = [];
+
+    List<String> values = input.split(",");
+    for (String value in values) {
+      output.add(value == "true");
+    }
+
+    // --- End of Answer ---
+
+    return output is List<bool> &&
+        output.length == 5 &&
+        output.contains(true) &&
+        output.contains(false);
+  }
+
+  bool? exercise209() {
+    // ? Instruksi: Buatlah variabel String input dengan nilai "2022-01-01,2023-02-02,2024-03-03"
+    // ? Instruksi: Buatlah variabel List<DateTime>? output;
+    // ? Instruksi: Konversi input menjadi list DateTime dan tampung dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "2022-01-01,2023-02-02,2024-03-03";
+    List<DateTime>? output = [];
+
+    List<String> values = input.split(",");
+    for (String value in values) {
+      DateTime dateTime = DateTime.tryParse(value) ?? DateTime(2000);
+      output.add(dateTime);
+    }
+
+    // --- End of Answer ---
+
+    return output is List<DateTime> &&
+        output.length == 3 &&
+        output.contains(DateTime(2022, 1, 1)) &&
+        output.contains(DateTime(2023, 2, 2)) &&
+        output.contains(DateTime(2024, 3, 3));
+  }
+
+  bool? exercise210() {
+    // ? Instruksi: Buatlah variabel String input dengan nilai "apple,banana,cherry,dates,elderberry"
+    // ? Instruksi: Buatlah variabel List<String>? output;
+    // ? Instruksi: Konversi input menjadi list string dan tampung dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "apple,banana,cherry,dates,elderberry";
+    List<String>? output = input.split(",");
+
+    // --- End of Answer ---
+
+    return output is List<String> &&
+        output.length == 5 &&
+        output.contains("apple") &&
+        output.contains("banana") &&
+        output.contains("cherry") &&
+        output.contains("dates") &&
+        output.contains("elderberry");
+  }
+
+  bool? exercise211() {
+    // ? Instruksi: Buatlah variabel String input dengan nilai "apple,banana,cherry,dates,elderberry"
+    // ? Instruksi: Buatlah variabel List<String>? output;
+    // ? Instruksi: Konversi input menjadi list string dan tampung dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "apple,banana,cherry,dates,elderberry";
+    List<String>? output = input.split(",");
+
+    // --- End of Answer ---
+
+    return output is List<String> &&
+        output.length == 5 &&
+        output.contains("apple") &&
+        output.contains("banana") &&
+        output.contains("cherry") &&
+        output.contains("dates") &&
+        output.contains("elderberry");
+  }
+
+  bool? exercise212() {
+    // ? Instruksi: Buatlah variabel String input dengan nilai "1.1,2.2,3.3,4.4,5.5"
+    // ? Instruksi: Buatlah variabel List<double>? output;
+    // ? Instruksi: Konversi input menjadi list double dan tampung dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "1.1,2.2,3.3,4.4,5.5";
+    List<double>? output = [];
+
+    List<String> values = input.split(",");
+    for (String value in values) {
+      output.add(double.tryParse(value) ?? 0.0);
+    }
+
+    // --- End of Answer ---
+
+    return output is List<double> &&
+        output.length == 5 &&
+        output.contains(1.1) &&
+        output.contains(2.2) &&
+        output.contains(3.3) &&
+        output.contains(4.4) &&
+        output.contains(5.5);
+  }
+
+  bool? exercise213() {
+    // ? Instruksi: Buatlah variabel String input dengan nilai "true,false,true,false,true"
+    // ? Instruksi: Buatlah variabel List<bool>? output;
+    // ? Instruksi: Konversi input menjadi list boolean dan tampung dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "true,false,true,false,true";
+    List<bool>? output = [];
+
+    List<String> values = input.split(",");
+    for (String value in values) {
+      output.add(value == "true");
+    }
+
+    // --- End of Answer ---
+
+    return output is List<bool> &&
+        output.length == 5 &&
+        output.contains(true) &&
+        output.contains(false);
+  }
+
+  bool? exercise214() {
+    // ? Instruksi: Buatlah variabel String input dengan nilai "2022-01-01,2023-02-02,2024-03-03"
+    // ? Instruksi: Buatlah variabel List<DateTime>? output;
+    // ? Instruksi: Konversi input menjadi list DateTime dan tampung dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "2022-01-01,2023-02-02,2024-03-03";
+    List<DateTime>? output = [];
+
+    List<String> values = input.split(",");
+    for (String value in values) {
+      DateTime dateTime = DateTime.tryParse(value) ?? DateTime(2000);
+      output.add(dateTime);
+    }
+
+    // --- End of Answer ---
+
+    return output is List<DateTime> &&
+        output.length == 3 &&
+        output.contains(DateTime(2022, 1, 1)) &&
+        output.contains(DateTime(2023, 2, 2)) &&
+        output.contains(DateTime(2024, 3, 3));
+  }
+
+  bool? exercise215() {
+    // ? Instruksi: Buatlah variabel String input dengan nilai "apple,banana,cherry,dates,elderberry"
+    // ? Instruksi: Buatlah variabel List<String>? output;
+    // ? Instruksi: Konversi input menjadi list string dan tampung dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "apple,banana,cherry,dates,elderberry";
+    List<String>? output = input.split(",");
+
+    // --- End of Answer ---
+
+    return output is List<String> &&
+        output.length == 5 &&
+        output.contains("apple") &&
+        output.contains("banana") &&
+        output.contains("cherry") &&
+        output.contains("dates") &&
+        output.contains("elderberry");
+  }
+
+  bool? exercise216() {
+    // ? Instruksi: Buatlah variabel String input dengan nilai "apple,banana,cherry,dates,elderberry"
+    // ? Instruksi: Buatlah variabel Map<String, int>? output;
+    // ? Instruksi: Konversi input menjadi map dengan keys berdasarkan kata dan values berdasarkan panjang kata, tampung dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "apple,banana,cherry,dates,elderberry";
+    Map<String, int>? output = {};
+
+    List<String> fruits = input.split(",");
+    for (String fruit in fruits) {
+      output[fruit] = fruit.length;
+    }
+
+    // --- End of Answer ---
+
+    return output is Map<String, int> &&
+        output.length == 5 &&
+        output["apple"] == 5 &&
+        output["banana"] == 6 &&
+        output["cherry"] == 6 &&
+        output["dates"] == 5 &&
+        output["elderberry"] == 10;
+  }
+
+  bool? exercise217() {
+    // ? Instruksi: Buatlah variabel String input dengan nilai "apple:100,banana:200,cherry:300"
+    // ? Instruksi: Buatlah variabel Map<String, int>? output;
+    // ? Instruksi: Konversi input menjadi map dengan keys berdasarkan nama buah dan values berdasarkan jumlahnya, tampung dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "apple:100,banana:200,cherry:300";
+    Map<String, int>? output = {};
+
+    List<String> entries = input.split(",");
+    for (String entry in entries) {
+      List<String> parts = entry.split(":");
+      if (parts.length == 2) {
+        output[parts[0]] = int.tryParse(parts[1]) ?? 0;
+      }
+    }
+
+    // --- End of Answer ---
+
+    return output is Map<String, int> &&
+        output.length == 3 &&
+        output["apple"] == 100 &&
+        output["banana"] == 200 &&
+        output["cherry"] == 300;
+  }
+
+  bool? exercise218() {
+    // ? Instruksi: Buatlah variabel String input dengan nilai "apple:1.1,banana:2.2,cherry:3.3"
+    // ? Instruksi: Buatlah variabel Map<String, double>? output;
+    // ? Instruksi: Konversi input menjadi map dengan keys berdasarkan nama buah dan values berdasarkan angka, tampung dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "apple:1.1,banana:2.2,cherry:3.3";
+    Map<String, double>? output = {};
+
+    List<String> entries = input.split(",");
+    for (String entry in entries) {
+      List<String> parts = entry.split(":");
+      if (parts.length == 2) {
+        output[parts[0]] = double.tryParse(parts[1]) ?? 0.0;
+      }
+    }
+
+    // --- End of Answer ---
+
+    return output is Map<String, double> &&
+        output.length == 3 &&
+        output["apple"] == 1.1 &&
+        output["banana"] == 2.2 &&
+        output["cherry"] == 3.3;
+  }
+
+  bool? exercise219() {
+    // ? Instruksi: Buatlah variabel String input dengan nilai "apple:true,banana:false,cherry:true"
+    // ? Instruksi: Buatlah variabel Map<String, bool>? output;
+    // ? Instruksi: Konversi input menjadi map dengan keys berdasarkan nama buah dan values berdasarkan nilai boolean, tampung dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "apple:true,banana:false,cherry:true";
+    Map<String, bool>? output = {};
+
+    List<String> entries = input.split(",");
+    for (String entry in entries) {
+      List<String> parts = entry.split(":");
+      if (parts.length == 2) {
+        output[parts[0]] = parts[1] == "true";
+      }
+    }
+
+    // --- End of Answer ---
+
+    return output is Map<String, bool> &&
+        output.length == 3 &&
+        output["apple"] == true &&
+        output["banana"] == false &&
+        output["cherry"] == true;
+  }
+
+  bool? exercise220() {
+    // ? Instruksi: Buatlah variabel String input dengan nilai "apple:2022-01-01,banana:2023-02-02,cherry:2024-03-03"
+    // ? Instruksi: Buatlah variabel Map<String, DateTime>? output;
+    // ? Instruksi: Konversi input menjadi map dengan keys berdasarkan nama buah dan values berdasarkan tanggal, tampung dalam variabel output
+    // TODO: Tulis jawabanmu di bawah ini
+    String input = "apple:2022-01-01,banana:2023-02-02,cherry:2024-03-03";
+    Map<String, DateTime>? output = {};
+
+    List<String> entries = input.split(",");
+    for (String entry in entries) {
+      List<String> parts = entry.split(":");
+      if (parts.length == 2) {
+        DateTime dateTime = DateTime.tryParse(parts[1]) ?? DateTime(2000);
+        output[parts[0]] = dateTime;
+      }
+    }
+
+    // --- End of Answer ---
+
+    return output is Map<String, DateTime> &&
+        output.length == 3 &&
+        output["apple"] == DateTime(2022, 1, 1) &&
+        output["banana"] == DateTime(2023, 2, 2) &&
+        output["cherry"] == DateTime(2024, 3, 3);
   }
 }

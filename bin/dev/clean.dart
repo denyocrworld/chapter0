@@ -10,7 +10,7 @@ void main() {
   bool insideTodoBlock = true;
 
   for (String line in lines) {
-    if (line.contains('// TODO: Tulis kode for loop di sini')) {
+    if (line.contains('// TODO: Tulis jawabanmu di bawah ini')) {
       insideTodoBlock = false;
       newLines.add(line + "\n\n"); // add TODO comment line before skipping
     }

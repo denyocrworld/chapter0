@@ -75,15 +75,11 @@ Isi di bin/magicbook_basic.dart
     // print("Run exercise$number\ncorrect answer? $isCorrectAnswer\nusing loop? ${numberContainLoops.contains(number)}");
     // print("---");
 
-    if (!numberContainLoops.contains(number)) {
-      wrongAnswers.add(number);
+    if (isCorrectAnswer) {
+      point += isCorrectAnswer == true ? 1 : 0;
+      correctAnswers.add(number);
     } else {
-      if (isCorrectAnswer) {
-        point += isCorrectAnswer == true ? 1 : 0;
-        correctAnswers.add(number);
-      } else {
-        wrongAnswers.add(number);
-      }
+      wrongAnswers.add(number);
     }
   }
 
@@ -111,7 +107,7 @@ Isi di bin/magicbook_basic.dart
         "email": email,
         "whatsapp": whatsapp,
         "point": point,
-        "chapter": "Chapter 2",
+        "chapter": "Chapter 0",
         "codes": codes
       },
     );
